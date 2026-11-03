@@ -112,8 +112,8 @@ export function InsightsCard({
       const dotX = pt.x
       const dotY = Y_BASE + (pt.y - Y_BASE) * scaleY
       const dotYM = Y_BASE_M + (ptM.y - Y_BASE_M) * scaleY
-      const tagX = Math.max(40, Math.min(W - 40, dotX))
-      const tagXM = Math.max(44, Math.min(W - 44, ptM.x))
+      const tagX = Math.max(45, Math.min(W - 45, dotX))
+      const tagXM = Math.max(56, Math.min(W - 56, ptM.x))
 
       cardEl.style.setProperty("--chart-progress", p.toFixed(4))
       cardEl.style.setProperty("--curve-scale-y", scaleY.toFixed(4))
@@ -169,8 +169,8 @@ export function InsightsCard({
         ["--dot-x" as string]: `${points[points.length - 1][0]}px`,
         ["--dot-y" as string]: `${points[points.length - 1][1]}px`,
         ["--dot-y-m" as string]: `${pointsM[pointsM.length - 1][1]}px`,
-        ["--tag-x" as string]: `${Math.max(40, Math.min(W - 40, points[points.length - 1][0]))}px`,
-        ["--tag-x-m" as string]: `${Math.max(44, Math.min(W - 44, pointsM[pointsM.length - 1][0]))}px`,
+        ["--tag-x" as string]: `${Math.max(45, Math.min(W - 45, points[points.length - 1][0]))}px`,
+        ["--tag-x-m" as string]: `${Math.max(56, Math.min(W - 56, pointsM[pointsM.length - 1][0]))}px`,
       }}
     >
       <Brackets />
@@ -230,8 +230,8 @@ export function InsightsCard({
           {!reduced && <circle cx="0" cy="0" r="9" fill="var(--color-accent, #0000d8)" className="ib-glow ib-chart-dot-halo" style={{ transform: "translate(var(--dot-x, 286px), var(--dot-y-m, 28px))", opacity: "calc(var(--dot-opacity, 1) * 0.28)" }} />}
           <circle cx="0" cy="0" r="4.2" fill="var(--ib-raise)" stroke="var(--color-accent, #0000d8)" strokeWidth="2" className="ib-chart-end-dot" style={{ transform: "translate(var(--dot-x, 286px), var(--dot-y-m, 28px))", opacity: "var(--dot-opacity, 1)" }} />
           <g className="ib-chart-tag" style={{ transform: "translate(var(--tag-x-m, 246px), calc(var(--dot-y-m, 28px) - 15px))", opacity: "var(--tag-opacity, 1)" }}>
-            <rect x="-44" y="-13" width="88" height="18" rx="3" fill="var(--ib-inv)" />
-            <text x="0" y="-1" textAnchor="middle" fontSize="10" fontWeight="600" fill="var(--ib-inv-ink)" fontFamily="var(--ib-mono)">{chartTagText}</text>
+            <rect x="-52" y="-13" width="104" height="18" rx="4" fill="var(--ib-inv)" />
+            <text x="0" y="-1" textAnchor="middle" fontSize="9" fontWeight="600" fill="var(--ib-inv-ink)" fontFamily="var(--ib-mono)">{chartTagText}</text>
           </g>
         </svg>
 

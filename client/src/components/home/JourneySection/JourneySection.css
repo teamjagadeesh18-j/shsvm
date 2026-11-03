@@ -194,23 +194,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background-color: var(--color-white);
     border: 1.5px solid var(--color-accent);
     color: var(--color-accent);
     font-family: var(--font-heading);
-    font-size: 0.8125rem;
+    font-size: 0.6875rem;
     font-weight: 800;
-    box-shadow: 0 2px 8px var(--color-black-a10);
+    line-height: 1;
+    box-shadow: 0 2px 6px var(--color-black-a12);
     cursor: pointer;
     transform: translate(-50%, -50%);
+    padding: 0;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  .hotspot-mobile-dot::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    border-radius: 50%;
   }
   .journey-hotspot-pin.is-active .hotspot-mobile-dot {
     background-color: var(--color-accent);
     color: var(--color-white);
-    transform: translate(-50%, -50%) scale(1.1);
+    transform: translate(-50%, -50%) scale(1.18);
   }
   .journey-card-frame { max-height: 75vh; }
 }

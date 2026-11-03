@@ -172,7 +172,10 @@ async function prerender() {
         returnByValue: true
       });
 
-      const fullHtml = '<!doctype html>\n' + domResult.result.value;
+      const rawHtml = '<!doctype html>\n' + domResult.result.value;
+      const fullHtml = rawHtml
+        .replace(new RegExp(`http://localhost:${PORT}/`, 'g'), '/')
+        .replace(new RegExp(`http://localhost:${PORT}`, 'g'), '');
       const is404 = route === '/404';
       const outDir = path.join(DIST_DIR, is404 ? '404' : route.slice(1));
       if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });

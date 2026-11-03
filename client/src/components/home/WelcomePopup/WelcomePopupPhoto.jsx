@@ -12,6 +12,7 @@ export default function WelcomePopupPhoto() {
       <div className="welcome-photo-wrap">
         <ImageSlot
           slotKey="popup.welcome"
+          fallbackSrc="/images/school-campus.jpg"
           ratio="4/3"
           alt={t('welcomePopup.photoAlt')}
           className="welcome-photo-slot"

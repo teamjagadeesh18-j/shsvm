@@ -15,11 +15,28 @@ export default function ImageSlot({
   loading = 'lazy',
   fetchPriority = 'auto',
   style = {},
-  fallbackSrc = null,
+  fallbackSrc = '/images/school-campus.jpg',
   children
 }) {
+  const primarySrc = slotKey ? getImageUrl(slotKey) : fallbackSrc;
+  const [prevPrimarySrc, setPrevPrimarySrc] = useState(primarySrc);
+  const [currentSrc, setCurrentSrc] = useState(primarySrc);
   const [hasError, setHasError] = useState(false);
-  const src = slotKey ? getImageUrl(slotKey) : fallbackSrc;
+
+  if (primarySrc !== prevPrimarySrc) {
+    setPrevPrimarySrc(primarySrc);
+    setCurrentSrc(primarySrc);
+    setHasError(false);
+  }
+
+  const handleImgError = () => {
+    const fallback = fallbackSrc || '/images/school-campus.jpg';
+    if (currentSrc !== fallback && fallback) {
+      setCurrentSrc(fallback);
+    } else {
+      setHasError(true);
+    }
+  };
 
   // Convert ratio "16/9" to CSS aspect-ratio property
   const aspectRatioStyle = ratio ? { aspectRatio: ratio.replace('/', ' / ') } : {};
@@ -29,14 +46,14 @@ export default function ImageSlot({
       className={`image-slot-container ${className}`}
       style={{ ...aspectRatioStyle, ...style }}
     >
-      {!hasError && src ? (
+      {!hasError && currentSrc ? (
         <img
-          src={src}
+          src={currentSrc}
           alt={alt}
           loading={loading}
           fetchPriority={fetchPriority}
           className="image-slot-img"
-          onError={() => setHasError(true)}
+          onError={handleImgError}
         />
       ) : (
         <div className="image-slot-placeholder">
