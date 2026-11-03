@@ -1,0 +1,75 @@
+.facts-glance-section {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.facts-glance-card {
+  background: var(--color-light-surface-subtle);
+  border: 1px solid var(--color-light-border);
+  border-radius: var(--radius-card, 22px);
+  padding: 32px;
+}
+
+.facts-glance-title {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  margin-bottom: 24px;
+}
+
+.facts-glance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.facts-glance-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid var(--color-black-a6);
+  padding-bottom: 12px;
+}
+
+.facts-glance-dt {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-gray-body);
+}
+
+.facts-glance-dd {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-black);
+  line-height: 1.5;
+}
+
+.facts-glance-dd a {
+  color: var(--color-accent);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.facts-glance-dd a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .facts-glance-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .facts-glance-card {
+    padding: 24px 20px;
+  }
+}
+

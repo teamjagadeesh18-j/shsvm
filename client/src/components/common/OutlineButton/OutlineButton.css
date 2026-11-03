@@ -1,0 +1,65 @@
+
+
+.outline-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: var(--btn-outline-pad, 10px 20px);
+  border-radius: var(--radius-pill, 9999px);
+  font-family: var(--font-heading);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+}
+
+.outline-btn:active {
+  transform: scale(0.98);
+}
+
+.outline-btn-arrow {
+  transition: transform 0.25s ease;
+}
+
+.outline-btn:hover .outline-btn-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* Dark Surface Variant (inside dark panels) */
+.outline-btn.outline-dark {
+  background-color: transparent;
+  color: var(--color-white-a85, rgba(255, 255, 255, 0.85));
+  border: 1px solid var(--color-white-a20, rgba(255, 255, 255, 0.2));
+}
+
+.outline-btn.outline-dark:hover {
+  background-color: var(--color-white);
+  color: var(--color-surface-black, #000000);
+  border-color: var(--color-white);
+}
+
+/* Light Surface Variant */
+.outline-btn.outline-light {
+  background-color: transparent;
+  color: var(--color-gray-dark);
+  border: 1px solid var(--color-light-border);
+}
+
+.outline-btn.outline-light:hover {
+  background-color: var(--color-surface-black, #000000);
+  color: var(--color-white);
+  border-color: var(--color-surface-black, #000000);
+}
+
+@media (max-width: 390px) {
+  .outline-btn {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 0.8125rem;
+  }
+}

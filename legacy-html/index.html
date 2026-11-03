@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sree Hari Saradha Vidhyalaya Matriculation School | SHSVM School, Tiruppur</title>
+  <meta name="description" content="Sree Hari Saradha Vidhyalaya Matriculation School (SHSVM), established 1999, Tiruppur, Tamil Nadu. Motto: Smile • Study • Serve. Quality education from Pre-KG to Grade 12.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="bg-grid">
+
+  <!-- ==========================================================================
+       1. HEADER (Matches Reference Exactly)
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Logo Tile on Left: School crest on white rounded square + amber brand -->
+      <a href="index.html" class="header-logo" aria-label="SHSVM Home">
+        <div class="logo-badge">
+          <img src="assets/images/logo.png" alt="Sree Hari Saradha Vidhyalaya Matriculation School Logo" class="school-logo-img">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title">
+            <span class="accent">SHSVM</span>
+          </div>
+          <span class="logo-subtitle" data-i18n="schoolTagline">SREE HARI SARADHA</span>
+        </div>
+      </a>
+
+      <!-- Centered Floating Black Pill Nav with White Text & Thin Dividers -->
+      <nav class="header-pill-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active" data-i18n="navHome">Home</a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <a href="academics.html" class="nav-link" data-i18n="navAcademics">Academics</a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <a href="admissions.html" class="nav-link" data-i18n="navAdmissions">Admissions</a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <a href="campus.html" class="nav-link" data-i18n="navCampus">Campus</a>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <!-- Right Header Actions: Bilingual Toggle + Black Pill Button + Hamburger -->
+      <div class="header-actions">
+        <!-- Language Switcher -->
+        <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language between English and Tamil">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span class="js-lang-toggle-text">தமிழ்</span>
+        </button>
+
+        <!-- Black Pill Button -->
+        <a href="admissions.html" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnApply">
+          Apply for Admission
+        </a>
+
+        <!-- Hamburger Icon Button for Mobile -->
+        <button type="button" class="hamburger-btn js-hamburger-btn" aria-label="Open mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop & Menu -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="drawer-header">
+        <div class="logo-title" style="color:#FFF;">
+          <span class="accent">SHSVM</span> SCHOOL
+        </div>
+        <button type="button" class="drawer-close-btn js-drawer-close" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="drawer-links">
+        <a href="index.html" class="drawer-link active" data-i18n="navHome">Home</a>
+        <a href="about.html" class="drawer-link" data-i18n="navAbout">About Us</a>
+        <a href="academics.html" class="drawer-link" data-i18n="navAcademics">Academics</a>
+        <a href="admissions.html" class="drawer-link" data-i18n="navAdmissions">Admissions</a>
+        <a href="faculty.html" class="drawer-link" data-i18n="navFaculty">Faculty</a>
+        <a href="campus.html" class="drawer-link" data-i18n="navCampus">Campus & Facilities</a>
+        <a href="student-life.html" class="drawer-link" data-i18n="navStudentLife">Student Life</a>
+        <a href="gallery.html" class="drawer-link" data-i18n="navGallery">Gallery</a>
+        <a href="news.html" class="drawer-link" data-i18n="navNews">News & Events</a>
+        <a href="contact.html" class="drawer-link" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <a href="admissions.html" class="btn-pill btn-pill-amber js-open-enquiry" style="width: 100%; margin-bottom: 14px;" data-i18n="btnApply">
+        Apply for Admission
+      </a>
+      <p style="font-size:0.75rem; color:#888; text-align:center;">Motto: Smile • Study • Serve | Estd. 1999</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       2. HERO SECTION (Matches Reference Exactly)
+       ========================================================================== -->
+  <section class="hero-section">
+    <!-- Soft blurred amber glowing circular background behind headline -->
+    <div class="hero-glow-circle" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <!-- Centered Headline with Blinking Cursor -->
+      <h1 class="hero-title reveal-fade-up">
+        <span data-i18n="heroTitlePrefix">Where Every Child Learns to</span><br>
+        <span class="hero-highlight">
+          <span class="js-typewriter-text">Smile, Study, Serve</span><span class="typing-cursor">|</span>
+        </span>
+      </h1>
+
+      <!-- Hero Subtext -->
+      <p class="hero-subtitle reveal-fade-up" data-i18n="heroSubtext">
+        Educating children in Tiruppur since 1999 with discipline, care and a lifelong love of learning.
+      </p>
+
+      <!-- Centered Solid Black Pill Button -->
+      <div class="hero-actions reveal-fade-up">
+        <a href="#enquiry" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnEnquiry">
+          BEGIN AN ENQUIRY &gt;
+        </a>
+      </div>
+
+      <!-- Small Gray Uppercase Label -->
+      <div class="hero-achievements-label reveal-fade-up" data-i18n="heroAchievements">
+        OUR PROUD ACHIEVEMENTS
+      </div>
+
+      <!-- Row of Achievement / Affiliation Badges -->
+      <div class="hero-badges-row reveal-fade-up">
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+          <span data-i18n="badgeBoard">TN Matriculation Board Recognized</span>
+        </div>
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          <span data-i18n="badgePass">100% Board Exam Pass Record</span>
+        </div>
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          <span data-i18n="badgeLegacy">25+ Years of Trust</span>
+        </div>
+        <div class="badge-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polygon points="12 8 8 12 12 16 16 12 12 8"/>
+          </svg>
+          <span data-i18n="badgeStem">Atal Innovation & STEM Labs</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. AMBER MARQUEE BAND (Matches Reference Exactly)
+       ========================================================================== -->
+  <div class="marquee-band" aria-label="School highlights ticker">
+    <div class="marquee-inner">
+      <div class="marquee-item">
+        <span>PRE-KG TO GRADE XII</span>
+        <span class="marquee-icon">✱</span>
+        <span>EXPERIENCED TEACHERS</span>
+        <span class="marquee-icon">✱</span>
+        <span>SMART CLASSROOMS</span>
+        <span class="marquee-icon">✱</span>
+        <span>SPORTS & ARTS</span>
+        <span class="marquee-icon">✱</span>
+        <span>VALUES & DISCIPLINE</span>
+        <span class="marquee-icon">✱</span>
+        <span>ESTABLISHED 1999</span>
+        <span class="marquee-icon">✱</span>
+        <span>INDIVIDUAL ATTENTION</span>
+        <span class="marquee-icon">✱</span>
+        <span>SAFE CAMPUS & GPS TRANSPORT</span>
+        <span class="marquee-icon">✱</span>
+      </div>
+      <!-- Duplicate for seamless looping -->
+      <div class="marquee-item" aria-hidden="true">
+        <span>PRE-KG TO GRADE XII</span>
+        <span class="marquee-icon">✱</span>
+        <span>EXPERIENCED TEACHERS</span>
+        <span class="marquee-icon">✱</span>
+        <span>SMART CLASSROOMS</span>
+        <span class="marquee-icon">✱</span>
+        <span>SPORTS & ARTS</span>
+        <span class="marquee-icon">✱</span>
+        <span>VALUES & DISCIPLINE</span>
+        <span class="marquee-icon">✱</span>
+        <span>ESTABLISHED 1999</span>
+        <span class="marquee-icon">✱</span>
+        <span>INDIVIDUAL ATTENTION</span>
+        <span class="marquee-icon">✱</span>
+        <span>SAFE CAMPUS & GPS TRANSPORT</span>
+        <span class="marquee-icon">✱</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       4. PROGRAMS WE OFFER (Matches Reference "Services We Offer")
+       ========================================================================== -->
+  <section class="section programs-section">
+    <div class="container">
+      
+      <!-- Section Header Row: Title & Subtitle on Left, White Pill Button on Right -->
+      <div class="section-header-row reveal-fade-up">
+        <div class="section-title-wrap">
+          <h2 class="section-title-white" data-i18n="programsTitle">Programs We Offer</h2>
+          <p class="section-subtitle-gray" data-i18n="programsSubtitle">
+            From the first day of school to board exams, every stage is guided with care.
+          </p>
+        </div>
+        <a href="academics.html" class="btn-pill btn-pill-white" data-i18n="btnExploreAcademics">
+          Explore Academics
+        </a>
+      </div>
+
+      <!-- 3 Dark Rounded Cards with 12px Icon Tile, Title, Description, and Link -->
+      <div class="programs-grid">
+        
+        <!-- Card 1: Primary School -->
+        <div class="program-card reveal-fade-up">
+          <div class="card-icon-tile">
+            <!-- Pencil / Compass Icon -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+              <path d="M2 2l7.586 7.586"/>
+              <circle cx="11" cy="11" r="2"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3 data-i18n="prog1Title">Primary School</h3>
+            <p data-i18n="prog1Desc">
+              Building joyful foundational literacy, numeracy, creative expression, and curiosity from Pre-KG to Grade 5.
+            </p>
+          </div>
+          <a href="academics.html#primary" class="card-learn-more">
+            <span data-i18n="learnMore">Learn more</span> <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 2: Middle School -->
+        <div class="program-card reveal-fade-up">
+          <div class="card-icon-tile">
+            <!-- Microscope / Science Icon -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 18h8"/>
+              <path d="M3 22h18"/>
+              <path d="M14 22a7 7 0 1 0-14 0"/>
+              <path d="M9 14l3.5-3.5"/>
+              <circle cx="14" cy="9" r="3"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3 data-i18n="prog2Title">Middle School</h3>
+            <p data-i18n="prog2Desc">
+              Transitioning into experiential science, linguistic fluency, analytical logic, and spirited athletics (Grades 6–8).
+            </p>
+          </div>
+          <a href="academics.html#middle" class="card-learn-more">
+            <span data-i18n="learnMore">Learn more</span> <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 3: High & Higher Secondary -->
+        <div class="program-card reveal-fade-up">
+          <div class="card-icon-tile">
+            <!-- Graduation Cap Icon -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3 data-i18n="prog3Title">High & Higher Secondary</h3>
+            <p data-i18n="prog3Desc">
+              Rigorous board preparation, dedicated STEM & Commerce streams, and focused career mentorship (Grades 9–12).
+            </p>
+          </div>
+          <a href="academics.html#secondary" class="card-learn-more">
+            <span data-i18n="learnMore">Learn more</span> <span class="arrow">→</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. LIFE AT SHSVM (Large Black Rounded Panel with 3 Dashboard Cards)
+       ========================================================================== -->
+  <section class="life-panel-section">
+    <div class="container">
+      
+      <div class="life-panel reveal-fade-up">
+        
+        <!-- Top Row: Tag Pill & Headline -->
+        <div class="life-panel-top">
+          <div>
+            <div class="tag-pill" data-i18n="tagLife">LIFE AT SHSVM</div>
+            <h2 class="life-panel-title">
+              <span data-i18n="lifeTitle">Learning That Builds Character.</span>
+              <span class="text-muted" data-i18n="lifeTitleSub">Every Single Day.</span>
+            </h2>
+          </div>
+          <div>
+            <a href="student-life.html" class="btn-pill btn-pill-outline" style="color:#FFF; border-color: rgba(255,255,255,0.2);">
+              Campus Highlights ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Dashboard-Style Dark Cards -->
+        <div class="dashboard-cards-grid">
+          
+          <!-- Card 01: Academic Calendar Widget -->
+          <div class="dashboard-card">
+            <div class="dashboard-card-header">
+              <span class="dashboard-card-title" data-i18n="card1Title">Academic Calendar</span>
+              <span style="font-size: 0.75rem; color: #888;">Oct - Nov 2026</span>
+            </div>
+            
+            <div class="calendar-widget">
+              <div class="calendar-header">
+                <span>October 2026</span>
+                <span style="color:var(--color-amber); font-size:0.75rem;">Click dates</span>
+              </div>
+              
+              <div class="calendar-grid">
+                <div class="cal-day-label">M</div>
+                <div class="cal-day-label">T</div>
+                <div class="cal-day-label">W</div>
+                <div class="cal-day-label">T</div>
+                <div class="cal-day-label">F</div>
+                <div class="cal-day-label">S</div>
+                <div class="cal-day-label">S</div>
+
+                <div class="cal-date">1</div>
+                <div class="cal-date">2</div>
+                <div class="cal-date">3</div>
+                <div class="cal-date">4</div>
+                <div class="cal-date">5</div>
+                <div class="cal-date">6</div>
+                <div class="cal-date">7</div>
+                <div class="cal-date">8</div>
+                <div class="cal-date">9</div>
+                <div class="cal-date">10</div>
+                <div class="cal-date">11</div>
+                <div class="cal-date">12</div>
+                <div class="cal-date">13</div>
+                <div class="cal-date active-event" data-event="Mid-Term Exams Begin (Grades 6-12)">14</div>
+                <div class="cal-date">15</div>
+                <div class="cal-date">16</div>
+                <div class="cal-date">17</div>
+                <div class="cal-date">18</div>
+                <div class="cal-date">19</div>
+                <div class="cal-date">20</div>
+                <div class="cal-date">21</div>
+                <div class="cal-date active-event" data-event="Science Expo & Tech Innovation Fair">22</div>
+                <div class="cal-date">23</div>
+                <div class="cal-date">24</div>
+                <div class="cal-date">25</div>
+                <div class="cal-date">26</div>
+                <div class="cal-date">27</div>
+                <div class="cal-date today">28</div>
+                <div class="cal-date">29</div>
+                <div class="cal-date">30</div>
+                <div class="cal-date">31</div>
+              </div>
+
+              <!-- Event info box below -->
+              <div class="cal-event-preview">
+                <div class="event-dot"></div>
+                <div class="event-info js-cal-event-text">
+                  Mid-Term Exams Begin (Grades 6-12)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 02: Our Results with LIVE-style tag & Bar Chart -->
+          <div class="dashboard-card">
+            <div class="dashboard-card-header">
+              <span class="dashboard-card-title" data-i18n="card2Title">Our Results</span>
+              <span class="live-tag">
+                <span class="pulse-dot"></span>
+                <span data-i18n="liveTag">LIVE RECORD</span>
+              </span>
+            </div>
+
+            <!-- Three Stat Mini Tiles -->
+            <div class="stats-mini-grid">
+              <div class="stat-mini-tile">
+                <div class="stat-mini-val" style="color:var(--color-amber);">98.8%</div>
+                <div class="stat-mini-lbl" data-i18n="statPassRate">Pass Rate</div>
+              </div>
+              <div class="stat-mini-tile">
+                <div class="stat-mini-val">1,250+</div>
+                <div class="stat-mini-lbl" data-i18n="statStudents">Students</div>
+              </div>
+            </div>
+
+            <!-- Mini Bar Chart showing distinction growth -->
+            <div style="font-size:0.75rem; color:#888; margin-bottom:8px;">Distinctions in Board Exams (Last 5 Years)</div>
+            <div class="mini-bar-chart">
+              <div class="chart-bar-wrap">
+                <div class="chart-bar" style="height: 48px;"></div>
+                <span class="chart-label">2022</span>
+              </div>
+              <div class="chart-bar-wrap">
+                <div class="chart-bar" style="height: 56px;"></div>
+                <span class="chart-label">2023</span>
+              </div>
+              <div class="chart-bar-wrap">
+                <div class="chart-bar" style="height: 64px;"></div>
+                <span class="chart-label">2024</span>
+              </div>
+              <div class="chart-bar-wrap">
+                <div class="chart-bar" style="height: 70px;"></div>
+                <span class="chart-label">2025</span>
+              </div>
+              <div class="chart-bar-wrap">
+                <div class="chart-bar highlight" style="height: 78px;"></div>
+                <span class="chart-label" style="color:var(--color-amber);">2026</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 03: Beyond the Classroom with List & Download Prospectus Button -->
+          <div class="dashboard-card">
+            <div class="dashboard-card-header">
+              <span class="dashboard-card-title" data-i18n="card3Title">Beyond the Classroom</span>
+              <span style="font-size: 0.75rem; color: #888;">Co-Curricular</span>
+            </div>
+
+            <div class="beyond-list">
+              <div class="beyond-item">
+                <span class="beyond-item-icon">⚡</span>
+                <span data-i18n="beyond1">Sports & Athletics (Track & Basketball)</span>
+              </div>
+              <div class="beyond-item">
+                <span class="beyond-item-icon">🎭</span>
+                <span data-i18n="beyond2">Arts & Bharatanatyam Classical Dance</span>
+              </div>
+              <div class="beyond-item">
+                <span class="beyond-item-icon">🤖</span>
+                <span data-i18n="beyond3">Robotics & STEM Innovation Club</span>
+              </div>
+              <div class="beyond-item">
+                <span class="beyond-item-icon">🤝</span>
+                <span data-i18n="beyond4">Scouts & Guides, Junior Red Cross</span>
+              </div>
+            </div>
+
+            <button type="button" class="btn-pill btn-pill-white js-open-enquiry" style="width: 100%; margin-top: auto;" data-i18n="btnDownloadProspectus">
+              Download Prospectus
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Circular Left/Right Navigation Arrows Below Panel -->
+      <div class="carousel-arrows-row">
+        <button type="button" class="circle-nav-btn js-panel-prev" aria-label="Previous highlight">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+        <button type="button" class="circle-nav-btn js-panel-next" aria-label="Next highlight">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. WHY PARENTS CHOOSE US? (Alternating Rows Exactly Like Reference)
+       ========================================================================== -->
+  <section class="section why-choose-section">
+    <div class="container">
+      
+      <!-- Headline: "Why Parents Choose Us?" with "Choose Us?" in Gray -->
+      <h2 class="why-choose-title reveal-fade-up">
+        <span data-i18n="whyTitle">Why Parents</span> <span class="text-muted" data-i18n="whyTitleSub">Choose Us?</span>
+      </h2>
+
+      <!-- Alternating Rows List: Black Filled -> White Bordered -> Black Filled -> etc. -->
+      <div class="alternating-rows-list">
+        
+        <!-- Row 1: Black Filled Row -->
+        <div class="alt-row-item alt-row-black reveal-fade-up">
+          <div class="alt-row-left">
+            <div class="alt-check-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="alt-row-content">
+              <div class="alt-row-title" data-i18n="why1Title">Experienced & Caring Teachers</div>
+              <div class="alt-row-desc" data-i18n="why1Desc">Faculty with an average of 12+ years teaching experience and deep subject mastery.</div>
+            </div>
+          </div>
+          <div class="alt-arrow-square">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Row 2: White Bordered Row -->
+        <div class="alt-row-item alt-row-white reveal-fade-up">
+          <div class="alt-row-left">
+            <div class="alt-check-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="alt-row-content">
+              <div class="alt-row-title" data-i18n="why2Title">Safe and Disciplined Campus</div>
+              <div class="alt-row-desc" data-i18n="why2Desc">24/7 CCTV surveillance, female security wardens, GPS bus tracking, and strict anti-bullying policies.</div>
+            </div>
+          </div>
+          <div class="alt-arrow-square">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Row 3: Black Filled Row -->
+        <div class="alt-row-item alt-row-black reveal-fade-up">
+          <div class="alt-row-left">
+            <div class="alt-check-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="alt-row-content">
+              <div class="alt-row-title" data-i18n="why3Title">Smart Classrooms and Modern Labs</div>
+              <div class="alt-row-desc" data-i18n="why3Desc">Interactive digital display boards, dedicated Physics, Chemistry, Biology, and High-Speed Computer Labs.</div>
+            </div>
+          </div>
+          <div class="alt-arrow-square">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Row 4: White Bordered Row -->
+        <div class="alt-row-item alt-row-white reveal-fade-up">
+          <div class="alt-row-left">
+            <div class="alt-check-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="alt-row-content">
+              <div class="alt-row-title" data-i18n="why4Title">Strong Board Results & Mentorship</div>
+              <div class="alt-row-desc" data-i18n="why4Desc">Consistent 100% board pass track record with personalized remedial coaching for every student.</div>
+            </div>
+          </div>
+          <div class="alt-arrow-square">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Row 5: Black Filled Row -->
+        <div class="alt-row-item alt-row-black reveal-fade-up">
+          <div class="alt-row-left">
+            <div class="alt-check-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div class="alt-row-content">
+              <div class="alt-row-title" data-i18n="why5Title">Transport and Holistic Facilities</div>
+              <div class="alt-row-desc" data-i18n="why5Desc">Doorstep bus routes covering all surrounding areas, hygienic dining hall, and expansive sports grounds.</div>
+            </div>
+          </div>
+          <div class="alt-arrow-square">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. STATS CARD (4 Large Numbers Like Reference)
+       ========================================================================== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-row-grid reveal-fade-up">
+        
+        <div class="stat-column">
+          <div class="stat-huge-number" data-i18n="stat1Num">25+</div>
+          <div class="stat-title" data-i18n="stat1Title">Years of Legacy</div>
+          <div class="stat-desc" data-i18n="stat1Desc">Educating and inspiring leaders in Tiruppur since 1999.</div>
+        </div>
+
+        <div class="stat-column">
+          <div class="stat-huge-number" data-i18n="stat2Num">1,250+</div>
+          <div class="stat-title" data-i18n="stat2Title">Students Enrolled</div>
+          <div class="stat-desc" data-i18n="stat2Desc">Nurtured from Pre-KG through Grade XII in a caring environment.</div>
+        </div>
+
+        <div class="stat-column">
+          <div class="stat-huge-number" data-i18n="stat3Num">75+</div>
+          <div class="stat-title" data-i18n="stat3Title">Expert Faculty</div>
+          <div class="stat-desc" data-i18n="stat3Desc">Dedicated, qualified educators with an average of 12+ years experience.</div>
+        </div>
+
+        <div class="stat-column">
+          <div class="stat-huge-number" data-i18n="stat4Num">100%</div>
+          <div class="stat-title" data-i18n="stat4Title">Holistic Dedication</div>
+          <div class="stat-desc" data-i18n="stat4Desc">Balancing academic mastery, ethical discipline, and sports.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. HEAR FROM OUR PARENTS (Matches Reference "See what our clients say")
+       ========================================================================== -->
+  <section class="section testimonials-section">
+    <div class="container">
+      
+      <!-- Header Row: Label & Title on Left, Circular Arrows on Right -->
+      <div class="testimonials-header-row reveal-fade-up">
+        <div>
+          <div class="testimonials-label" data-i18n="testimonialsLabel">· Testimonials</div>
+          <h2 class="testimonials-title" data-i18n="testimonialsTitle">Hear from our parents</h2>
+        </div>
+        <div class="carousel-arrows-row" style="margin-top:0;">
+          <button type="button" class="circle-nav-btn js-testimonial-prev" aria-label="Previous testimonial">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"/>
+            </svg>
+          </button>
+          <button type="button" class="circle-nav-btn js-testimonial-next" aria-label="Next testimonial">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Light Gray Rounded Cards Grid -->
+      <div class="testimonials-grid">
+        
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card reveal-fade-up">
+          <div class="testimonial-meta">
+            <div class="parent-name" data-i18n="test1Name">Dr. K. Senthil Nathan, M.S.</div>
+            <div class="parent-rel" data-i18n="test1Rel">Parent of Grade 10 student</div>
+          </div>
+          <div>
+            <div class="testimonial-quote-icon">“</div>
+            <p class="testimonial-quote-text" data-i18n="test1Quote">
+              The disciplined and compassionate environment at SHSVM transformed my daughter's confidence and academic performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card reveal-fade-up">
+          <div class="testimonial-meta">
+            <div class="parent-name" data-i18n="test2Name">Mrs. Meenakshi Sundaram</div>
+            <div class="parent-rel" data-i18n="test2Rel">Parent of Grade 5 & Grade 8 students</div>
+          </div>
+          <div>
+            <div class="testimonial-quote-icon">“</div>
+            <p class="testimonial-quote-text" data-i18n="test2Quote">
+              The teachers pay personal attention to every child. Both academics and moral values are given equal importance here.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. PRINCIPAL'S MESSAGE (Same Card Style: Portrait, Short Message, Signature)
+       ========================================================================== -->
+  <section class="principal-section">
+    <div class="container">
+      <div class="principal-card-container reveal-fade-up">
+        
+        <!-- Portrait Photo (Generated Authentic School Principal) -->
+        <div class="principal-photo-slot">
+          <img src="assets/images/principal.jpg" alt="Mrs. R. Swaminathan, Principal of Sree Hari Saradha Vidhyalaya Matriculation School">
+        </div>
+
+        <!-- Content Slot -->
+        <div class="principal-content-slot">
+          <div class="principal-badge" data-i18n="principalTag">FROM THE DESK OF THE PRINCIPAL</div>
+          
+          <p class="principal-quote">
+            "<span data-i18n="principalQuote">Education is not merely filling the mind with facts; it is igniting a lifelong passion to</span> 
+            <span class="accent" data-i18n="principalQuoteHighlight">Smile, Study, and Serve.</span>"
+          </p>
+
+          <p class="principal-body-text" data-i18n="principalBody">
+            For over 25 years, Sree Hari Saradha Vidhyalaya has been a sanctuary where tradition meets modern innovation. Every student who walks into our campus is cherished as an individual with unique potential. We nurture moral courage, critical thinking, and social empathy in every child.
+          </p>
+
+          <!-- Signature & Designation -->
+          <div class="principal-sign-row">
+            <div class="principal-name-wrap">
+              <h4 data-i18n="principalName">Mrs. R. Swaminathan, M.Sc., M.Ed.</h4>
+              <p data-i18n="principalRole">Principal, SHSVM School (Estd. 1999)</p>
+            </div>
+            <div class="principal-signature-svg">
+              R. Swaminathan
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. FOOTER (Matches Pure Black Reference Footer Exactly)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <!-- Top Grid: Brand & Tagline | Quick Links | Get in Touch -->
+      <div class="footer-top-grid">
+        
+        <!-- Column 1: School Branding -->
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+            <div class="logo-badge" style="width:52px; height:52px; background:#FFF;">
+              <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+            </div>
+            <div>
+              <h3 style="margin-bottom:0;">SHSVM <span class="accent">SCHOOL</span></h3>
+              <span style="font-size:0.75rem; color:#888; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">ESTABLISHED 1999</span>
+            </div>
+          </div>
+          <p class="footer-tagline" data-i18n="footerAbout">
+            Sree Hari Saradha Vidhyalaya Matriculation School, established in 1999 in Tiruppur, Tamil Nadu. Committed to holistic education, moral discipline, and academic brilliance.
+          </p>
+          <div style="margin-bottom: 20px; font-weight: 700; color: var(--color-amber);" data-i18n="footerMotto">
+            Smile • Study • Serve
+          </div>
+
+          <!-- Social Icons -->
+          <div class="footer-socials">
+            <a href="#" class="social-circle-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-circle-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-circle-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <div class="footer-column-title" data-i18n="quickLinks">Quick Links</div>
+          <ul class="footer-nav-list">
+            <li><a href="about.html" data-i18n="navAbout">About Us</a></li>
+            <li><a href="academics.html" data-i18n="navAcademics">Academics & Streams</a></li>
+            <li><a href="admissions.html" data-i18n="navAdmissions">Admissions & Guidelines</a></li>
+            <li><a href="faculty.html" data-i18n="navFaculty">Faculty Profiles</a></li>
+            <li><a href="campus.html" data-i18n="navCampus">Campus & Facilities</a></li>
+            <li><a href="student-life.html" data-i18n="navStudentLife">Student Life & Clubs</a></li>
+            <li><a href="gallery.html" data-i18n="navGallery">Photo Gallery</a></li>
+            <li><a href="news.html" data-i18n="navNews">News & Announcements</a></li>
+            <li><a href="contact.html" data-i18n="navContact">Contact & Map</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Get In Touch -->
+        <div>
+          <div class="footer-column-title" data-i18n="contactUs">Get In Touch</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span data-i18n="address">Saradha Nagar, Dharapuram Main Road, Tiruppur - 641 606, Tamil Nadu</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <span data-i18n="phone">+91 421 247 1999 / +91 94433 19990</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <span data-i18n="email">admissions@shsvmschool.edu.in</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              <span data-i18n="timing">Mon - Sat: 8:30 AM - 5:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar: Copyright & Legal Links -->
+      <div class="footer-bottom-bar">
+        <div data-i18n="copyright">© 2026 Sree Hari Saradha Vidhyalaya Matriculation School. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#" data-i18n="privacy">Privacy Policy</a>
+          <a href="#" data-i18n="terms">Terms & Conditions</a>
+          <a href="#">Matriculation Affiliation TN-MAT-1999</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON (Green Circle with Chat Icon & Tooltip)
+       ========================================================================== -->
+  <button type="button" class="floating-whatsapp" aria-label="Chat with Admissions Office on WhatsApp">
+    <div class="whatsapp-tooltip">Chat with Admissions</div>
+    <!-- WhatsApp SVG Icon -->
+    <svg viewBox="0 0 32 32" fill="currentColor">
+      <path d="M16.002 2C8.28 2 2 8.28 2 16c0 2.51.66 4.96 1.91 7.12L2 30l7.08-1.86A13.92 13.92 0 0 0 16 30c7.72 0 14-6.28 14-14S23.72 2 16.002 2zm8.17 19.82c-.34.96-1.7 1.83-2.77 1.94-.74.07-1.7.12-5.46-1.44-4.81-2-7.9-6.91-8.14-7.23-.24-.32-1.95-2.6-1.95-4.96s1.23-3.52 1.67-4c.44-.48.96-.6 1.28-.6.32 0 .64 0 .92.02.3.02.7-.12 1.09.82.41.98 1.4 3.42 1.52 3.66.12.24.2.52.04.84-.16.32-.24.52-.48.8-.24.28-.5.62-.71.84-.24.24-.49.5-.21.98.28.48 1.25 2.06 2.68 3.34 1.85 1.65 3.41 2.16 3.89 2.4.48.24.76.2 1.04-.12.28-.32 1.2-1.4 1.52-1.88.32-.48.64-.4 1.08-.24.44.16 2.77 1.31 3.25 1.55.48.24.8.36.92.56.12.2.12 1.16-.22 2.12z"/>
+    </svg>
+  </button>
+
+  <!-- ==========================================================================
+       ACCESSIBLE ENQUIRY / APPLICATION MODAL (<dialog>)
+       ========================================================================== -->
+  <dialog id="enquiryModal" class="custom-modal" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn js-close-enquiry" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+      <h3 id="modalTitle" class="modal-title">Admissions Enquiry 2026-27</h3>
+      <p class="modal-subtitle">Join the S.H.S.V.M family. Fill the form below and our admissions team will contact you within 24 hours.</p>
+
+      <form id="enquiryForm">
+        <div class="form-group">
+          <label class="form-label" for="parentName">Parent / Guardian Name *</label>
+          <input type="text" id="parentName" class="form-control" placeholder="e.g. R. Karthikeyan" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="childName">Student's Full Name *</label>
+          <input type="text" id="childName" class="form-control" placeholder="e.g. K. Dharshini" required>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px;">
+          <div class="form-group">
+            <label class="form-label" for="gradeSelect">Grade Applying For *</label>
+            <select id="gradeSelect" class="form-control" required>
+              <option value="">Select Grade</option>
+              <option value="Pre-KG">Pre-KG / Kindergarten</option>
+              <option value="Grade 1-5">Primary (Grades 1 to 5)</option>
+              <option value="Grade 6-8">Middle School (Grades 6 to 8)</option>
+              <option value="Grade 9-10">High School (Grades 9 & 10)</option>
+              <option value="Grade 11-12 (Bio-Math)">+1 / +2 (Biology, Maths, Physics, Chem)</option>
+              <option value="Grade 11-12 (CS-Math)">+1 / +2 (Comp Sci, Maths, Physics, Chem)</option>
+              <option value="Grade 11-12 (Commerce)">+1 / +2 (Commerce, Accounts, Economics, CA)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="phoneNum">Mobile Number *</label>
+            <input type="tel" id="phoneNum" class="form-control" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="emailAddr">Email Address</label>
+          <input type="email" id="emailAddr" class="form-control" placeholder="parent@example.com">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="enquiryMessage">Message / Specific Questions</label>
+          <textarea id="enquiryMessage" class="form-control" rows="3" placeholder="Tell us about your child or ask about transport/facilities..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-pill btn-pill-amber" style="width:100%; margin-top:8px;">
+          Submit Admission Enquiry &gt;
+        </button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "highlights": {
+    "established": 1999,
+    "establishedLabel": "Established",
+    "type": "Co-Ed",
+    "typeLabel": "Co-Educational"
+  },
+  "levels": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "heightPercent": 40
+    },
+    {
+      "id": "middle",
+      "name": "Middle",
+      "heightPercent": 65
+    },
+    {
+      "id": "secondary",
+      "name": "Secondary",
+      "heightPercent": 100
+    }
+  ],
+  "beyondClassroom": [
+    {
+      "id": "sports",
+      "icon": "sports",
+      "text": "Recreation Playground Sports & Games"
+    },
+    {
+      "id": "arts",
+      "icon": "arts",
+      "text": "Creative Arts & Cultural Expression"
+    },
+    {
+      "id": "book",
+      "icon": "book",
+      "text": "Academic Book Bank & Study Resources"
+    },
+    {
+      "id": "community",
+      "icon": "community",
+      "text": "Moral Discipline & Community Values"
+    }
+  ]
+}

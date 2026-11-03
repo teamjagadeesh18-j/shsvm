@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "number": "01",
+    "titleKey": "why1Title",
+    "descKey": "why1Desc",
+    "variant": "black"
+  },
+  {
+    "id": "2",
+    "number": "02",
+    "titleKey": "why2Title",
+    "descKey": "why2Desc",
+    "variant": "white"
+  },
+  {
+    "id": "3",
+    "number": "03",
+    "titleKey": "why3Title",
+    "descKey": "why3Desc",
+    "variant": "black"
+  },
+  {
+    "id": "4",
+    "number": "04",
+    "titleKey": "why4Title",
+    "descKey": "why4Desc",
+    "variant": "white"
+  },
+  {
+    "id": "5",
+    "number": "05",
+    "titleKey": "why5Title",
+    "descKey": "why5Desc",
+    "variant": "black"
+  }
+]
+

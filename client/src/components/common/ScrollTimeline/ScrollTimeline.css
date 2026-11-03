@@ -1,0 +1,206 @@
+
+
+.scroll-timeline-container {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.scroll-timeline-list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--timeline-gap);
+}
+
+/* Background light grey track extending exactly from center 1 to center 6 */
+.scroll-timeline-track {
+  position: absolute;
+  left: calc(var(--timeline-circle-size) / 2 - (var(--timeline-line-width) / 2));
+  top: var(--timeline-first-center, calc(var(--timeline-circle-size) / 2));
+  height: var(--timeline-track-height, calc(100% - var(--timeline-circle-size)));
+  width: var(--timeline-line-width);
+  background-color: var(--color-light-border);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Continuously growing accent line fill with no CSS transition */
+.scroll-timeline-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--timeline-progress, 0px);
+  background-color: var(--color-accent);
+  transition: none !important;
+  max-height: 100%;
+}
+
+.scroll-timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2.5vw, 24px);
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-timeline-node {
+  position: relative;
+  flex-shrink: 0;
+  width: var(--timeline-circle-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Circle: unreached vs reached */
+.scroll-timeline-circle {
+  width: var(--timeline-circle-size);
+  height: var(--timeline-circle-size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-variant-numeric: tabular-nums;
+  background-color: var(--color-white);
+  border: 1.5px solid var(--color-light-border);
+  color: var(--color-accent);
+  box-shadow: 0 0 0 5px var(--color-light-surface);
+  transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease, box-shadow 300ms ease;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+/* Reached circle: solid accent background, white text */
+.scroll-timeline-item.is-reached .scroll-timeline-circle {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+  border-color: var(--color-accent);
+}
+
+/* Current circle (last reached one) */
+.scroll-timeline-item.is-current .scroll-timeline-circle {
+  box-shadow: 0 0 0 5px var(--color-light-surface), 0 0 0 8px var(--color-accent-border);
+}
+
+/* Step Card */
+.scroll-timeline-card {
+  flex: 1;
+  min-width: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-border);
+  border-radius: var(--timeline-card-radius);
+  padding: var(--timeline-card-pad);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  outline: none;
+}
+
+.scroll-timeline-card:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Current step card gets subtle accent border */
+.scroll-timeline-card.is-current {
+  border-color: var(--color-accent-border-md);
+}
+
+.scroll-timeline-card:hover,
+.scroll-timeline-card.is-hovered {
+  border-color: var(--color-accent);
+}
+
+.scroll-timeline-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.scroll-timeline-card-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroll-timeline-card-icon {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.scroll-timeline-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.scroll-timeline-card-arrow {
+  color: var(--color-gray-muted);
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.scroll-timeline-card:hover .scroll-timeline-card-arrow,
+.scroll-timeline-card.is-hovered .scroll-timeline-card-arrow {
+  color: var(--color-accent);
+  transform: translate(2px, -2px);
+}
+
+.scroll-timeline-card-desc {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--color-gray-body);
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 768px) {
+  .scroll-timeline-track {
+    left: calc(var(--timeline-circle-size-mobile) / 2 - (var(--timeline-line-width) / 2));
+  }
+
+  .scroll-timeline-node {
+    width: var(--timeline-circle-size-mobile);
+  }
+
+  .scroll-timeline-circle {
+    width: var(--timeline-circle-size-mobile);
+    height: var(--timeline-circle-size-mobile);
+    font-size: 1rem;
+  }
+
+  .scroll-timeline-card {
+    padding: var(--timeline-card-pad-mobile);
+    min-height: 44px;
+  }
+}
+
+/* prefers-reduced-motion: instant state, zero transitions */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-timeline-circle,
+  .scroll-timeline-card,
+  .scroll-timeline-card-arrow {
+    transition: none !important;
+  }
+}
+

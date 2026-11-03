@@ -1,0 +1,434 @@
+
+
+.admissions-page {
+  padding-top: 100px;
+  background-color: var(--color-page-bg, #ffffff);
+  color: var(--color-gray-dark, #0f172a);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 2. Back to Home link row */
+.admissions-back-row {
+  padding: 24px var(--panel-inset) 8px;
+  display: flex;
+  align-items: center;
+}
+
+.admissions-back-btn {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* 3. Hero Panel */
+.admissions-hero-section {
+  padding: 12px 0 24px;
+}
+
+.admissions-hero-panel {
+  padding: 56px 48px;
+  text-align: left;
+}
+
+.admissions-hero-content {
+  max-width: 860px;
+}
+
+.admissions-hero-title {
+  font-family: var(--font-heading, 'Plus Jakarta Sans', sans-serif);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  color: var(--color-white, #ffffff);
+  margin: 20px 0 16px;
+  line-height: 1.15;
+}
+
+.hero-title-dim {
+  color: var(--color-heading-muted, #94a3b8);
+}
+
+.admissions-hero-desc {
+  font-size: 1.05rem;
+  color: var(--color-gray-muted, #94a3b8);
+  line-height: 1.65;
+  margin-bottom: 32px;
+  max-width: 760px;
+}
+
+.admissions-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-white-a10, rgba(255, 255, 255, 0.1));
+}
+
+.admissions-contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-white, #ffffff);
+  text-decoration: none;
+}
+
+.contact-phone-link {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-phone-link:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.contact-icon-bubble {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-white-a8, rgba(255, 255, 255, 0.08));
+  border: 1px solid var(--color-white-a14, rgba(255, 255, 255, 0.14));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent-on-dark, #5379ff);
+  flex-shrink: 0;
+}
+
+.contact-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent-on-dark, #5379ff);
+}
+
+.contact-val {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-white, #ffffff);
+}
+
+/* 4. Online Enquiry Form Card (White Rounded Card) */
+.admissions-form-section {
+  padding: 32px 0 64px;
+}
+
+.admissions-form-card {
+  background: var(--color-white, #ffffff);
+  border: 1px solid var(--color-light-border, #e2e8f0);
+  border-radius: var(--radius-panel, 24px);
+  padding: 56px 48px;
+  box-shadow: 0 10px 40px var(--color-black-a6, rgba(0, 0, 0, 0.06));
+  box-sizing: border-box;
+}
+
+.form-card-header {
+  margin-bottom: 40px;
+}
+
+.form-card-title {
+  font-family: var(--font-heading, 'Plus Jakarta Sans', sans-serif);
+  font-size: clamp(1.85rem, 3.5vw, 2.65rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--color-black, #000000);
+  margin: 16px 0 12px;
+}
+
+.form-card-subtitle {
+  font-size: 1rem;
+  color: var(--color-gray-body, #4b5563);
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.form-success-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  color: #166534;
+  margin-bottom: 32px;
+}
+
+.success-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #22c55e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.success-link {
+  color: #15803d;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.form-group-block {
+  margin-bottom: 36px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--color-light-border, #e2e8f0);
+}
+
+.form-group-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-accent, #0000D8);
+  margin-bottom: 20px;
+}
+
+.form-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field.span-2 {
+  grid-column: span 2;
+}
+
+.form-field label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-black, #000000);
+}
+
+.form-field .req {
+  color: #dc2626;
+  font-weight: 800;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--color-light-border, #cbd5e1);
+  background: var(--color-white, #ffffff);
+  font-size: 0.9375rem;
+  font-family: inherit;
+  color: var(--color-black, #000000);
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-accent, #0000D8);
+  box-shadow: 0 0 0 3px var(--color-accent-glow, rgba(0, 0, 216, 0.15));
+}
+
+.form-field input.input-error,
+.form-field select.input-error {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.field-error-msg {
+  font-size: 0.75rem;
+  color: #dc2626;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.field-helper-text {
+  font-size: 0.75rem;
+  color: var(--color-gray-muted, #94a3b8);
+  margin-top: 2px;
+}
+
+/* Footer: Consent & Submit */
+.form-footer-block {
+  margin-top: 16px;
+}
+
+.consent-check-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.consent-check-wrap input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-accent, #0000D8);
+  cursor: pointer;
+}
+
+.consent-label {
+  font-size: 0.875rem;
+  color: var(--color-gray-dark, #1e293b);
+  cursor: pointer;
+  user-select: none;
+}
+
+.consent-error-msg {
+  margin-bottom: 16px;
+}
+
+.submit-action-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.whatsapp-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 32px;
+  border-radius: var(--radius-pill, 9999px);
+  background-color: var(--color-black, #000000);
+  color: var(--color-white, #ffffff);
+  border: 1px solid var(--color-black, #000000);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-submit-btn:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--color-black-a20, rgba(0, 0, 0, 0.2));
+}
+
+.whatsapp-submit-btn svg {
+  flex-shrink: 0;
+}
+
+.submit-security-note {
+  font-size: 0.8125rem;
+  color: var(--color-gray-muted, #64748b);
+  margin: 0;
+  max-width: 480px;
+  line-height: 1.45;
+}
+
+/* 6. Facts Strip */
+.admissions-facts-strip {
+  padding: 36px 0 64px;
+}
+
+.facts-pills-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.facts-pill-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--radius-pill, 9999px);
+  background: var(--color-white, #ffffff);
+  border: 1px solid var(--color-light-border, #e2e8f0);
+  box-shadow: 0 2px 8px var(--color-black-a4, rgba(0, 0, 0, 0.04));
+}
+
+.facts-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent, #0000D8);
+}
+
+.facts-text {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-black, #000000);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .admissions-hero-panel {
+    padding: 44px 32px;
+  }
+
+  .admissions-form-card {
+    padding: 44px 32px;
+  }
+
+  .form-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form-field.span-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .admissions-hero-panel {
+    padding: 32px 20px;
+  }
+
+  .admissions-form-card {
+    padding: 32px 20px;
+  }
+
+  .form-grid-3 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .form-field.span-2 {
+    grid-column: span 1;
+  }
+
+  .submit-action-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .whatsapp-submit-btn {
+    width: 100%;
+  }
+
+  .facts-pills-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .facts-pill-item {
+    justify-content: center;
+  }
+}

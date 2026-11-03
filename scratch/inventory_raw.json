@@ -1,0 +1,2045 @@
+{
+  "baseline": [
+    {
+      "file": "client/src/components/common/EnquiryModal/EnquiryModal.css",
+      "line": 15,
+      "type": "CSS Keyframe Animation",
+      "name": "fadeIn",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/common/EnquiryModal/EnquiryModal.css",
+      "line": 33,
+      "type": "CSS Keyframe Animation",
+      "name": "modalScaleUp",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 212,
+      "type": "CSS Keyframe Animation",
+      "name": "mapPulse",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/Hero/Hero.css",
+      "line": 95,
+      "type": "CSS Keyframe Animation",
+      "name": "cursorBlink",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 90,
+      "type": "CSS Keyframe Animation",
+      "name": "scrollTrackLeft",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 99,
+      "type": "CSS Keyframe Animation",
+      "name": "scrollTrackRight",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 137,
+      "type": "CSS Keyframe Animation",
+      "name": "scrollTrackLeft",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 146,
+      "type": "CSS Keyframe Animation",
+      "name": "scrollTrackRight",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 59,
+      "type": "CSS Keyframe Animation",
+      "name": "marqueeScrollLeft",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 68,
+      "type": "CSS Keyframe Animation",
+      "name": "marqueeScrollRight",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 12,
+      "type": "CSS Keyframe Animation",
+      "name": "fadeInUp",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 23,
+      "type": "CSS Keyframe Animation",
+      "name": "scroll-horizontal",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 32,
+      "type": "CSS Keyframe Animation",
+      "name": "scroll-horizontal-reverse",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-animations.css",
+      "line": 102,
+      "type": "CSS Keyframe Animation",
+      "name": "ib-dash",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-animations.css",
+      "line": 108,
+      "type": "CSS Keyframe Animation",
+      "name": "ib-pulse",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-animations.css",
+      "line": 120,
+      "type": "CSS Keyframe Animation",
+      "name": "ib-pulse-subtle",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-animations.css",
+      "line": 132,
+      "type": "CSS Keyframe Animation",
+      "name": "ib-sheet-in",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 286,
+      "type": "CSS Keyframe Animation",
+      "name": "fadeInUp",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 297,
+      "type": "CSS Keyframe Animation",
+      "name": "scroll-horizontal",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 306,
+      "type": "CSS Keyframe Animation",
+      "name": "scroll-horizontal-reverse",
+      "mechanism": "CSS @keyframes"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 14,
+      "type": "JS Animation Loop",
+      "name": "requestAnimationFrame",
+      "mechanism": "requestAnimationFrame loop"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 96,
+      "type": "JS Animation Loop",
+      "name": "requestAnimationFrame",
+      "mechanism": "requestAnimationFrame loop"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 109,
+      "type": "Scroll / Resize Listener",
+      "name": "window.addEventListener('scroll', onScroll, { passive: true });",
+      "mechanism": "Window event listener"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 110,
+      "type": "Scroll / Resize Listener",
+      "name": "window.addEventListener('resize', onResize, { passive: true });",
+      "mechanism": "Window event listener"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.jsx",
+      "line": 35,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-insights.tsx",
+      "line": 111,
+      "type": "JS Animation Loop",
+      "name": "requestAnimationFrame",
+      "mechanism": "requestAnimationFrame loop"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-insights.tsx",
+      "line": 121,
+      "type": "Scroll / Resize Listener",
+      "name": "window.addEventListener(\"scroll\", onScroll, { passive: true })",
+      "mechanism": "Window event listener"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-insights.tsx",
+      "line": 122,
+      "type": "Scroll / Resize Listener",
+      "name": "window.addEventListener(\"resize\", onResize, { passive: true })",
+      "mechanism": "Window event listener"
+    },
+    {
+      "file": "client/src/components/ui/useInViewInk.ts",
+      "line": 6,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/components/ui/useInViewInk.ts",
+      "line": 11,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/components/ui/useInViewInk.ts",
+      "line": 12,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 5,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 18,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 33,
+      "type": "Scroll Reveal / Observer",
+      "name": "IntersectionObserver",
+      "mechanism": "IntersectionObserver"
+    }
+  ],
+  "commentTraces": [
+    {
+      "file": "client/src/App.jsx",
+      "line": 9,
+      "text": "// Lazy-loaded route pages for the 6 core school pages",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/App.jsx",
+      "line": 27,
+      "text": "// Minimal graceful loading placeholder",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Accordion/Accordion.jsx",
+      "line": 5,
+      "text": "* Used for FAQs and collapsible information items.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Button/Button.jsx",
+      "line": 6,
+      "text": "* Reusable Pill Button Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Button/Button.jsx",
+      "line": 7,
+      "text": "* Supports variants: 'black', 'accent' (or 'amber'), 'white', 'outline'",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Button/Button.jsx",
+      "line": 8,
+      "text": "* Can render as a standard button, react-router Link, or external anchor tag.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/EnquiryForm/EnquiryForm.jsx",
+      "line": 8,
+      "text": "* Reusable EnquiryForm Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/EnquiryForm/EnquiryForm.jsx",
+      "line": 9,
+      "text": "* Sends structured message directly via WhatsApp with digits-only phone input.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FacultyCard/FacultyCard.jsx",
+      "line": 6,
+      "text": "* Reusable FacultyCard Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FacultyCard/FacultyCard.jsx",
+      "line": 7,
+      "text": "* Displays teacher profile, department badge, role, qualification, and experience.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FeeTable/FeeTable.jsx",
+      "line": 5,
+      "text": "* Displays transparent grade tiers, annual tuition, term installments, and lab/activity fees.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 181,
+      "text": "/* Mobile & Tablet Responsiveness */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.jsx",
+      "line": 9,
+      "text": "* Styled in exact visual parity with the Heedhive reference dark footer",
+      "match": "/heedhive/i"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/FormInputs.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 2,
+      "text": "* Form validation and digit sanitization helpers.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 3,
+      "text": "* Shared across PhoneInput, NumericInput, and form consumers.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 7,
+      "text": "* Strips non-digits, strips leading +91 / 91 / 0 if present, and clamps to 10 digits.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 21,
+      "text": "* Validates a 10-digit Indian mobile number.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 22,
+      "text": "* Returns error string or null if valid.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 38,
+      "text": "* Strips all non-digit characters and optionally prevents leading zero.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/formValidation.js",
+      "line": 53,
+      "text": "* Validates a standard Indian 6-digit postal pincode.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/NumericInput.jsx",
+      "line": 7,
+      "text": "* Strict digits-only input with numeric keypad hint, custom length, and validation.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/NumericInput.jsx",
+      "line": 43,
+      "text": "// Block leading zero if disallowLeadingZero",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 7,
+      "text": "* Fixed +91 prefix, strict digits-only filtering, tel keypad hint, 10-digit validation.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 25,
+      "text": "// Keydown guard to intercept non-digits before input occurs",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 27,
+      "text": "// Allow navigation and edit controls",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 40,
+      "text": "// Block exceeding 10 digits if no text is selected",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 55,
+      "text": "// Clean pasted text and insert at cursor",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FormInputs/PhoneInput.jsx",
+      "line": 75,
+      "text": "// Change handler to clean any autofill or composition",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FullBleedSection/FullBleedSection.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FullBleedSection/FullBleedSection.css",
+      "line": 25,
+      "text": "/* Merged white spacing when light section directly precedes a PanelSection */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FullBleedSection/FullBleedSection.jsx",
+      "line": 6,
+      "text": "* Spans 100% of the viewport width with flat background from tokens.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/FullBleedSection/FullBleedSection.jsx",
+      "line": 7,
+      "text": "* Variant 'dark' (black) or 'light' (white).",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/GalleryGrid/GalleryGrid.jsx",
+      "line": 5,
+      "text": "* Reusable GalleryGrid Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/GalleryGrid/GalleryGrid.jsx",
+      "line": 6,
+      "text": "* Masonry grid with alternating span ratios and overlay card captions.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.css",
+      "line": 97,
+      "text": "/* Center: Black Rounded Rectangle Nav Container (Matches Reference: 14px radius, 42px height, flat NO shadow) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.css",
+      "line": 149,
+      "text": "/* Right: Separate Black PILL Button (Fully Rounded, 14px font, matches Reference) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.css",
+      "line": 173,
+      "text": "/* Hamburger (Matches Reference: Clean two-line menu button visible on desktop & mobile) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.jsx",
+      "line": 18,
+      "text": "// Handle escape key to close drawer",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Header/MobileDrawer.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Header/MobileDrawer.css",
+      "line": 91,
+      "text": "/* Mobile & Tablet Accessible Touch Targets (>= 44px) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Header/MobileDrawer.jsx",
+      "line": 8,
+      "text": "* Off-canvas slide-in menu on mobile viewports.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Icon/Icon.jsx",
+      "line": 4,
+      "text": "* Consistent SVG Icon Component with 1.5px - 2px stroke",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Icon/Icon.jsx",
+      "line": 5,
+      "text": "* Replaces emoji icons across DashboardPanel, Portal, Marquee, etc.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ImageSlot/ImageSlot.jsx",
+      "line": 7,
+      "text": "* Enforces fixed aspect ratio, lazy loading, and fallback placeholder.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ImageSlot/ImageSlot.jsx",
+      "line": 8,
+      "text": "* Looks up image path from the slotKey in images.json via content service.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ImageSlot/ImageSlot.jsx",
+      "line": 23,
+      "text": "// Convert ratio \"16/9\" to CSS aspect-ratio property",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 131,
+      "text": "/* Right Column: Interactive Map Card */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 157,
+      "text": "/* Fallback neutral grid pattern */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 169,
+      "text": "/* Embed iframe styled with grayscale and neutral theme */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 181,
+      "text": "/* Custom Centered Pin with Soft Pulse */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 248,
+      "text": "/* Bottom Right Interactive Pill */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.css",
+      "line": 288,
+      "text": "/* Tablet & Mobile Stack (Map first at <= 768px) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.jsx",
+      "line": 14,
+      "text": "* Interactive campus location showcase with embedded neutral preview map,",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/LocationCard/LocationCard.jsx",
+      "line": 15,
+      "text": "* custom pulsing accent pin, and deep Google Maps navigation links.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/NewsList/NewsList.jsx",
+      "line": 5,
+      "text": "* Displays a list of official school notices/announcements with date badge and category tag.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/OutlineButton/OutlineButton.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/OutlineButton/OutlineButton.css",
+      "line": 36,
+      "text": "/* Dark Surface Variant (inside dark panels) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/OutlineButton/OutlineButton.jsx",
+      "line": 7,
+      "text": "* Outlined pill button with 1px border and hover transition.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/OutlineButton/OutlineButton.jsx",
+      "line": 8,
+      "text": "* Supports Link (to), anchor (href), or button (onClick).",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.css",
+      "line": 57,
+      "text": "/* Merged white spacing: if panel-section directly follows a light section */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.css",
+      "line": 62,
+      "text": "/* Merged white spacing between consecutive panels */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.css",
+      "line": 67,
+      "text": "/* No pad top / bottom overrides */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.jsx",
+      "line": 6,
+      "text": "* Large rounded card with uniform inset, no box-shadow, and subtle CSS grid.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.jsx",
+      "line": 7,
+      "text": "* Supports 'dark' and 'light' surface variants.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.jsx",
+      "line": 27,
+      "text": "* Backward compatibility alias for DarkPanel",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/PanelSection/PanelSection.jsx",
+      "line": 35,
+      "text": "* Full-bleed white wrapper containing a centered rounded InsetPanel (dark or light).",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ProgramCard/ProgramCard.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ProgramCard/ProgramCard.jsx",
+      "line": 6,
+      "text": "* Reusable ProgramCard Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ProgramCard/ProgramCard.jsx",
+      "line": 7,
+      "text": "* Used in Programs, About, Academics, Contact info cards.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 5,
+      "text": "* Reusable Reveal animation component.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 6,
+      "text": "* Applies a GPU-accelerated fade-up reveal on scroll with optional stagger delay.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 9,
+      "text": "* @param {React.ReactNode} props.children - Child elements",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 10,
+      "text": "* @param {number} [props.delay=0] - Delay in seconds (e.g. 0.15 for stagger)",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 11,
+      "text": "* @param {keyof JSX.IntrinsicElements | React.ComponentType} [props.as='div'] - Element tag",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 12,
+      "text": "* @param {string} [props.className=''] - Additional CSS classes",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Reveal/Reveal.jsx",
+      "line": 13,
+      "text": "* @param {Object} [props.style={}] - Additional inline styles",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 22,
+      "text": "/* Background light grey track extending exactly from center 1 to center 6 */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 34,
+      "text": "/* Continuously growing accent line fill with no CSS transition */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 65,
+      "text": "/* Circle: unreached vs reached */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 86,
+      "text": "/* Reached circle: solid accent background, white text */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 93,
+      "text": "/* Current circle (last reached one) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 122,
+      "text": "/* Current step card gets subtle accent border */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+      "line": 201,
+      "text": "/* prefers-reduced-motion: instant state, zero transitions */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 11,
+      "text": "* A scroll-driven progress timeline with continuous line fill and discrete stage updates.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 13,
+      "text": "* - Real <ol>/<li> semantic accessibility with screen-reader completion announcements.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 14,
+      "text": "* - Single passive scroll listener + ResizeObserver, throttled via requestAnimationFrame.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 15,
+      "text": "* - One getBoundingClientRect per frame to compute progress along circle centers.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.jsx",
+      "line": 16,
+      "text": "* - prefers-reduced-motion override without transitions.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionHeader/SectionHeader.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionHeader/SectionHeader.jsx",
+      "line": 5,
+      "text": "* Reusable SectionHeader Component",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionHeader/SectionHeader.jsx",
+      "line": 6,
+      "text": "* Renders tag pill, main title, subtitle, and optional right-aligned action button/slot.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionPill/SectionPill.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionPill/SectionPill.jsx",
+      "line": 6,
+      "text": "* Reference style pill label with 1px border and filled status dot.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/SectionPill/SectionPill.jsx",
+      "line": 7,
+      "text": "* Variants: 'dark' (for dark surfaces), 'light' (for light surfaces).",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/common/Timeline/Timeline.jsx",
+      "line": 5,
+      "text": "* Renders numbered journey steps.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/CalendarWidget/CalendarWidget.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/CalendarWidget/CalendarWidget.jsx",
+      "line": 6,
+      "text": "* Month calendar with interactive date selection and event preview.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Hero/Hero.jsx",
+      "line": 19,
+      "text": "// Check prefers-reduced-motion",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Hero/Hero.jsx",
+      "line": 29,
+      "text": "// Typewriter effect (respects prefers-reduced-motion)",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Hero/Hero.jsx",
+      "line": 38,
+      "text": "// Switch to next word via asynchronous timer to avoid cascading render",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 15,
+      "text": "/* Merged white spacing with adjacent PanelSection */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 89,
+      "text": "/* Infinite Marquee Keyframes */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+      "line": 108,
+      "text": "/* Accessibility: Respect Reduced Motion */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.jsx",
+      "line": 8,
+      "text": "* Smooth continuous two-row photo gallery showcasing authentic school celebrations,",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.jsx",
+      "line": 9,
+      "text": "* campus events, national days, sports, cultural dance and student achievements.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ImageMarquee/ImageMarquee.jsx",
+      "line": 10,
+      "text": "* Converted to high-quality 4:3 WebP format with equal vertical padding and seamless looping.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.css",
+      "line": 63,
+      "text": "/* Right Column: Sticky pinned illustration container on desktop */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.css",
+      "line": 134,
+      "text": "/* Hotspot Label Pill (Desktop) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.jsx",
+      "line": 15,
+      "text": "* Light Inset Panel showing student progression using a continuous scroll-driven timeline.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.jsx",
+      "line": 16,
+      "text": "* Desktop: 2-column layout with sticky pinned illustration and 2-way sync with stone hotspots.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/JourneySection/JourneySection.jsx",
+      "line": 17,
+      "text": "* Mobile: Responsive single-column with illustration first, followed by timeline cards.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 17,
+      "text": "/* Dark Theme Marquee (Matches Reference Solid Black Background) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 25,
+      "text": "/* Dual-Line Marquee Container */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 50,
+      "text": "/* Row 2: Rightward scroll (Opposite direction for dynamic parallax feel) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 82,
+      "text": "/* Marquee Text Items (Matches Reference Bold Sans Typography) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 102,
+      "text": "/* Row 1 Highlighted item (if configured): Official logo blue colour */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 116,
+      "text": "/* LOWER LINE (ROW 2) BASE & HIGHLIGHT BEHAVIOR:",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 126,
+      "text": "/* Row 2 Highlighted items (like '100% Board Pass Track Record'):",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.css",
+      "line": 142,
+      "text": "/* Geometric 8-Petal Rosette Flower Glyph (Matches Reference Glyph) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.jsx",
+      "line": 24,
+      "text": "// Exact geometric 8-petal rosette flower glyph from the reference",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.jsx",
+      "line": 52,
+      "text": "// Load items from i18n or use defaults",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Marquee/Marquee.jsx",
+      "line": 57,
+      "text": "// If dual is requested or variant is dark, render the dual-line marquee matching reference",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/PrincipalMessage/PrincipalMessage.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Programs/Programs.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/Programs/Programs.css",
+      "line": 86,
+      "text": "/* Card Footer: Grade Badge + Learn More Link with proper spacing */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 5,
+      "text": "* Displays live board exam results, statistics mini tiles, and distinctions growth bar chart.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/StatsCard/StatsCard.jsx",
+      "line": 5,
+      "text": "* Displays a large metric number with title and description.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/StatsCard/StatsCard.jsx",
+      "line": 6,
+      "text": "* Used in StatsSection, Faculty stats strip, etc.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+      "line": 72,
+      "text": "/* Circular checkmark icon badge (matches Reference Image 4) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+      "line": 96,
+      "text": "/* CRITICAL HOVER EFFECT FROM USER REFERENCE:",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+      "line": 128,
+      "text": "/* Circular arrow on right side (matches Reference Image 4) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+      "line": 152,
+      "text": "/* On hover of white row, right container turns into a solid black circle */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyRow/WhyRow.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyRow/WhyRow.css",
+      "line": 63,
+      "text": "/* Circular checkmark icon badge */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyRow/WhyRow.css",
+      "line": 120,
+      "text": "/* Circular arrow on right side */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyRow/WhyRow.jsx",
+      "line": 7,
+      "text": "* Renders alternating black/white rows with checkmark icon and corner arrow square.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/home/WhyRow/WhyRow.jsx",
+      "line": 8,
+      "text": "* Used in WhyChooseUs, About, Academics, Careers.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 102,
+      "text": "/* Scroller Container & Mask Fade */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 181,
+      "text": "/* User requirement: First-letter DP badge instead of face image */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 220,
+      "text": "/* Radial Gradient Background Glow */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.css",
+      "line": 229,
+      "text": "/* Accessibility & Mobile Responsive */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.tsx",
+      "line": 5,
+      "text": "* Deterministic color palette for avatar initials.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.tsx",
+      "line": 6,
+      "text": "* Generates an authoritative, accessible backdrop for each first letter.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.tsx",
+      "line": 30,
+      "text": "* Displays quote, character's initial avatar (no faces), name and title.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.tsx",
+      "line": 59,
+      "text": "* Smooth infinite horizontal scroller with left/right direction and speed controls.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/community-testimonial.tsx",
+      "line": 179,
+      "text": "* Props: data { title, subtitle, rows[] }",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-animations.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-features.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 6,
+      "text": "/* --------------------------------------------------------------------------",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 21,
+      "text": "/* --------------------------------------------------------------------------",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 38,
+      "text": "/* --------------------------------------------------------------------------",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 42,
+      "text": "/* Reduce outer panel padding through tokens so diagrams use nearly full card width */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 89,
+      "text": "/* Universal Diagram Scaling: 100% visible, never cropped, scaled as one unit */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 115,
+      "text": "/* Tablet (768px - 1023px): Two-column side-by-side text, tablet flow SVG */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 159,
+      "text": "/* Mobile (< 768px): Vertical mobile flow, vertical pillars, 4:3 chart */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/components/ui/order-tracking.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 14,
+      "text": "* Custom hook to detect when an element enters the viewport using Intersection Observer.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 16,
+      "text": "* - Fires only once (disconnects/unobserves after first appearance)",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 17,
+      "text": "* - Threshold: 0.15, rootMargin: '0px 0px -50px 0px'",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 18,
+      "text": "* - Graceful fallback if IntersectionObserver is unsupported",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 19,
+      "text": "* - Respects prefers-reduced-motion: reduce",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 20,
+      "text": "* - Supports both object destructuring { ref, isVisible } and array destructuring [ref, isVisible]",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/hooks/useInView.js",
+      "line": 56,
+      "text": "// Support both object and tuple destructuring",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/lib/utils.ts",
+      "line": 2,
+      "text": "* Utility helper for merging class names.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/main.jsx",
+      "line": 7,
+      "text": "// Global Styles & Design Tokens",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/About.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutClosingCTA.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutCommitment.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutCommitment.css",
+      "line": 80,
+      "text": "/* Department Heads Row List */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutExploreCards.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+      "line": 10,
+      "text": "/* Outer Rounded Container Box (Matches Reference Image 3) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+      "line": 96,
+      "text": "/* Accent Underline under Card Title */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutMottoDark.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutMottoDark.css",
+      "line": 10,
+      "text": "/* 2-Column Split Header on Dark */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutMottoDark.css",
+      "line": 51,
+      "text": "/* 6 Dark Step Cards: 3 Columns x 2 Rows */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 10,
+      "text": "/* 2-Column Split Header (Matches Image 2: Heading on Left, Paragraph on Right) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 44,
+      "text": "/* Subheading with Vertical Accent Bar (Matches Reference Image 2: | Our Process) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 94,
+      "text": "/* When cursor touches the card, the number turns the official logo blue colour! */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 105,
+      "text": "/* Giant Faded Number in Top Right Corner (Matches Reference 01-07) */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 165,
+      "text": "/* Card 08: Solid Black Card (Matches Reference 'Results Delivered') */",
+      "match": "/matches reference/i"
+    },
+    {
+      "file": "client/src/pages/Academics/Academics.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Admissions/Admissions.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Admissions/Admissions.css",
+      "line": 121,
+      "text": "/* 4. Online Enquiry Form Card (White Rounded Card) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Admissions/components/AdmissionsHero.jsx",
+      "line": 14,
+      "text": "// If admission year exists in settings, append it, otherwise render clean badge",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Contact/components/ContactForm.jsx",
+      "line": 10,
+      "text": "* Message submission form for general enquiries on Contact page.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Contact/components/ContactForm.jsx",
+      "line": 11,
+      "text": "* Sends directly to WhatsApp with digits-only phone validation and popup fallback.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Contact/components/ContactForm.jsx",
+      "line": 86,
+      "text": "// Reset fields after successful dispatch",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Contact/components/ContactForm.jsx",
+      "line": 96,
+      "text": "// Re-enable submit button after 4 seconds",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/pages/Contact/components/ContactInfoCards.jsx",
+      "line": 6,
+      "text": "* Campus address, phone lines, and office hours cards.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/content.js",
+      "line": 3,
+      "text": "* Abstracts local JSON data access for the 6 core school pages.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/content.js",
+      "line": 4,
+      "text": "* Components must only call these functions and NEVER import JSON directly.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/content.js",
+      "line": 78,
+      "text": "* Placeholder form submission function.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/content.js",
+      "line": 79,
+      "text": "* Later, this will be swapped to a real backend endpoint.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 4,
+      "text": "* Strips newlines and control characters from single-line inputs",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 12,
+      "text": "* Builds structured plain-text message for WhatsApp.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 13,
+      "text": "* Supports contact, admission, enquiry, careers, and alumni forms.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 27,
+      "text": "// Helper to add sanitized line if non-empty",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 68,
+      "text": "// Generic fallback for any other form type (careers, alumni, etc.)",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 76,
+      "text": "// Handle free-text message/notes (with max length enforcement)",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 80,
+      "text": "// Keep total message under 1400 characters for reliable WhatsApp encoding",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 94,
+      "text": "* Returns the full WhatsApp click-to-chat URL with the encoded message.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 104,
+      "text": "* Returns an object with success status and fallback URL.",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/services/whatsapp.js",
+      "line": 119,
+      "text": "* Backward compatibility helpers",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 116,
+      "text": "/* Faint Grid Backgrounds (Matching Reference) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 145,
+      "text": "/* Section Header Shared Pattern */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 196,
+      "text": "/* Skip to Main Content Link (Visually hidden until focused) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 244,
+      "text": "/* Circular Arrow Buttons (Carousels & Navigators) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/global.css",
+      "line": 279,
+      "text": "/* UI Scroller Tokens & Keyframes */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/responsive.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/responsive.css",
+      "line": 54,
+      "text": "/* Extra Small Phones (Down to 360px) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 1,
+      "text": "/* ==========================================================================",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 7,
+      "text": "/* Brand Accent: Single Royal Blue matching the official school logo */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 12,
+      "text": "/* Derived Brand-Blue Tints (Single source of truth via color-mix) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 22,
+      "text": "/* High contrast accent for text, icons, and links on dark backgrounds (WCAG AA >= 4.5:1, achieves 6.13:1 on dark cards) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 30,
+      "text": "/* Warm Amber / Golden Yellow (Reference Highlight & Hover State) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 36,
+      "text": "/* Two-tone Heading Muted Color */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 74,
+      "text": "/* Translucent White Tints (Semantic) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 99,
+      "text": "/* Translucent Black Tints (Semantic) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 118,
+      "text": "/* Utility & Functional Colors */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 128,
+      "text": "/* Student House Brand Colors */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 150,
+      "text": "/* Section Layout System (Reference from heedhive.in) */",
+      "match": "/heedhive/i"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 161,
+      "text": "/* Section Pill & Outline Button Tokens */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 167,
+      "text": "/* Scroll Timeline Component Tokens */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 177,
+      "text": "/* Holistic Education & Classroom Mentorship Panel Tokens (Responsive) */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 190,
+      "text": "/* Hero Headline Mobile Tokens */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 196,
+      "text": "/* Holistic Panel Text Rhythm Tokens */",
+      "match": "Banner/Separator Comment"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 222,
+      "text": "/* Map & Location Block Tokens */",
+      "match": "Banner/Separator Comment"
+    }
+  ],
+  "consoleTraces": [
+    {
+      "file": "client/src/services/content.js",
+      "line": 83,
+      "text": "console.log(`[Form Submitted: ${formName}]`, data);"
+    }
+  ],
+  "debuggerTraces": [],
+  "placeholderTraces": [
+    {
+      "file": "client/README.md",
+      "line": 35,
+      "text": "- `/portal` — Live Student & Parent Portal (Demo dashboard for Dharshini S. featuring Attendance tracker, Exam grades report card, Live Bus GPS tracking, Fee payment history, Teacher messages inbox, and leave application form)"
+    },
+    {
+      "file": "client/README.md",
+      "line": 78,
+      "text": "Locally test the production build before deployment:"
+    },
+    {
+      "file": "client/README.md",
+      "line": 98,
+      "text": "│   │   │   ├── Header/        # Pill navigation bar, language toggle & mobile drawer"
+    },
+    {
+      "file": "client/README.md",
+      "line": 120,
+      "text": "│   │   ├── portal.json        # Student demo portal data"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 3,
+      "text": "Exact parity with Heedhive reference dark footer"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 143,
+      "text": "/* Bottom Bar */"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 144,
+      "text": ".footer-bottom-bar {"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.css",
+      "line": 192,
+      "text": ".footer-bottom-bar {"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.jsx",
+      "line": 9,
+      "text": "* Styled in exact visual parity with the Heedhive reference dark footer"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.jsx",
+      "line": 106,
+      "text": "{/* Bottom Bar */}"
+    },
+    {
+      "file": "client/src/components/common/Footer/Footer.jsx",
+      "line": 107,
+      "text": "<div className=\"footer-bottom-bar\">"
+    },
+    {
+      "file": "client/src/components/common/Header/Header.css",
+      "line": 4,
+      "text": "Matches https://heedhive.in computed specs"
+    },
+    {
+      "file": "client/src/components/home/DashboardPanel/DashboardPanel.css",
+      "line": 102,
+      "text": ".mini-bar-chart {"
+    },
+    {
+      "file": "client/src/components/home/DashboardPanel/DashboardPanel.css",
+      "line": 113,
+      "text": ".chart-bar-wrap {"
+    },
+    {
+      "file": "client/src/components/home/DashboardPanel/DashboardPanel.css",
+      "line": 121,
+      "text": ".chart-bar {"
+    },
+    {
+      "file": "client/src/components/home/DashboardPanel/DashboardPanel.css",
+      "line": 128,
+      "text": ".chart-bar.highlight {"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 5,
+      "text": "* Displays live board exam results, statistics mini tiles, and distinctions growth bar chart."
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 37,
+      "text": "{/* Distinctions Growth Bar Chart */}"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 41,
+      "text": "<div className=\"mini-bar-chart\">"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 42,
+      "text": "{chartBars.map((bar, idx) => ("
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 43,
+      "text": "<div key={bar.year} className=\"chart-bar-wrap\">"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 45,
+      "text": "className={`chart-bar ${idx === chartBars.length - 1 ? 'highlight' : ''}`}"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 46,
+      "text": "style={{ height: `${bar.percentage * 0.72}px` }}"
+    },
+    {
+      "file": "client/src/components/home/ResultsCard/ResultsCard.jsx",
+      "line": 48,
+      "text": "<span className=\"chart-bar-label\">{bar.year}</span>"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-features.css",
+      "line": 36,
+      "text": ".ib-top-bar {"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-features.tsx",
+      "line": 125,
+      "text": "{/* Top Bar: Pill on Left, Outlined Button on Right */}"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-features.tsx",
+      "line": 126,
+      "text": "<div className=\"ib-top-bar\">"
+    },
+    {
+      "file": "client/src/components/ui/ink-orbit-responsive.css",
+      "line": 206,
+      "text": ".ib-top-bar {"
+    },
+    {
+      "file": "client/src/pages/About/About.css",
+      "line": 3,
+      "text": "Orchestrates subcomponents matching https://heedhive.in/services layout"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 44,
+      "text": "/* Subheading with Vertical Accent Bar (Matches Reference Image 2: | Our Process) */"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 45,
+      "text": ".milestones-bar {"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 52,
+      "text": ".milestones-bar-accent {"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+      "line": 60,
+      "text": ".milestones-bar-title {"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.jsx",
+      "line": 34,
+      "text": "{/* Subheading with Vertical Accent Bar */}"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.jsx",
+      "line": 36,
+      "text": "<div className=\"milestones-bar\">"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.jsx",
+      "line": 37,
+      "text": "<span className=\"milestones-bar-accent\" aria-hidden=\"true\" />"
+    },
+    {
+      "file": "client/src/pages/About/components/AboutStoryMilestones.jsx",
+      "line": 38,
+      "text": "<h3 className=\"milestones-bar-title\">{t('about.journeyHeading')}</h3>"
+    },
+    {
+      "file": "client/src/styles/responsive.css",
+      "line": 47,
+      "text": ".footer-bottom-bar {"
+    },
+    {
+      "file": "client/src/styles/tokens.css",
+      "line": 150,
+      "text": "/* Section Layout System (Reference from heedhive.in) */"
+    }
+  ],
+  "filesNotToShip": [
+    {
+      "path": "AUDIT_REPORT.md",
+      "type": "Root spec / test / report file"
+    },
+    {
+      "path": "FINAL_TEST_REPORT.md",
+      "type": "Root spec / test / report file"
+    },
+    {
+      "path": "HEADER_SPEC.md",
+      "type": "Root spec / test / report file"
+    },
+    {
+      "path": "LAYOUT_SPEC.md",
+      "type": "Root spec / test / report file"
+    },
+    {
+      "path": "MISSING_CONTENT.md",
+      "type": "Project To-Do List (Keep content intact, move to /project-notes)"
+    },
+    {
+      "path": "REFERENCE_SPEC.md",
+      "type": "Root spec / test / report file"
+    },
+    {
+      "path": "scratch",
+      "type": "Agent scratch directory with test scripts"
+    }
+  ],
+  "generatorTraces": [
+    {
+      "file": "client/README.md",
+      "issue": "Vite template README or AI documentation"
+    }
+  ],
+  "contentTraces": [
+    {
+      "file": "client/src/content/about.json",
+      "line": 51,
+      "text": "\"desc\": \"Comprehensive secondary education aligned with the State Board Matriculation syllabus, preparing learners for academic excellence.\"",
+      "match": "comprehensive",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/about.json",
+      "line": 101,
+      "text": "\"desc\": \"To provide value-based, accessible education rooted in discipline, character, and holistic growth for children in Pakkam, Thiruvallur District.\",",
+      "match": "holistic",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/academics.json",
+      "line": 13,
+      "text": "\"desc\": \"Comprehensive middle-years education reinforcing conceptual understanding, languages, mathematics, sciences, creative arts, and physical fitness.\",",
+      "match": "comprehensive",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/academics.json",
+      "line": 22,
+      "text": "\"icon\": \"award\"",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    },
+    {
+      "file": "client/src/content/academics.json",
+      "line": 54,
+      "text": "\"icon\": \"award\"",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    },
+    {
+      "file": "client/src/content/campus.json",
+      "line": 11,
+      "text": "\"icon\": \"award\"",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 31,
+      "text": "\"programsSubtitle\": \"Comprehensive educational continuum following the Tamil Nadu State Board curriculum across academics, arts, and physical fitness.\",",
+      "match": "comprehensive",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 37,
+      "text": "\"prog3Desc\": \"Rigorous secondary education aligned with the Tamil Nadu Matriculation Board curriculum.\",",
+      "match": "rigorous",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 142,
+      "text": "\"HOLISTIC CHARACTER EDUCATION\"",
+      "match": "holistic",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 182,
+      "text": "\"storySubtitle\": \"Established in 1999 in Pakkam, Thiruvallur District, Sree Hari Saradha Vidhyalaya Matriculation School provides holistic schooling rooted in academic subjects, arts, and physical education.\",",
+      "match": "holistic",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 382,
+      "text": "\"holistic\": {",
+      "match": "holistic",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 384,
+      "text": "\"title\": \"Holistic *Education* & Classroom Mentorship\",",
+      "match": "holistic",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/en.json",
+      "line": 389,
+      "text": "\"reportsDesc\": \"Comprehensive term evaluations, individual student feedback, and continuous progress reporting across academic subjects and arts.\",",
+      "match": "comprehensive",
+      "type": "Inflated AI Buzzword"
+    },
+    {
+      "file": "client/src/content/journey.json",
+      "line": 8,
+      "text": "{ \"index\": 6, \"name\": \"award rosette\", \"x\": 58, \"y\": 27 },",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    },
+    {
+      "file": "client/src/content/journey.json",
+      "line": 53,
+      "text": "\"icon\": \"award\",",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    },
+    {
+      "file": "client/src/content/programs.json",
+      "line": 23,
+      "text": "\"icon\": \"award\",",
+      "match": "unverified metric/claim",
+      "type": "Metric Claim"
+    }
+  ]
+}

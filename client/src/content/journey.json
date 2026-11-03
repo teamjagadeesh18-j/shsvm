@@ -1,0 +1,81 @@
+{
+  "allStones": [
+    { "index": 1, "name": "chat bubbles", "x": 39, "y": 83 },
+    { "index": 2, "name": "head profile", "x": 52, "y": 71 },
+    { "index": 3, "name": "checklist", "x": 55, "y": 59 },
+    { "index": 4, "name": "open book", "x": 58, "y": 46 },
+    { "index": 5, "name": "people and speech bubble", "x": 54, "y": 36 },
+    { "index": 6, "name": "award rosette", "x": 58, "y": 27 },
+    { "index": 7, "name": "graduation cap", "x": 53, "y": 19 },
+    { "index": 8, "name": "globe and city", "x": 57, "y": 11 }
+  ],
+  "stages": [
+    {
+      "id": "stage-enquiry",
+      "number": "01",
+      "stoneIndex": 1,
+      "titleKey": "journey.stage1.title",
+      "descKey": "journey.stage1.desc",
+      "link": "/admissions",
+      "icon": "message",
+      "stone": { "x": 39, "y": 83 },
+      "labelAlign": "right"
+    },
+    {
+      "id": "stage-primary",
+      "number": "02",
+      "stoneIndex": 3,
+      "titleKey": "journey.stage2.title",
+      "descKey": "journey.stage2.desc",
+      "link": "/academics",
+      "icon": "book",
+      "stone": { "x": 55, "y": 59 },
+      "labelAlign": "right"
+    },
+    {
+      "id": "stage-upper-primary",
+      "number": "03",
+      "stoneIndex": 4,
+      "titleKey": "journey.stage3.title",
+      "descKey": "journey.stage3.desc",
+      "link": "/academics",
+      "icon": "compass",
+      "stone": { "x": 58, "y": 46 },
+      "labelAlign": "right"
+    },
+    {
+      "id": "stage-secondary",
+      "number": "04",
+      "stoneIndex": 6,
+      "titleKey": "journey.stage4.title",
+      "descKey": "journey.stage4.desc",
+      "link": "/academics",
+      "icon": "award",
+      "stone": { "x": 58, "y": 27 },
+      "labelAlign": "left"
+    },
+    {
+      "id": "stage-beyond",
+      "number": "05",
+      "stoneIndex": 7,
+      "titleKey": "journey.stage5.title",
+      "descKey": "journey.stage5.desc",
+      "link": null,
+      "icon": "star",
+      "stone": { "x": 53, "y": 19 },
+      "labelAlign": "left"
+    },
+    {
+      "id": "stage-future",
+      "number": "06",
+      "stoneIndex": 8,
+      "titleKey": "journey.stage6.title",
+      "descKey": "journey.stage6.desc",
+      "link": null,
+      "icon": "smile",
+      "stone": { "x": 57, "y": 11 },
+      "labelAlign": "right"
+    }
+  ]
+}
+

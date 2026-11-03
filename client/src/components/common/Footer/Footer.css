@@ -1,0 +1,220 @@
+
+
+.site-footer {
+  background-color: var(--color-black, #000000);
+  color: var(--color-white, #ffffff);
+  padding: 80px 0 36px;
+  border-top: 1px solid var(--color-dark-border, #1f1f1f);
+  margin-top: auto;
+  contain: layout paint;
+}
+
+.footer-top-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.25fr;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+/* Column 1: Brand Wordmark */
+.footer-brand-title {
+  font-family: var(--font-heading);
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--color-white, #ffffff);
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.footer-tagline {
+  color: #8e8e93;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  max-width: 380px;
+  margin-bottom: 24px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-social-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white, #ffffff);
+  transition: var(--transition-fast, 0.18s ease);
+  text-decoration: none;
+}
+
+.footer-social-btn:hover {
+  background: var(--color-accent, #0000d8);
+  border-color: var(--color-accent, #0000d8);
+  color: var(--color-text-on-accent, #ffffff);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px var(--color-accent-glow);
+}
+
+/* Headings */
+.footer-heading {
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-white, #ffffff);
+  margin-bottom: 22px;
+}
+
+/* Column 2: Quick Links */
+.footer-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-nav-list a {
+  color: #8e8e93;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-block;
+}
+
+.footer-nav-list a:hover {
+  color: var(--color-white, #ffffff);
+}
+
+/* Column 3: Get In Touch */
+.footer-contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9375rem;
+  color: #8e8e93;
+  line-height: 1.6;
+}
+
+.footer-phone-link {
+  color: #8e8e93;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.footer-phone-link:hover {
+  color: var(--color-white, #ffffff);
+}
+
+.footer-address-line {
+  color: #8e8e93;
+}
+
+.footer-map-link {
+  color: #8e8e93;
+  font-size: 0.8125rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  gap: 4px;
+  margin-top: 4px;
+  transition: color 0.2s ease;
+}
+
+.footer-map-link:hover {
+  color: var(--color-white, #ffffff);
+  text-decoration: underline;
+}
+
+/* Bottom Bar */
+.footer-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.8125rem;
+  color: #71717a;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-copyright {
+  color: #71717a;
+}
+
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-legal-links a {
+  color: #71717a;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.footer-legal-links a:hover {
+  color: var(--color-white, #ffffff);
+}
+
+.footer-dot {
+  color: #52525b;
+}
+
+/* Mobile & Tablet Responsiveness */
+@media (max-width: 860px) {
+  .footer-top-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .site-footer {
+    padding: 64px 0 32px;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-nav-list a,
+  .footer-phone-link,
+  .footer-map-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-legal-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footer-social-btn {
+    width: 44px;
+    height: 44px;
+  }
+}

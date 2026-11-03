@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty & Mentors | Sree Hari Saradha Vidhyalaya Matriculation School</title>
+  <meta name="description" content="Meet the passionate teachers and mentors at SHSVM School. Experienced educators dedicated to holistic student development.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .faculty-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .faculty-card {
+      background: var(--color-white);
+      border: 1px solid var(--color-light-border);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+    }
+    .faculty-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+      border-color: var(--color-black);
+    }
+    .faculty-photo {
+      aspect-ratio: 4 / 5;
+      width: 100%;
+      background: #EAEAE6;
+      position: relative;
+      overflow: hidden;
+    }
+    .faculty-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .faculty-info {
+      padding: 20px;
+    }
+    .faculty-name {
+      font-family: var(--font-heading);
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: var(--color-black);
+      margin-bottom: 4px;
+    }
+    .faculty-role {
+      font-size: 0.8125rem;
+      color: var(--color-amber-dark);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .faculty-qual {
+      font-size: 0.8125rem;
+      color: var(--color-gray-body);
+      margin-bottom: 8px;
+    }
+    .faculty-exp {
+      font-size: 0.75rem;
+      color: var(--color-gray-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    @media (max-width: 1024px) {
+      .faculty-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .faculty-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="bg-grid">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" aria-label="SHSVM Home">
+        <div class="logo-badge">
+          <img src="assets/images/logo.png" alt="Sree Hari Saradha Vidhyalaya Matriculation School Logo" class="school-logo-img">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title"><span class="accent">SHSVM</span></div>
+          <span class="logo-subtitle" data-i18n="schoolTagline">SREE HARI SARADHA</span>
+        </div>
+      </a>
+
+      <nav class="header-pill-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <div class="nav-divider"></div>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <div class="nav-divider"></div>
+        <a href="academics.html" class="nav-link" data-i18n="navAcademics">Academics</a>
+        <div class="nav-divider"></div>
+        <a href="admissions.html" class="nav-link" data-i18n="navAdmissions">Admissions</a>
+        <div class="nav-divider"></div>
+        <a href="campus.html" class="nav-link" data-i18n="navCampus">Campus</a>
+        <div class="nav-divider"></div>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="js-lang-toggle-text">தமிழ்</span>
+        </button>
+        <a href="admissions.html" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnApply">Apply for Admission</a>
+        <button type="button" class="hamburger-btn js-hamburger-btn" aria-label="Open mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer">
+    <div>
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="logo-badge" style="width:38px; height:38px; background:#FFF; border:none;">
+            <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+          </div>
+          <div class="logo-title" style="color:#FFF;"><span class="accent">SHSVM</span> SCHOOL</div>
+        </div>
+        <button type="button" class="drawer-close-btn js-drawer-close" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="drawer-links">
+        <a href="index.html" class="drawer-link" data-i18n="navHome">Home</a>
+        <a href="about.html" class="drawer-link" data-i18n="navAbout">About Us</a>
+        <a href="academics.html" class="drawer-link" data-i18n="navAcademics">Academics</a>
+        <a href="admissions.html" class="drawer-link" data-i18n="navAdmissions">Admissions</a>
+        <a href="faculty.html" class="drawer-link active" data-i18n="navFaculty">Faculty</a>
+        <a href="campus.html" class="drawer-link" data-i18n="navCampus">Campus & Facilities</a>
+        <a href="student-life.html" class="drawer-link" data-i18n="navStudentLife">Student Life</a>
+        <a href="gallery.html" class="drawer-link" data-i18n="navGallery">Gallery</a>
+        <a href="news.html" class="drawer-link" data-i18n="navNews">News & Events</a>
+        <a href="contact.html" class="drawer-link" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <a href="admissions.html" class="btn-pill btn-pill-amber js-open-enquiry" style="width: 100%;" data-i18n="btnApply">Apply for Admission</a>
+    </div>
+  </aside>
+
+  <!-- Subpage Hero -->
+  <section class="subpage-hero">
+    <div class="hero-glow-circle"></div>
+    <div class="container hero-content">
+      <div class="subpage-breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Faculty & Mentors</span>
+      </div>
+      <h1 class="subpage-title reveal-fade-up">
+        Our Dedicated <span class="hero-highlight">Educators</span>
+      </h1>
+      <p class="subpage-desc reveal-fade-up">
+        Passionate scholars with deep subject mastery and boundless empathy, committed to bringing out the finest qualities in every child.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats Strip -->
+  <section class="stats-section" style="padding: 40px 0; background: var(--color-white);">
+    <div class="container">
+      <div class="stats-row-grid reveal-fade-up">
+        <div class="stat-column">
+          <div class="stat-huge-number">75+</div>
+          <div class="stat-title">Faculty Members</div>
+          <div class="stat-desc">Full-time trained educators.</div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-huge-number">1:18</div>
+          <div class="stat-title">Teacher Ratio</div>
+          <div class="stat-desc">Personalized attention for every learner.</div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-huge-number">12+</div>
+          <div class="stat-title">Years Avg Experience</div>
+          <div class="stat-desc">Senior board mentors & specialists.</div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-huge-number">100%</div>
+          <div class="stat-title">B.Ed / M.Ed Certified</div>
+          <div class="stat-desc">Government qualified educators.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACULTY PROFILES GRID -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="section-title-wrap reveal-fade-up" style="margin-bottom: 40px;">
+        <div class="tag-pill">ACADEMIC LEADERSHIP</div>
+        <h2 class="section-title-white" style="color:var(--color-black);">School Leaders & Department Heads</h2>
+      </div>
+
+      <div class="faculty-grid">
+        
+        <!-- Principal -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo">
+            <img src="assets/images/principal.jpg" alt="Mrs. R. Swaminathan">
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mrs. R. Swaminathan</div>
+            <div class="faculty-role">Principal & Head of School</div>
+            <div class="faculty-qual">M.Sc. (Physics), M.Ed., M.Phil.</div>
+            <div class="faculty-exp">⭐ 26 Years in Educational Leadership</div>
+          </div>
+        </div>
+
+        <!-- Vice Principal / Math Head -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mr. S. Natarajan</div>
+            <div class="faculty-role">Vice Principal & Head of Maths</div>
+            <div class="faculty-qual">M.Sc. (Mathematics), B.Ed.</div>
+            <div class="faculty-exp">⭐ 22 Years Experience · State Centum Mentor</div>
+          </div>
+        </div>
+
+        <!-- Science Head -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Dr. M. Sathyavathi</div>
+            <div class="faculty-role">Dean of Sciences (Biology & Chem)</div>
+            <div class="faculty-qual">Ph.D. (Botany), M.Sc., B.Ed.</div>
+            <div class="faculty-exp">⭐ 18 Years Experience · STEM Lead</div>
+          </div>
+        </div>
+
+        <!-- Tamil Department Head -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Pulavar K. Arumugam</div>
+            <div class="faculty-role">Head of Tamil Studies</div>
+            <div class="faculty-qual">M.A. (Tamil), M.Phil., B.Ed.</div>
+            <div class="faculty-exp">⭐ 24 Years Experience · Literary Orator</div>
+          </div>
+        </div>
+
+        <!-- English Head -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mrs. Deepa Varghese</div>
+            <div class="faculty-role">Head of English Department</div>
+            <div class="faculty-qual">M.A. (English Lit), B.Ed., CELTA</div>
+            <div class="faculty-exp">⭐ 15 Years · Debate & Oratory Coach</div>
+          </div>
+        </div>
+
+        <!-- Computer Science & AI -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mr. G. Vigneshwaran</div>
+            <div class="faculty-role">Head of Computer Science & Robotics</div>
+            <div class="faculty-qual">M.C.A., M.E. (CSE), B.Ed.</div>
+            <div class="faculty-exp">⭐ 11 Years · Atal Innovation Mentor</div>
+          </div>
+        </div>
+
+        <!-- Commerce & Economics -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mrs. S. Jayanthi</div>
+            <div class="faculty-role">Head of Commerce & Accountancy</div>
+            <div class="faculty-qual">M.Com, M.Phil, B.Ed.</div>
+            <div class="faculty-exp">⭐ 16 Years · CA Foundation Guide</div>
+          </div>
+        </div>
+
+        <!-- Physical Education & Sports Director -->
+        <div class="faculty-card reveal-fade-up">
+          <div class="faculty-photo" style="background:#222; display:flex; align-items:center; justify-content:center; color:var(--color-amber);">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg>
+          </div>
+          <div class="faculty-info">
+            <div class="faculty-name">Mr. P. Murugesan</div>
+            <div class="faculty-role">Director of Physical Education</div>
+            <div class="faculty-qual">M.P.Ed., NIS Certified Coach</div>
+            <div class="faculty-exp">⭐ 19 Years · State Athletics Coach</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+            <div class="logo-badge" style="width:52px; height:52px; background:#FFF;">
+              <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+            </div>
+            <div>
+              <h3 style="margin-bottom:0;">SHSVM <span class="accent">SCHOOL</span></h3>
+              <span style="font-size:0.75rem; color:#888; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">ESTABLISHED 1999</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Sree Hari Saradha Vidhyalaya Matriculation School, established in 1999 in Tiruppur, Tamil Nadu. Committed to holistic education, moral discipline, and academic brilliance.
+          </p>
+          <div style="margin-bottom: 20px; font-weight: 700; color: var(--color-amber);">Smile • Study • Serve</div>
+        </div>
+        <div>
+          <div class="footer-column-title">Quick Links</div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-column-title">Get In Touch</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Saradha Nagar, Dharapuram Main Road, Tiruppur - 641 606, Tamil Nadu</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 421 247 1999 / +91 94433 19990</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Sree Hari Saradha Vidhyalaya Matriculation School. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <button type="button" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-tooltip">Chat with Admissions</div>
+    <svg viewBox="0 0 32 32" fill="currentColor">
+      <path d="M16.002 2C8.28 2 2 8.28 2 16c0 2.51.66 4.96 1.91 7.12L2 30l7.08-1.86A13.92 13.92 0 0 0 16 30c7.72 0 14-6.28 14-14S23.72 2 16.002 2zm8.17 19.82c-.34.96-1.7 1.83-2.77 1.94-.74.07-1.7.12-5.46-1.44-4.81-2-7.9-6.91-8.14-7.23-.24-.32-1.95-2.6-1.95-4.96s1.23-3.52 1.67-4c.44-.48.96-.6 1.28-.6.32 0 .64 0 .92.02.3.02.7-.12 1.09.82.41.98 1.4 3.42 1.52 3.66.12.24.2.52.04.84-.16.32-.24.52-.48.8-.24.28-.5.62-.71.84-.24.24-.49.5-.21.98.28.48 1.25 2.06 2.68 3.34 1.85 1.65 3.41 2.16 3.89 2.4.48.24.76.2 1.04-.12.28-.32 1.2-1.4 1.52-1.88.32-.48.64-.4 1.08-.24.44.16 2.77 1.31 3.25 1.55.48.24.8.36.92.56.12.2.12 1.16-.22 2.12z"/>
+    </svg>
+  </button>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

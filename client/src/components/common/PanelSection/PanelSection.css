@@ -1,0 +1,70 @@
+
+
+.panel-section {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--color-page-bg, #ffffff);
+  padding-block: var(--panel-wrap-pad-y);
+  margin: 0;
+  overflow: visible;
+}
+
+.dark-panel {
+  position: relative;
+  margin-inline: var(--panel-inset);
+  border-radius: var(--radius-panel);
+  background-color: var(--color-surface-dark, #0a0a0a);
+  color: var(--color-white);
+  padding: var(--panel-pad);
+  overflow: hidden;
+  border: 1px solid var(--color-dark-border, #1f1f1f);
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.dark-panel.with-grid {
+  background-image: 
+    linear-gradient(to right, var(--color-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid-line) 1px, transparent 1px);
+  background-size: var(--grid-cell) var(--grid-cell);
+}
+
+.light-panel {
+  position: relative;
+  margin-inline: var(--panel-inset);
+  border-radius: var(--radius-panel);
+  background-color: var(--color-light-surface, #F7F7F5);
+  color: var(--color-black, #000000);
+  padding: var(--panel-pad);
+  overflow: hidden;
+  border: 1px solid var(--color-light-border, #E5E5E3);
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.light-panel.with-grid {
+  background-image: 
+    linear-gradient(to right, var(--color-black-a4) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-black-a4) 1px, transparent 1px);
+  background-size: var(--grid-cell) var(--grid-cell);
+}
+
+/* Merged white spacing: if panel-section directly follows a light section */
+.full-bleed-section.variant-light + .panel-section {
+  padding-top: var(--panel-wrap-pad-y);
+}
+
+/* Merged white spacing between consecutive panels */
+.panel-section + .panel-section {
+  padding-top: 0;
+}
+
+/* No pad top / bottom overrides */
+.panel-section.no-pad-top {
+  padding-top: 0;
+}
+
+.panel-section.no-pad-bottom {
+  padding-bottom: 0;
+}

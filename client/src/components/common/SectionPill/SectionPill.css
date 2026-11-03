@@ -1,0 +1,51 @@
+
+
+.section-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--pill-height, 30px);
+  padding: var(--pill-pad, 6px 14px);
+  border-radius: var(--radius-pill, 9999px);
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.section-pill-dot {
+  width: var(--pill-dot-size, 6px);
+  height: var(--pill-dot-size, 6px);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.section-pill-text {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+/* Dark Surface Variant */
+.section-pill.pill-dark {
+  background-color: var(--color-white-a5);
+  border: 1px solid var(--color-white-a10);
+  color: var(--color-white);
+}
+
+.section-pill.pill-dark .section-pill-dot {
+  background-color: var(--color-white);
+  box-shadow: 0 0 6px var(--color-white-a70);
+}
+
+/* Light Surface Variant */
+.section-pill.pill-light {
+  background-color: var(--color-light-surface);
+  border: 1px solid var(--color-light-border);
+  color: var(--color-gray-dark);
+}
+
+.section-pill.pill-light .section-pill-dot {
+  background-color: var(--color-accent);
+}

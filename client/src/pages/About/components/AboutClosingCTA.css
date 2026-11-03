@@ -1,0 +1,99 @@
+
+
+.about-closing-cta-section {
+  padding: var(--section-pad-y, 96px) 0;
+  background-color: var(--color-surface-black, #000000);
+  text-align: center;
+}
+
+.closing-cta-card {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closing-cta-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.75rem, 5.5vw, 4.25rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: var(--color-white);
+  line-height: 1.12;
+  margin: 20px 0 16px;
+}
+
+.closing-cta-desc {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-white-a75);
+  max-width: 640px;
+  margin: 0 auto 36px;
+}
+
+.closing-cta-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.closing-cta-btn {
+  font-family: var(--font-nav);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  height: 48px;
+  padding: 0 28px;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  white-space: nowrap;
+}
+
+/* White Pill Button */
+.btn-pill-white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: none;
+}
+
+.btn-pill-white:hover {
+  background-color: var(--color-light-surface-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px var(--color-black-a30);
+}
+
+/* Outline Pill Button */
+.btn-pill-outline-white {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-white-a30);
+}
+
+.btn-pill-outline-white:hover {
+  background-color: var(--color-white-a10);
+  border-color: var(--color-white-a65);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .about-closing-cta-section {
+    padding: 80px 0;
+  }
+
+  .closing-cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .closing-cta-btn {
+    width: 100%;
+  }
+}
+

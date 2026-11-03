@@ -1,0 +1,240 @@
+
+:root {
+  /* Brand Accent: Single Royal Blue matching the official school logo */
+  --color-accent: #0000D8;
+  --color-accent-hover: #0000B5;
+  --color-accent-rgb: 0, 0, 216;
+  /* Derived Brand-Blue Tints (Single source of truth via color-mix) */
+  --color-accent-subtle: color-mix(in srgb, var(--color-accent) 8%, transparent);
+  --color-accent-light: color-mix(in srgb, var(--color-accent) 12%, transparent);
+  --color-accent-glow-sm: color-mix(in srgb, var(--color-accent) 16%, transparent);
+  --color-accent-border: color-mix(in srgb, var(--color-accent) 25%, transparent);
+  --color-accent-border-md: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  --color-accent-border-strong: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  --color-accent-glow: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  --color-text-on-accent: #FFFFFF;
+  /* High contrast accent for text, icons, and links on dark backgrounds (WCAG AA >= 4.5:1, achieves 6.13:1 on dark cards) */
+  --color-accent-on-dark: color-mix(in srgb, var(--color-accent) 45%, #FFFFFF);
+  --color-accent-on-dark-hover: color-mix(in srgb, var(--color-accent) 35%, #FFFFFF);
+  --color-marquee-highlight: color-mix(in srgb, var(--color-accent) 55%, #FFFFFF);
+  --color-marquee-highlight-hover: color-mix(in srgb, var(--color-accent) 45%, #FFFFFF);
+  --color-marquee-glow: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  --color-marquee-glow-strong: color-mix(in srgb, var(--color-accent) 60%, transparent);
+  /* Warm Amber / Golden Yellow (Reference Highlight & Hover State) */
+  --color-amber: #FFB800;
+  --color-amber-dark: #FFA500;
+  --color-amber-light: rgba(255, 184, 0, 0.15);
+  --color-amber-glow: rgba(255, 184, 0, 0.35);
+  /* Two-tone Heading Muted Color */
+  --color-heading-muted: #71717A;
+  /* Dark Theme Surfaces */
+  --color-black: #000000;
+  --color-near-black: #0A0A0A;
+  --color-dark-surface: #121212;
+  --color-dark-surface-elevated: #0D0D0D;
+  --color-dark-card: #161616;
+  --color-dark-card-hover: #1C1C1C;
+  --color-dark-border: #1F1F1F;
+  --color-dark-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-dark-border-hover: rgba(255, 255, 255, 0.16);
+  /* Light Theme Surfaces */
+  --color-white: #FFFFFF;
+  --color-light-bg: #FFFFFF;
+  --color-light-surface: #F7F7F5;
+  --color-light-surface-subtle: #FAFAFA;
+  --color-light-surface-hover: #EFEFEA;
+  --color-light-placeholder: #EAEAE6;
+  --color-light-border: #E5E5E3;
+  --color-light-border-hover: #D1D1CD;
+  /* Neutral & Grayscale */
+  --color-gray-dark: #1E1E1E;
+  --color-gray-darker: #222222;
+  --color-gray-charcoal: #2A2A2A;
+  --color-gray-text-dark: #333333;
+  --color-gray-text-subtle: #555555;
+  --color-gray-body: #6B6B6B;
+  --color-gray-muted: #8E8E8E;
+  --color-gray-muted-light: #999999;
+  --color-gray-light: #A3A3A3;
+  --color-gray-border-light: #BBBBBB;
+  --color-gray-border-subtle: #DDDDDD;
+  --color-gray-faint: #F0F0EE;
+  /* Translucent White Tints (Semantic) */
+  --color-white-a3: rgba(255, 255, 255, 0.03);
+  --color-white-a4: rgba(255, 255, 255, 0.04);
+  --color-white-a5: rgba(255, 255, 255, 0.05);
+  --color-white-a6: rgba(255, 255, 255, 0.06);
+  --color-white-a8: rgba(255, 255, 255, 0.08);
+  --color-white-a10: rgba(255, 255, 255, 0.10);
+  --color-white-a12: rgba(255, 255, 255, 0.12);
+  --color-white-a15: rgba(255, 255, 255, 0.15);
+  --color-white-a18: rgba(255, 255, 255, 0.18);
+  --color-white-a20: rgba(255, 255, 255, 0.20);
+  --color-white-a25: rgba(255, 255, 255, 0.25);
+  --color-white-a30: rgba(255, 255, 255, 0.30);
+  --color-white-a35: rgba(255, 255, 255, 0.35);
+  --color-white-a40: rgba(255, 255, 255, 0.40);
+  --color-white-a65: rgba(255, 255, 255, 0.65);
+  --color-white-a70: rgba(255, 255, 255, 0.70);
+  --color-white-a75: rgba(255, 255, 255, 0.75);
+  --color-white-a78: rgba(255, 255, 255, 0.78);
+  --color-white-a80: rgba(255, 255, 255, 0.80);
+  --color-white-a85: rgba(255, 255, 255, 0.85);
+  --color-white-a90: rgba(255, 255, 255, 0.90);
+  --color-white-a94: rgba(255, 255, 255, 0.94);
+  --color-white-a95: rgba(255, 255, 255, 0.95);
+  /* Translucent Black Tints (Semantic) */
+  --color-black-a4: rgba(0, 0, 0, 0.045);
+  --color-black-a5: rgba(0, 0, 0, 0.05);
+  --color-black-a6: rgba(0, 0, 0, 0.06);
+  --color-black-a8: rgba(0, 0, 0, 0.08);
+  --color-black-a12: rgba(0, 0, 0, 0.12);
+  --color-black-a20: rgba(0, 0, 0, 0.20);
+  --color-black-a25: rgba(0, 0, 0, 0.25);
+  --color-black-a30: rgba(0, 0, 0, 0.30);
+  --color-black-a40: rgba(0, 0, 0, 0.40);
+  --color-black-a50: rgba(0, 0, 0, 0.50);
+  --color-black-a55: rgba(0, 0, 0, 0.55);
+  --color-black-a60: rgba(0, 0, 0, 0.60);
+  --color-black-a65: rgba(0, 0, 0, 0.65);
+  --color-black-a70: rgba(0, 0, 0, 0.70);
+  --color-black-a75: rgba(0, 0, 0, 0.75);
+  --color-black-a80: rgba(0, 0, 0, 0.80);
+  --color-black-a85: rgba(0, 0, 0, 0.85);
+  --color-black-a88: rgba(0, 0, 0, 0.88);
+  /* Utility & Functional Colors */
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #20BD5A;
+  --color-whatsapp-light: rgba(37, 211, 102, 0.12);
+  --color-whatsapp-border: rgba(37, 211, 102, 0.30);
+  --color-whatsapp-glow: rgba(37, 211, 102, 0.40);
+  --color-whatsapp-glow-strong: rgba(37, 211, 102, 0.55);
+  --color-success: #10B981;
+  --color-danger: #EF4444;
+  /* Student House Brand Colors */
+  --color-house-yamuna: #4DA6FF;
+  --color-house-kaveri: #FF5E5E;
+  --color-house-narmada: #4ECA77;
+  /* Typography */
+  --font-montserrat: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: var(--font-montserrat);
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-nav: var(--font-montserrat);
+  /* Corner Radii */
+  --radius-pill: 9999px;
+  --radius-nav-box: 14px;
+  --radius-hero-btn: 32px;
+  --radius-card: 22px;
+  --radius-panel: 24px;
+  --radius-tile: 12px;
+  --radius-md: 10px;
+  --radius-sm: 8px;
+  --radius-xs: 4px;
+  /* Section Layout System */
+  --color-page-bg: #FFFFFF;
+  --color-surface-dark: #0A0A0A;
+  --color-surface-black: #000000;
+  --panel-inset: 48px;
+  --section-pad-y: 96px;
+  --panel-wrap-pad-y: 80px;
+  --panel-pad: 48px;
+  --grid-cell: 160px;
+  --color-grid-line: rgba(255, 255, 255, 0.05);
+  /* Section Pill & Outline Button Tokens */
+  --pill-height: 30px;
+  --pill-pad: 6px 14px;
+  --pill-dot-size: 6px;
+  --btn-outline-pad: 10px 20px;
+  /* Scroll Timeline Component Tokens */
+  --timeline-circle-size: 56px;
+  --timeline-circle-size-mobile: 48px;
+  --timeline-line-width: 2px;
+  --timeline-gap: 28px;
+  --timeline-card-pad: 22px 24px;
+  --timeline-card-pad-mobile: 18px 20px;
+  --timeline-card-radius: var(--radius-panel, 24px);
+  --timeline-sticky-top: 96px;
+  /* Holistic Education & Classroom Mentorship Panel Tokens (Responsive) */
+  --holistic-panel-pad-mobile: 12px;
+  --holistic-panel-inset-mobile: 8px;
+  --holistic-card-pad-mobile: 12px;
+  --holistic-gap-mobile: 16px;
+  --holistic-heading-size-mobile: clamp(24px, 3.6vw, 30px);
+  --holistic-title-size-mobile: clamp(15px, 2.2vw, 17px);
+  --holistic-body-size-mobile: clamp(13px, 1.8vw, 14px);
+  --holistic-ratio-mobile-flow: 4 / 5;
+  --holistic-ratio-tablet-flow: 16 / 10;
+  --holistic-ratio-mobile-pillars: 8 / 7;
+  --holistic-ratio-mobile-growth: 4 / 3;
+  /* Hero Headline & Glow Tokens */
+  --font-size-hero-title: clamp(2.5rem, 5.5vw, 4.25rem);
+  --font-size-hero-title-mobile: clamp(1.875rem, 5.2vw, 2.75rem);
+  --hero-title-line-height: 1.15;
+  --gutter-mobile: 16px;
+  --hero-glow-size: 560px;
+  --hero-glow-alpha-center: 24%;
+  --hero-glow-alpha-mid: 8%;
+  --hero-glow-blur: 36px;
+  --hero-glow-center: color-mix(in srgb, var(--color-accent) var(--hero-glow-alpha-center), transparent);
+  --hero-glow-mid: color-mix(in srgb, var(--color-accent) var(--hero-glow-alpha-mid), transparent);
+  --color-hero-subtext: #454545;
+  --hero-reveal-duration: 0.57s;
+  --hero-reveal-stagger: 76ms;
+  /* Holistic Panel Text Rhythm Tokens */
+  --holistic-copy-pad-x-mobile: 20px;
+  --holistic-copy-pad-b-mobile: 26px;
+  --holistic-copy-pad-x-tablet: 24px;
+  --holistic-copy-pad-b-tablet: 28px;
+  --holistic-copy-title-mb: 7px;
+  --holistic-copy-gap-mobile: 12px;
+  /* Layout & Spacing */
+  --container-max: 1240px;
+  --container-padding: 24px;
+  --section-padding-y: 96px;
+  --section-padding-y-sm: 64px;
+  /* Shadows */
+  --shadow-sm: 0 2px 6px var(--color-black-a4);
+  --shadow-md: 0 6px 18px var(--color-black-a6);
+  --shadow-lg: 0 12px 32px var(--color-black-a12);
+  --shadow-accent: 0 8px 24px var(--color-accent-glow);
+  --shadow-glow-large: 0 0 120px 40px var(--color-accent-glow);
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  /* Map & Location Block Tokens */
+  --radius-map-card: var(--radius-panel, 24px);
+  --map-filter: grayscale(1) contrast(1.15) brightness(0.95);
+  --map-lift-y: -4px;
+  /* Z-indices */
+  --z-negative: -1;
+  --z-base: 0;
+  --z-raised: 10;
+  --z-dropdown: 20;
+  --z-sticky: 30;
+  --z-floating: 35;
+  --z-overlay: 40;
+  --z-drawer: 45;
+  --z-modal: 50;
+  --z-popover: 60;
+  --z-toast: 70;
+  /* Welcome Popup Modal Tokens */
+  --welcome-overlay-bg: var(--color-black-a55);
+  --welcome-card-max-w: 880px;
+  --welcome-card-tablet-max-w: 640px;
+  --welcome-gap-pill-headline: 16px;
+  --welcome-gap-headline-subtext: 12px;
+  --welcome-gap-subtext-buttons: 24px;
+  --welcome-gap-buttons-links: 16px;
+  --welcome-gap-links-info: 20px;
+  --welcome-gap-info-motto: 20px;
+}
+@media (max-width: 1024px) {
+  :root { --panel-inset: 24px; --section-pad-y: 64px; --panel-wrap-pad-y: 56px; --panel-pad: 36px; --hero-glow-size: min(80vw, 420px); }
+}
+@media (max-width: 768px) {
+  :root { --panel-inset: 20px; --section-pad-y: 56px; --panel-wrap-pad-y: 48px; --panel-pad: 28px; }
+}
+@media (max-width: 390px) {
+  :root { --panel-inset: 16px; --radius-panel: 24px; --section-pad-y: 48px; --panel-wrap-pad-y: 40px; --panel-pad: 24px; }
+}

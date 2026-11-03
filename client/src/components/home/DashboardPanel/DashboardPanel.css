@@ -1,0 +1,207 @@
+.life-panel-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.life-panel-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.life-panel-title span.text-muted {
+  color: var(--color-heading-muted);
+}
+
+.dashboard-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.dashboard-card {
+  background-color: var(--color-dark-surface);
+  border: 1px solid var(--color-dark-border);
+  border-radius: 18px;
+  padding: 24px 22px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.dashboard-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-white-a8);
+}
+
+.dashboard-card-title {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+
+.dashboard-card-subtitle {
+  font-size: 0.75rem;
+  color: var(--color-gray-muted);
+}
+
+.stats-mini-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.stat-mini-tile {
+  background: var(--color-white-a4);
+  border: 1px solid var(--color-white-a8);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.stat-mini-val {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.stat-mini-lbl {
+  font-size: 0.75rem;
+  color: var(--color-gray-muted);
+}
+
+/* Beyond List (Card 3) */
+.beyond-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.beyond-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-block: auto;
+  width: 100%;
+}
+
+.beyond-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 56px;
+  padding: 12px 16px;
+  background-color: var(--color-white-a4);
+  border: 1px solid var(--color-white-a8);
+  border-radius: 12px;
+  font-size: 0.875rem;
+  color: var(--color-white-a90);
+  font-weight: 500;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateX(28px);
+  cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.beyond-item:hover,
+.beyond-item:focus-visible {
+  background-color: var(--color-white-a8);
+  border-color: var(--color-accent-on-dark);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--color-accent-on-dark) 20%, transparent);
+  outline: none;
+}
+
+.beyond-item:hover .beyond-item-icon,
+.beyond-item:focus-visible .beyond-item-icon {
+  transform: scale(1.08);
+}
+
+.beyond-card.is-animated .beyond-item {
+  animation:
+    beyondSlideIn 600ms cubic-bezier(0.16, 1, 0.3, 1) forwards,
+    beyondRowSweep 4s 1.4s infinite ease-in-out;
+  animation-delay:
+    calc(var(--item-idx, 0) * 140ms),
+    calc(1.4s + var(--item-idx, 0) * 450ms);
+}
+
+.beyond-item-icon {
+  color: var(--color-accent-on-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.beyond-item-text {
+  line-height: 1.35;
+}
+
+@keyframes beyondSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes beyondRowSweep {
+  0%,
+  20%,
+  100% {
+    background-color: var(--color-white-a4);
+    border-color: var(--color-white-a8);
+  }
+  10% {
+    background-color: color-mix(in srgb, var(--color-accent) 18%, var(--color-white-a6));
+    border-color: color-mix(in srgb, var(--color-accent-on-dark) 55%, transparent);
+  }
+}
+
+@media (max-width: 1023px) {
+  .dashboard-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-card {
+    padding: 20px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .beyond-item {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    background-color: var(--color-white-a4) !important;
+  }
+
+  .beyond-item:hover .beyond-item-icon {
+    transform: none !important;
+  }
+}

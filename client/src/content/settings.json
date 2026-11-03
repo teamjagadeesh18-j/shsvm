@@ -1,0 +1,74 @@
+{
+  "name": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School)",
+  "shortName": "S.H.S.V.M School",
+  "alternateNames": [
+    "Sree Hari Saradha Vidyalaya",
+    "Shree Hari Saradha Vidhayalaiya",
+    "S.H.S.V.M School",
+    "SHSVM"
+  ],
+  "siteUrl": "https://shsvm-school.edu.in",
+  "admissionsOpen": false,
+  "established": 1999,
+  "motto": "Smile • Study • Serve",
+  "type": "Co-educational Matriculation School",
+  "board": "Tamil Nadu State Board",
+  "levels": [
+    "Primary",
+    "Upper Primary",
+    "Secondary"
+  ],
+  "facilities": [
+    "Academic Book Bank",
+    "Recreation Playground",
+    "Medical Support"
+  ],
+  "phone": "+91 89394 21231",
+  "phoneRaw": "+918939421231",
+  "phonePrimary": "+91 89394 21231",
+  "phoneSecondary": "+91 89394 21231",
+  "address": "Pakkam, Thiruvallur District, Tamil Nadu, PIN 602024 (Korattur Thinnanur Periyapalayam Road, SH-50A, near Avadi)",
+  "addressStreet": "Korattur Thinnanur Periyapalayam Road, SH-50A",
+  "addressLocality": "Pakkam",
+  "addressDistrict": "Thiruvallur District",
+  "addressRegion": "Tamil Nadu",
+  "postalCode": "602024",
+  "addressCountry": "IN",
+  "addressLines": [
+    "Sree Hari Saradha Vidyalaya Matriculation School",
+    "Pakkam, Thiruvallur District",
+    "Tamil Nadu, PIN 602024",
+    "(Korattur Thinnanur Periyapalayam Road, SH-50A, near Avadi)"
+  ],
+  "latitude": 13.1536061,
+  "longitude": 80.0378861,
+  "mapUrl": "https://www.google.com/maps/search/?api=1&query=13.1536061,80.0378861",
+  "openInMapsUrl": "https://www.google.com/maps/search/?api=1&query=13.1536061,80.0378861",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.1536061,80.0378861",
+  "embedPreviewUrl": "https://maps.google.com/maps?ll=13.1536061,80.0378861&z=16&output=embed",
+  "timings": "Monday to Saturday, 8:00 AM to 5:30 PM, Sunday closed.",
+  "timingsMonSat": "Monday to Saturday: 8:00 AM – 5:30 PM",
+  "timingsSunday": "Sunday: Closed",
+  "timingsNote": "Sunday closed",
+  "whatsappNumber": "918939421231",
+  "whatsappMessage": "Hello, I would like to enquire about admission at Sree Hari Saradha Vidhyalaya Matriculation School.",
+  "social": {
+    "instagram": "https://www.instagram.com/shsvms_pakkam/",
+    "facebook": "https://www.facebook.com/shreehari.saradha/",
+    "youtube": "https://www.youtube.com/watch?v=-NHgGxGt3wg"
+  },
+  "verification": {
+    "google": "",
+    "bing": ""
+  },
+  "lastUpdated": "November 2026",
+  "links": {
+    "home": "/",
+    "about": "/about",
+    "academics": "/academics",
+    "admissions": "/admissions",
+    "campus": "/campus",
+    "contact": "/contact",
+    "faq": "/faq"
+  }
+}

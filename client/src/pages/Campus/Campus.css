@@ -1,0 +1,20 @@
+.campus-top-photos-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.campus-bottom-photos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .campus-top-photos-grid,
+  .campus-bottom-photos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

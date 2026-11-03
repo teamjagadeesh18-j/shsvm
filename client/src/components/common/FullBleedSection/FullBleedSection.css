@@ -1,0 +1,44 @@
+
+
+.full-bleed-section {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--section-pad-y) 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.full-bleed-section.variant-dark {
+  background-color: var(--color-surface-black, #000000);
+  color: var(--color-white);
+}
+
+.full-bleed-section.variant-light {
+  background-color: var(--color-page-bg, #ffffff);
+  color: var(--color-gray-dark);
+}
+
+/* Merged white spacing when light section directly precedes a PanelSection */
+.full-bleed-section.variant-light:has(+ .panel-section) {
+  padding-bottom: 0;
+}
+
+/* Reduced padding utility */
+.full-bleed-section.pad-compact {
+  padding: var(--section-padding-y-sm, 64px) 0;
+}
+
+.full-bleed-section.no-pad-top {
+  padding-top: 0;
+}
+
+.full-bleed-section.no-pad-bottom {
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .full-bleed-section {
+    padding: var(--section-pad-y) 0;
+  }
+}

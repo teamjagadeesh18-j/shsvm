@@ -1,0 +1,173 @@
+.why-choose-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.why-choose-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 4.2vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-black);
+  margin-bottom: 54px;
+}
+
+.why-choose-title span.text-muted {
+  color: var(--color-heading-muted);
+}
+
+.alternating-rows-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.alt-row-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 28px;
+  border-radius: var(--radius-pill);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  text-align: left;
+  gap: 20px;
+  cursor: pointer;
+}
+
+/* Black Filled Row */
+.alt-row-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-black);
+}
+
+.alt-row-black:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--color-black-a20);
+  border-color: var(--color-white-a20);
+}
+
+/* White Bordered Row */
+.alt-row-white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 1px solid var(--color-light-border);
+  box-shadow: 0 2px 8px var(--color-black-a4);
+}
+
+.alt-row-white:hover {
+  border-color: var(--color-black);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--color-black-a8);
+}
+
+.alt-row-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Circular checkmark icon badge  */
+.alt-check-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.alt-row-black .alt-check-icon {
+  background-color: var(--color-white-a8);
+  border: 1px solid var(--color-white-a14);
+  color: var(--color-white);
+}
+
+.alt-row-white .alt-check-icon {
+  background-color: var(--color-light-surface-subtle);
+  border: 1px solid var(--color-light-border);
+  color: var(--color-black);
+}
+
+/* CRITICAL HOVER EFFECT FROM USER REFERENCE:
+   When cursor is on the white row, the checkmark badge turns warm yellow/amber
+   and the right circle turns solid black. This applies ONLY to the white row. */
+.alt-row-white:hover .alt-check-icon {
+  background-color: var(--color-amber);
+  border-color: var(--color-amber);
+  color: var(--color-black);
+  box-shadow: 0 2px 10px var(--color-amber-glow);
+}
+
+.alt-row-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.alt-row-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.alt-row-black .alt-row-desc {
+  font-size: 0.875rem;
+  color: var(--color-white-a65);
+}
+
+.alt-row-white .alt-row-desc {
+  font-size: 0.875rem;
+  color: var(--color-gray-body);
+}
+
+/* Circular arrow on right side  */
+.alt-arrow-square {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.alt-row-black .alt-arrow-square {
+  background-color: var(--color-white-a8);
+  border: 1px solid var(--color-white-a14);
+  color: var(--color-white);
+}
+
+.alt-row-white .alt-arrow-square {
+  background-color: var(--color-light-surface-subtle);
+  border: 1px solid var(--color-light-border);
+  color: var(--color-black);
+}
+
+/* On hover of white row, right container turns into a solid black circle */
+.alt-row-white:hover .alt-arrow-square {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  transform: scale(1.05);
+}
+
+.alt-row-black:hover .alt-arrow-square {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .alt-row-item {
+    padding: 16px 18px;
+  }
+
+  .alt-arrow-square {
+    display: none;
+  }
+}
+

@@ -1,0 +1,101 @@
+
+
+.about-explore-section {
+  padding: var(--section-pad-y, 96px) 0;
+  background-color: var(--color-page-bg, #ffffff);
+}
+
+.explore-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.explore-section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-black);
+}
+
+.explore-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.explore-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-border);
+  border-radius: var(--radius-card);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.explore-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-light-border-hover);
+  box-shadow: 0 12px 32px var(--color-black-a8);
+}
+
+.explore-card-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.explore-arrow-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-light-surface);
+  border: 1px solid var(--color-light-border);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.explore-card:hover .explore-arrow-circle {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  transform: scale(1.08);
+}
+
+.explore-card-content {
+  flex: 1;
+}
+
+.explore-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.explore-card-desc {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-gray-body);
+}
+
+@media (max-width: 900px) {
+  .explore-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .explore-card {
+    min-height: auto;
+    padding: 24px 20px;
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "facilities": [
+    {
+      "title": "Academic Book Bank",
+      "desc": "Curated academic textbooks, reference guides, and supplementary learning resources supporting foundational and secondary learners.",
+      "icon": "book"
+    },
+    {
+      "title": "Recreation Playground",
+      "desc": "Dedicated outdoor sports and recreation playground fostering physical wellness, games, and active student fitness.",
+      "icon": "award"
+    },
+    {
+      "title": "Medical Support",
+      "desc": "On-campus student first-aid and medical care support ensuring prompt health attention, safety, and wellness during school hours.",
+      "icon": "shield"
+    }
+  ],
+  "routes": []
+}

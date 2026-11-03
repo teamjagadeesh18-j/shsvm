@@ -1,0 +1,5674 @@
+{
+  "overflows": [],
+  "smallTapTargets": [
+    {
+      "viewport": "320",
+      "route": "/academics",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 224,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "About",
+          "w": 41,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "footer-map-link",
+          "text": "Find us on Google Maps ↗",
+          "w": 292,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 224,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 144,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "route": "/campus",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 224,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "route": "/contact",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 224,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 230,
+          "h": 43
+        }
+      ]
+    },
+    {
+      "viewport": "320",
+      "route": "/faq",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 224,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "About",
+          "w": 42,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "footer-map-link",
+          "text": "Find us on Google Maps ↗",
+          "w": 332,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/about",
+      "count": 1,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/academics",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 144,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/campus",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/contact",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 230,
+          "h": 43
+        }
+      ]
+    },
+    {
+      "viewport": "360",
+      "route": "/faq",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 258,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/",
+      "count": 1,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/about",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/academics",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 144,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/campus",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-white",
+          "text": "Apply for Admission",
+          "w": 169,
+          "h": 42
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/contact",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 282,
+          "h": 43
+        }
+      ]
+    },
+    {
+      "viewport": "390",
+      "route": "/faq",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "card-learn-more",
+          "text": "Learn more →\n→",
+          "w": 111,
+          "h": 22
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/about",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/academics",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 152,
+          "h": 42
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/campus",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 42
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-white",
+          "text": "Apply for Admission",
+          "w": 169,
+          "h": 42
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/contact",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 123,
+          "h": 19
+        }
+      ]
+    },
+    {
+      "viewport": "430",
+      "route": "/faq",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "hero-shiny-pill",
+          "text": "Call the school: +91 89394 212",
+          "w": 251,
+          "h": 38
+        },
+        {
+          "tag": "A",
+          "class": "card-learn-more",
+          "text": "Learn more →\n→",
+          "w": 111,
+          "h": 22
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/about",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/academics",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 26
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 152,
+          "h": 42
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/campus",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 26
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-white",
+          "text": "Apply for Admission",
+          "w": 152,
+          "h": 26
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/contact",
+      "count": 5,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 123,
+          "h": 19
+        }
+      ]
+    },
+    {
+      "viewport": "600",
+      "route": "/faq",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-outline",
+          "text": "View Contact & Location",
+          "w": 460,
+          "h": 28
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "hero-shiny-pill",
+          "text": "Call the school: +91 89394 212",
+          "w": 251,
+          "h": 38
+        },
+        {
+          "tag": "A",
+          "class": "card-learn-more",
+          "text": "Learn more →\n→",
+          "w": 111,
+          "h": 22
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/about",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "final-card-action-link",
+          "text": "Explore Our Academics →",
+          "w": 174,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/academics",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/admissions",
+      "count": 3,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 26
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "outline-btn outline-light admissions-back-btn",
+          "text": "← Back to Home",
+          "w": 152,
+          "h": 42
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/campus",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 26
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-white",
+          "text": "Apply for Admission",
+          "w": 152,
+          "h": 26
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/contact",
+      "count": 5,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "",
+          "text": "+91 89394 21231",
+          "w": 123,
+          "h": 19
+        }
+      ]
+    },
+    {
+      "viewport": "768",
+      "route": "/faq",
+      "count": 4,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-accent",
+          "text": "btn-pill btn-pill-accent",
+          "w": 272,
+          "h": 28
+        },
+        {
+          "tag": "A",
+          "class": "breadcrumb-link",
+          "text": "Home",
+          "w": 37,
+          "h": 21
+        },
+        {
+          "tag": "A",
+          "class": "btn-pill btn-pill-outline",
+          "text": "View Contact & Location",
+          "w": 618,
+          "h": 28
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/",
+      "count": 22,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/about",
+      "count": 13,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/academics",
+      "count": 12,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/admissions",
+      "count": 14,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/campus",
+      "count": 25,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/contact",
+      "count": 19,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "900",
+      "route": "/faq",
+      "count": 20,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/",
+      "count": 8,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/about",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/academics",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/admissions",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/campus",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/contact",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1024",
+      "route": "/faq",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/about",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/academics",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/admissions",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/campus",
+      "count": 10,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/contact",
+      "count": 11,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1280",
+      "route": "/faq",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/about",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/academics",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/admissions",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/campus",
+      "count": 17,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/contact",
+      "count": 11,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1440",
+      "route": "/faq",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/about",
+      "count": 8,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/academics",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/admissions",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/campus",
+      "count": 19,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/contact",
+      "count": 12,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "1920",
+      "route": "/faq",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link active",
+          "text": "drawer-link active",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/about",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link active",
+          "text": "drawer-link active",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/academics",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/admissions",
+      "count": 8,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/campus",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/contact",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "landscape_phone",
+      "route": "/faq",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "BUTTON",
+          "class": "drawer-close-btn",
+          "text": "Close menu",
+          "w": 36,
+          "h": 36
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        },
+        {
+          "tag": "A",
+          "class": "drawer-link ",
+          "text": "drawer-link",
+          "w": 262,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/",
+      "count": 9,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/about",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "About",
+          "w": 80,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/academics",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link active",
+          "text": "Academics",
+          "w": 117,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/admissions",
+      "count": 7,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/campus",
+      "count": 11,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/contact",
+      "count": 11,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "viewport": "tablet_landscape",
+      "route": "/faq",
+      "count": 6,
+      "examples": [
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Home",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "About",
+          "w": 79,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "class": "nav-link ",
+          "text": "Academics",
+          "w": 116,
+          "h": 40
+        }
+      ]
+    }
+  ],
+  "inputIssues": [
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pupilName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "date",
+        "name": "dob",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nationalityState",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "religionCaste",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "motherTongue",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "secondLanguage",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "parentName",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "occupation",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "mobile",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pincode",
+        "fontSize": "15px",
+        "inputMode": "numeric"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "level",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "gradeClass",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "previousSchool",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "tcAvailable",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/admissions",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "fontSize": "15px",
+        "inputMode": "tel"
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "subject",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "fontSize": "15px",
+        "inputMode": null
+      },
+      "issue": "Font size 15px is below 16px (triggers iOS auto-zoom)"
+    },
+    {
+      "route": "/contact",
+      "input": {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "consent",
+        "fontSize": "14px",
+        "inputMode": null
+      },
+      "issue": "Font size 14px is below 16px (triggers iOS auto-zoom)"
+    }
+  ],
+  "scrollPerformanceBefore": {
+    "desktop_1440": {
+      "avgFps": 115,
+      "totalFrames": 96,
+      "droppedFrames": 1,
+      "longTasksCount": 0,
+      "maxFrameDurationMs": 25
+    },
+    "mobile_390_4x": {
+      "avgFps": 51,
+      "totalFrames": 84,
+      "droppedFrames": 33,
+      "longTasksCount": 0,
+      "maxFrameDurationMs": 33
+    }
+  },
+  "screenshotsBefore": {
+    "home_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_360.png",
+    "about_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_360.png",
+    "academics_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_360.png",
+    "admissions_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_360.png",
+    "campus_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_360.png",
+    "contact_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_360.png",
+    "faq_360": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_360.png",
+    "home_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_390.png",
+    "about_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_390.png",
+    "academics_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_390.png",
+    "admissions_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_390.png",
+    "campus_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_390.png",
+    "contact_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_390.png",
+    "faq_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_390.png",
+    "home_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_768.png",
+    "about_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_768.png",
+    "academics_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_768.png",
+    "admissions_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_768.png",
+    "campus_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_768.png",
+    "contact_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_768.png",
+    "faq_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_768.png",
+    "home_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_1024.png",
+    "about_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_1024.png",
+    "academics_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_1024.png",
+    "admissions_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_1024.png",
+    "campus_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_1024.png",
+    "contact_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_1024.png",
+    "faq_1024": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_1024.png",
+    "home_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_1440.png",
+    "about_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_1440.png",
+    "academics_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_1440.png",
+    "admissions_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_1440.png",
+    "campus_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_1440.png",
+    "contact_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_1440.png",
+    "faq_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_1440.png",
+    "home_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_1920.png",
+    "about_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_1920.png",
+    "academics_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_1920.png",
+    "admissions_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_1920.png",
+    "campus_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_1920.png",
+    "contact_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_1920.png",
+    "faq_1920": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_1920.png",
+    "home_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_landscape_phone.png",
+    "about_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_landscape_phone.png",
+    "academics_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_landscape_phone.png",
+    "admissions_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_landscape_phone.png",
+    "campus_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_landscape_phone.png",
+    "contact_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_landscape_phone.png",
+    "faq_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_landscape_phone.png",
+    "home_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_home_tablet_landscape.png",
+    "about_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_about_tablet_landscape.png",
+    "academics_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_academics_tablet_landscape.png",
+    "admissions_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_admissions_tablet_landscape.png",
+    "campus_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_campus_tablet_landscape.png",
+    "contact_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_contact_tablet_landscape.png",
+    "faq_tablet_landscape": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_before_faq_tablet_landscape.png"
+  }
+}

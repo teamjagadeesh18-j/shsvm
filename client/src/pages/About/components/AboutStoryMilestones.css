@@ -1,0 +1,246 @@
+
+
+.about-story-section {
+  padding: var(--section-pad-y, 96px) 0;
+  background-color: var(--color-page-bg, #ffffff);
+}
+
+/* 2-Column Split Header (Matches Image 2: Heading on Left, Paragraph on Right) */
+.story-split-header {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 48px;
+  align-items: flex-end;
+  margin-bottom: 54px;
+}
+
+.story-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.story-main-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-black);
+  line-height: 1.15;
+}
+
+.story-main-title span.text-muted {
+  color: var(--color-heading-muted);
+}
+
+.story-lead-desc {
+  font-size: 1.0625rem;
+  line-height: 1.68;
+  color: var(--color-gray-body);
+}
+
+/* Subheading with Vertical Accent Bar  */
+.milestones-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.milestones-bar-accent {
+  width: 4px;
+  height: 22px;
+  background-color: var(--color-accent);
+  border-radius: var(--radius-xs);
+  flex-shrink: 0;
+}
+
+.milestones-bar-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-black);
+}
+
+/* 4-Column Step-Card Grid */
+.milestones-grid-4col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.milestone-card-4col {
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-border);
+  border-radius: var(--radius-card);
+  padding: 26px 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.milestone-card-4col:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-light-border-hover);
+  box-shadow: 0 10px 24px var(--color-black-a6);
+}
+
+/* When cursor touches the card, the number turns the official logo blue colour! */
+.milestone-card-4col:hover .milestone-faded-corner {
+  color: var(--color-accent);
+  opacity: 0.85;
+  transform: scale(1.04);
+}
+
+.milestone-card-4col:hover .milestone-step-tag {
+  color: var(--color-accent);
+}
+
+/* Giant Faded Number in Top Right Corner  */
+.milestone-faded-corner {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-family: var(--font-heading);
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--color-black-a6);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  transition: color 0.22s ease, opacity 0.22s ease, transform 0.22s ease;
+}
+
+.milestone-card-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.milestone-step-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.milestone-step-tag {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-gray-dark);
+}
+
+.milestone-year-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.milestone-card-heading {
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--color-black);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.milestone-card-paragraph {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--color-gray-body);
+}
+
+/* Card 08: Solid Black Card  */
+.milestone-card-4col.milestone-card-black {
+  background-color: var(--color-near-black);
+  border-color: var(--color-dark-border);
+  color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 26px 20px;
+}
+
+.milestone-card-4col.milestone-card-black:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-white-a20);
+  box-shadow: 0 12px 30px var(--color-black-a40);
+}
+
+.final-sparkle-icon {
+  font-size: 1.5rem;
+  color: var(--color-amber);
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.final-card-heading {
+  font-family: var(--font-heading);
+  font-size: 1.1875rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.final-card-subheading {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--color-white-a75);
+  margin-bottom: 16px;
+}
+
+.final-card-action-link {
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--color-accent-on-dark);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  transition: var(--transition-fast);
+}
+
+.final-card-action-link:hover {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+  .milestones-grid-4col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 860px) {
+  .story-split-header {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .title-break {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .milestones-grid-4col {
+    grid-template-columns: 1fr;
+  }
+
+  .milestone-card-4col {
+    padding: 22px 18px;
+    min-height: auto;
+  }
+}

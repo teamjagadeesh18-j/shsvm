@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Circulars | Sree Hari Saradha Vidhyalaya Matriculation School</title>
+  <meta name="description" content="Latest announcements, official circulars, examination schedules, and event updates from SHSVM School, Tiruppur.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .news-card {
+      background: var(--color-white);
+      border: 1px solid var(--color-light-border);
+      border-radius: 20px;
+      padding: 24px 30px;
+      display: grid;
+      grid-template-columns: 140px 1fr auto;
+      align-items: center;
+      gap: 24px;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .news-card:hover {
+      border-color: var(--color-black);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+    .news-date-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-light-surface);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+    }
+    .news-day {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--color-black);
+      line-height: 1;
+    }
+    .news-month {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-amber-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .news-tag {
+      display: inline-block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      background: rgba(0,0,0,0.06);
+      color: var(--color-gray-dark);
+      margin-bottom: 6px;
+    }
+    .news-title {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-black);
+      margin-bottom: 4px;
+    }
+    .news-summary {
+      font-size: 0.875rem;
+      color: var(--color-gray-body);
+      line-height: 1.5;
+    }
+    @media (max-width: 768px) {
+      .news-card {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .news-date-block {
+        flex-direction: row;
+        gap: 8px;
+        justify-content: flex-start;
+        padding: 8px 12px;
+      }
+    }
+  </style>
+</head>
+<body class="bg-grid">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" aria-label="SHSVM Home">
+        <div class="logo-badge">
+          <img src="assets/images/logo.png" alt="Sree Hari Saradha Vidhyalaya Matriculation School Logo" class="school-logo-img">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title"><span class="accent">SHSVM</span></div>
+          <span class="logo-subtitle" data-i18n="schoolTagline">SREE HARI SARADHA</span>
+        </div>
+      </a>
+
+      <nav class="header-pill-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <div class="nav-divider"></div>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <div class="nav-divider"></div>
+        <a href="academics.html" class="nav-link" data-i18n="navAcademics">Academics</a>
+        <div class="nav-divider"></div>
+        <a href="admissions.html" class="nav-link" data-i18n="navAdmissions">Admissions</a>
+        <div class="nav-divider"></div>
+        <a href="campus.html" class="nav-link" data-i18n="navCampus">Campus</a>
+        <div class="nav-divider"></div>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="js-lang-toggle-text">தமிழ்</span>
+        </button>
+        <a href="admissions.html" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnApply">Apply for Admission</a>
+        <button type="button" class="hamburger-btn js-hamburger-btn" aria-label="Open mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer">
+    <div>
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="logo-badge" style="width:38px; height:38px; background:#FFF; border:none;">
+            <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+          </div>
+          <div class="logo-title" style="color:#FFF;"><span class="accent">SHSVM</span> SCHOOL</div>
+        </div>
+        <button type="button" class="drawer-close-btn js-drawer-close" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="drawer-links">
+        <a href="index.html" class="drawer-link" data-i18n="navHome">Home</a>
+        <a href="about.html" class="drawer-link" data-i18n="navAbout">About Us</a>
+        <a href="academics.html" class="drawer-link" data-i18n="navAcademics">Academics</a>
+        <a href="admissions.html" class="drawer-link" data-i18n="navAdmissions">Admissions</a>
+        <a href="faculty.html" class="drawer-link" data-i18n="navFaculty">Faculty</a>
+        <a href="campus.html" class="drawer-link" data-i18n="navCampus">Campus & Facilities</a>
+        <a href="student-life.html" class="drawer-link" data-i18n="navStudentLife">Student Life</a>
+        <a href="gallery.html" class="drawer-link" data-i18n="navGallery">Gallery</a>
+        <a href="news.html" class="drawer-link active" data-i18n="navNews">News & Events</a>
+        <a href="contact.html" class="drawer-link" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <a href="admissions.html" class="btn-pill btn-pill-amber js-open-enquiry" style="width: 100%;" data-i18n="btnApply">Apply for Admission</a>
+    </div>
+  </aside>
+
+  <!-- Subpage Hero -->
+  <section class="subpage-hero">
+    <div class="hero-glow-circle"></div>
+    <div class="container hero-content">
+      <div class="subpage-breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>News & Circulars</span>
+      </div>
+      <h1 class="subpage-title reveal-fade-up">
+        Announcements & <span class="hero-highlight">Events</span>
+      </h1>
+      <p class="subpage-desc reveal-fade-up">
+        Stay updated with official school circulars, upcoming examinations, sports championships, and cultural celebrations at SHSVM.
+      </p>
+    </div>
+  </section>
+
+  <!-- NEWS LIST -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      
+      <div class="news-list">
+        
+        <!-- News Item 1 -->
+        <div class="news-card reveal-fade-up js-news-item" data-title="Silver Jubilee Annual Sports Championship 2026" data-date="November 05, 2026" data-cat="Sports & Athletics" data-body="The 26th Annual Inter-House Athletic Meet will take place on the school campus athletic grounds on Wednesday, November 5, 2026. Events commence at 8:30 AM with the ceremonial torch relay and March Past. Parents are cordially invited to cheer the young champions.">
+          <div class="news-date-block">
+            <span class="news-day">05</span>
+            <span class="news-month">Nov 2026</span>
+          </div>
+          <div>
+            <span class="news-tag" style="background:rgba(0, 0, 216,0.15); color:var(--color-amber-dark);">Sports & Athletics</span>
+            <h3 class="news-title">Silver Jubilee Annual Sports Championship 2026</h3>
+            <p class="news-summary">Inter-house track and field meet, march past, and award ceremony. All parents are warmly invited.</p>
+          </div>
+          <div class="alt-arrow-square" style="background:#000; color:#FFF;">↗</div>
+        </div>
+
+        <!-- News Item 2 -->
+        <div class="news-card reveal-fade-up js-news-item" data-title="Admissions Open for Academic Year 2026-27" data-date="October 28, 2026" data-cat="Admissions" data-body="Registration forms for admission to Pre-KG, Primary (Grades 1 to 5), and Higher Secondary (+1 Science and Commerce streams) are now available at the school admissions desk and online portal. Merit-based scholarships are available for high-achieving Grade 10 students.">
+          <div class="news-date-block">
+            <span class="news-day">28</span>
+            <span class="news-month">Oct 2026</span>
+          </div>
+          <div>
+            <span class="news-tag" style="background:rgba(37,211,102,0.15); color:#128C7E;">Admissions</span>
+            <h3 class="news-title">Admissions Open for Academic Session 2026-27</h3>
+            <p class="news-summary">Applications are now invited for Pre-KG to Grade 11. Early interaction bookings are recommended.</p>
+          </div>
+          <div class="alt-arrow-square" style="background:#000; color:#FFF;">↗</div>
+        </div>
+
+        <!-- News Item 3 -->
+        <div class="news-card reveal-fade-up js-news-item" data-title="Science & Innovation Expo - 'Vigyan Tarang 2026'" data-date="October 22, 2026" data-cat="Academic & STEM" data-body="Over 180 working student projects ranging from solar-powered irrigation prototypes to robotics and herbal extraction were exhibited at the school auditorium. Distinguished judges from local engineering colleges awarded the top honors to Yamuna House.">
+          <div class="news-date-block">
+            <span class="news-day">22</span>
+            <span class="news-month">Oct 2026</span>
+          </div>
+          <div>
+            <span class="news-tag">Academic & STEM</span>
+            <h3 class="news-title">Science & Innovation Expo - 'Vigyan Tarang'</h3>
+            <p class="news-summary">Over 180 student exhibits in physics, sustainable agriculture, and robotics displayed with pride.</p>
+          </div>
+          <div class="alt-arrow-square" style="background:#000; color:#FFF;">↗</div>
+        </div>
+
+        <!-- News Item 4 -->
+        <div class="news-card reveal-fade-up js-news-item" data-title="Term-1 Mid-Term Examination Schedule & Guidelines" data-date="October 14, 2026" data-cat="Examinations" data-body="Mid-term examinations for Grades 6 through 12 commence from October 14. Hall tickets and syllabus portion circulars have been distributed. Parents can access the detailed time-table via the parent portal.">
+          <div class="news-date-block">
+            <span class="news-day">14</span>
+            <span class="news-month">Oct 2026</span>
+          </div>
+          <div>
+            <span class="news-tag">Examinations</span>
+            <h3 class="news-title">Term-1 Examination Timetable Released</h3>
+            <p class="news-summary">Comprehensive timetable and exam guidelines for Grades 6 to 12. Special remedial sessions active.</p>
+          </div>
+          <div class="alt-arrow-square" style="background:#000; color:#FFF;">↗</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CIRCULAR DETAIL MODAL (<dialog>) -->
+  <dialog id="newsDetailModal" class="custom-modal">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn js-close-news-modal" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="modalNewsCat" style="font-size:0.75rem; color:var(--color-amber); font-weight:700; text-transform:uppercase; margin-bottom:8px;"></div>
+      <h3 id="modalNewsTitle" class="modal-title" style="margin-bottom:8px;"></h3>
+      <div id="modalNewsDate" style="color:var(--color-gray-muted); font-size:0.8125rem; margin-bottom:20px;"></div>
+      <div id="modalNewsBody" style="color:rgba(255,255,255,0.85); font-size:0.9375rem; line-height:1.65; margin-bottom:28px;"></div>
+      <button type="button" class="btn-pill btn-pill-amber" onclick="document.querySelector('#newsDetailModal').close();">
+        Close Circular
+      </button>
+    </div>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+            <div class="logo-badge" style="width:52px; height:52px; background:#FFF;">
+              <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+            </div>
+            <div>
+              <h3 style="margin-bottom:0;">SHSVM <span class="accent">SCHOOL</span></h3>
+              <span style="font-size:0.75rem; color:#888; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">ESTABLISHED 1999</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Sree Hari Saradha Vidhyalaya Matriculation School, established in 1999 in Tiruppur, Tamil Nadu. Committed to holistic education, moral discipline, and academic brilliance.
+          </p>
+          <div style="margin-bottom: 20px; font-weight: 700; color: var(--color-amber);">Smile • Study • Serve</div>
+        </div>
+        <div>
+          <div class="footer-column-title">Quick Links</div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-column-title">Get In Touch</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Saradha Nagar, Dharapuram Main Road, Tiruppur - 641 606, Tamil Nadu</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 421 247 1999 / +91 94433 19990</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Sree Hari Saradha Vidhyalaya Matriculation School. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <button type="button" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-tooltip">Chat with Admissions</div>
+    <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.002 2C8.28 2 2 8.28 2 16c0 2.51.66 4.96 1.91 7.12L2 30l7.08-1.86A13.92 13.92 0 0 0 16 30c7.72 0 14-6.28 14-14S23.72 2 16.002 2zm8.17 19.82c-.34.96-1.7 1.83-2.77 1.94-.74.07-1.7.12-5.46-1.44-4.81-2-7.9-6.91-8.14-7.23-.24-.32-1.95-2.6-1.95-4.96s1.23-3.52 1.67-4c.44-.48.96-.6 1.28-.6.32 0 .64 0 .92.02.3.02.7-.12 1.09.82.41.98 1.4 3.42 1.52 3.66.12.24.2.52.04.84-.16.32-.24.52-.48.8-.24.28-.5.62-.71.84-.24.24-.49.5-.21.98.28.48 1.25 2.06 2.68 3.34 1.85 1.65 3.41 2.16 3.89 2.4.48.24.76.2 1.04-.12.28-.32 1.2-1.4 1.52-1.88.32-.48.64-.4 1.08-.24.44.16 2.77 1.31 3.25 1.55.48.24.8.36.92.56.12.2.12 1.16-.22 2.12z"/></svg>
+  </button>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const newsCards = document.querySelectorAll('.js-news-item');
+    const newsModal = document.querySelector('#newsDetailModal');
+    const closeNewsModalBtn = document.querySelector('.js-close-news-modal');
+
+    newsCards.forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelector('#modalNewsTitle').textContent = card.getAttribute('data-title');
+        document.querySelector('#modalNewsDate').textContent = card.getAttribute('data-date');
+        document.querySelector('#modalNewsCat').textContent = card.getAttribute('data-cat');
+        document.querySelector('#modalNewsBody').textContent = card.getAttribute('data-body');
+        newsModal.showModal();
+      });
+    });
+
+    closeNewsModalBtn.addEventListener('click', () => newsModal.close());
+    newsModal.addEventListener('click', (e) => {
+      const rect = newsModal.getBoundingClientRect();
+      if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) {
+        newsModal.close();
+      }
+    });
+  </script>
+</body>
+</html>

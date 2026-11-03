@@ -1,0 +1,57 @@
+{
+  "stages": [
+    {
+      "id": "primary",
+      "title": "Primary Schooling",
+      "desc": "Foundational education under the Tamil Nadu State Board Matriculation curriculum, covering core academic subjects, creative arts, and physical education.",
+      "focus": "Core Academics & Arts",
+      "icon": "book"
+    },
+    {
+      "id": "upper-primary",
+      "title": "Upper Primary Schooling",
+      "desc": "Middle-years schooling covering academic subjects, creative arts and physical education.",
+      "focus": "Curriculum Breadth",
+      "icon": "compass"
+    },
+    {
+      "id": "secondary",
+      "title": "Secondary Schooling",
+      "desc": "Structured secondary education aligned with the Tamil Nadu State Board Matriculation syllabus, fostering academic discipline and thorough subject mastery.",
+      "focus": "State Board Curriculum",
+      "icon": "award"
+    }
+  ],
+  "dailySchedule": [
+    {
+      "time": "08:00 AM - School Assembly & Morning Reflection",
+      "desc": "Prayer, school motto affirmation (Smile • Study • Serve), and daily reflection fostering moral discipline.",
+      "variant": "black",
+      "icon": "clock"
+    },
+    {
+      "time": "08:30 AM - 12:30 PM: Core Academic Subjects",
+      "desc": "Tamil Nadu State Board syllabus periods covering languages, mathematics, science, and social studies.",
+      "variant": "white",
+      "icon": "book"
+    },
+    {
+      "time": "12:30 PM - 01:15 PM: Lunch & Wellness Break",
+      "desc": "Nutritious meal break and supervised peer interaction in a calm, disciplined environment.",
+      "variant": "black",
+      "icon": "cup"
+    },
+    {
+      "time": "01:15 PM - 04:30 PM: Academics & Creative Arts",
+      "desc": "In-depth academic sessions alongside structured arts and cultural education.",
+      "variant": "white",
+      "icon": "doc"
+    },
+    {
+      "time": "04:30 PM - 05:30 PM: Physical Education & Supervised Dispersal",
+      "desc": "Outdoor recreation playground activities, sports, and safe campus departure.",
+      "variant": "black",
+      "icon": "award"
+    }
+  ]
+}

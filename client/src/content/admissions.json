@@ -1,0 +1,20 @@
+{
+  "levels": [
+    { "value": "Primary", "label": "Primary Schooling (Grades 1 – 5)" },
+    { "value": "Upper Primary", "label": "Upper Primary Schooling (Grades 6 – 8)" },
+    { "value": "Secondary", "label": "Secondary Schooling (Grades 9 – 10)" }
+  ],
+  "tcOptions": [
+    { "value": "Yes", "label": "Yes" },
+    { "value": "No", "label": "No" },
+    { "value": "Not applicable", "label": "Not applicable" }
+  ],
+  "notice": {
+    "title": "Admissions Information",
+    "description": "Sree Hari Saradha Vidhyalaya Matriculation School welcomes applications from students of all backgrounds. For the admission process, fee structure, and required documents, parents are requested to visit the school admissions office or call the school directly.",
+    "phone": "+91 89394 21231",
+    "phoneRaw": "+918939421231",
+    "timings": "Monday to Saturday, 8:00 AM to 5:30 PM. Sunday closed.",
+    "levels": "Primary, Upper Primary, and Secondary Schooling"
+  }
+}

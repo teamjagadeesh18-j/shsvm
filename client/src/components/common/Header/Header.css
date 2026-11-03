@@ -1,0 +1,223 @@
+
+
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  z-index: var(--z-sticky);
+  background-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.site-header * {
+  pointer-events: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: calc(100% - 2 * var(--panel-inset));
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Logo Badge */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo-badge {
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-tile);
+  background: var(--color-white);
+  border: 1px solid var(--color-black-a8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  overflow: hidden;
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.school-logo-img,
+.school-logo-slot,
+.school-logo-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo-title span.accent {
+  color: var(--color-accent);
+}
+
+.logo-subtitle {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--color-gray-body);
+  text-transform: uppercase;
+}
+
+/* Center: Black Rounded Rectangle Nav Container  */
+.header-nav-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white-a18);
+  border-radius: var(--radius-nav-box);
+  height: 44px;
+  padding: 0 24px;
+  box-shadow: none;
+  gap: 0;
+}
+
+.nav-link {
+  font-family: var(--font-nav);
+  color: var(--color-white);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0 16px;
+  min-height: 44px;
+  border-radius: var(--radius-xs);
+  transition: opacity 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: var(--color-gray-light);
+  opacity: 0.9;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.nav-divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--color-white-a30);
+  margin: 0 4px;
+  flex-shrink: 0;
+}
+
+/* Header Right Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Right: Separate Black PILL Button  */
+.header-cta-desktop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-near-black);
+  color: var(--color-white);
+  font-family: var(--font-nav);
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: var(--radius-pill);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.header-cta-desktop:hover {
+  background-color: var(--color-dark-card-hover);
+}
+
+/* Hamburger (Mobile & Small Tablet only) */
+.hamburger-btn {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-pill);
+  border: none;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-black);
+  transition: background-color 0.2s ease;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.hamburger-btn:hover {
+  background-color: var(--color-black-a6);
+}
+
+/* Ensure hamburger menu is strictly hidden on laptop and desktop */
+@media (min-width: 869px) {
+  .hamburger-btn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 868px) {
+  .header-nav-desktop {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-cta-desktop {
+    display: none;
+  }
+}
+

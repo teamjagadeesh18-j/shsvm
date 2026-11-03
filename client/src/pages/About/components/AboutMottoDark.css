@@ -1,0 +1,218 @@
+
+
+.about-motto-dark-section {
+  padding: var(--section-pad-y, 96px) 0;
+  background-color: var(--color-surface-black, #000000);
+}
+
+/* 2-Column Split Header on Dark */
+.motto-split-header {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 48px;
+  align-items: flex-end;
+  margin-bottom: 56px;
+}
+
+.motto-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tag-dark-pill {
+  align-self: flex-start;
+  background-color: var(--color-white-a8);
+  color: var(--color-white);
+  border-color: var(--color-white-a18);
+}
+
+.motto-main-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 4.2vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-white);
+  line-height: 1.15;
+}
+
+.motto-main-title span.text-muted {
+  color: var(--color-heading-muted);
+}
+
+.motto-lead-desc {
+  font-size: 1.0625rem;
+  line-height: 1.68;
+  color: var(--color-white-a75);
+}
+
+/* 6 Dark Step Cards: 3 Columns x 2 Rows */
+.dark-steps-grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.dark-step-card-box {
+  background-color: var(--color-dark-card);
+  border: 1px solid var(--color-dark-border-subtle);
+  border-radius: var(--radius-card);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark-step-card-box:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-white-a20);
+  box-shadow: 0 10px 28px var(--color-black-a40);
+}
+
+.dark-step-pill-label {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent-on-dark);
+  margin-bottom: 12px;
+  display: inline-block;
+  letter-spacing: 0.04em;
+}
+
+.dark-step-title {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.dark-step-desc {
+  font-size: 0.84375rem;
+  line-height: 1.6;
+  color: var(--color-white-a65);
+}
+
+/* 3 Tall Cards Grid */
+.tall-cards-grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.tall-dark-card-box {
+  background-color: var(--color-dark-card);
+  border: 1px solid var(--color-dark-border-subtle);
+  border-radius: var(--radius-card);
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tall-dark-card-box:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-white-a20);
+  box-shadow: 0 14px 36px var(--color-black-a50);
+}
+
+.tall-dark-card-box:hover .tall-card-index-num {
+  color: var(--color-accent-on-dark);
+}
+
+.tall-card-top-content {
+  margin-bottom: 24px;
+}
+
+.tall-card-index-num {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--color-white-a40);
+  margin-bottom: 12px;
+}
+
+.tall-card-main-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  margin-bottom: 12px;
+}
+
+.tall-card-lead-desc {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-white-a75);
+}
+
+.tall-card-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+}
+
+.tall-card-bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-white-a85);
+}
+
+.tall-bullet-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--color-white-a10);
+  border: 1px solid var(--color-white-a18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent-on-dark);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.tall-card-action-wrap {
+  margin-top: auto;
+}
+
+.tall-card-action-btn {
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .motto-split-header {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .dark-steps-grid-3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tall-cards-grid-3col {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .dark-steps-grid-3col {
+    grid-template-columns: 1fr;
+  }
+
+  .tall-dark-card-box {
+    padding: 24px 20px;
+  }
+}

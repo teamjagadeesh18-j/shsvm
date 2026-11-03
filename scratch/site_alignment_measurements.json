@@ -1,0 +1,367 @@
+{
+  "390": {
+    "viewport": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "hasHorizontalScroll": false,
+    "header": {
+      "left": 0,
+      "right": 390,
+      "width": 390
+    },
+    "levels": {
+      "left": 16,
+      "right": 374,
+      "width": 358
+    },
+    "darkPanels": [
+      {
+        "index": 0,
+        "left": 16,
+        "right": 374,
+        "width": 358
+      },
+      {
+        "index": 1,
+        "left": 16,
+        "right": 374,
+        "width": 358
+      },
+      {
+        "index": 2,
+        "left": 16,
+        "right": 374,
+        "width": 358
+      }
+    ],
+    "fullBleedSecs": [
+      {
+        "index": 0,
+        "className": "full-bleed-section variant-dark programs-section",
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      {
+        "index": 1,
+        "className": "full-bleed-section variant-light image-marquee-section",
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      {
+        "index": 2,
+        "className": "full-bleed-section variant-light why-choose-section",
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      {
+        "index": 3,
+        "className": "full-bleed-section variant-light stats-section",
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      {
+        "index": 4,
+        "className": "site-footer",
+        "left": 0,
+        "right": 390,
+        "width": 390
+      }
+    ]
+  },
+  "768": {
+    "viewport": 768,
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "hasHorizontalScroll": false,
+    "header": {
+      "left": 0,
+      "right": 768,
+      "width": 768
+    },
+    "levels": {
+      "left": 20,
+      "right": 748,
+      "width": 728
+    },
+    "darkPanels": [
+      {
+        "index": 0,
+        "left": 20,
+        "right": 748,
+        "width": 728
+      },
+      {
+        "index": 1,
+        "left": 20,
+        "right": 748,
+        "width": 728
+      },
+      {
+        "index": 2,
+        "left": 20,
+        "right": 748,
+        "width": 728
+      }
+    ],
+    "fullBleedSecs": [
+      {
+        "index": 0,
+        "className": "full-bleed-section variant-dark programs-section",
+        "left": 0,
+        "right": 768,
+        "width": 768
+      },
+      {
+        "index": 1,
+        "className": "full-bleed-section variant-light image-marquee-section",
+        "left": 0,
+        "right": 768,
+        "width": 768
+      },
+      {
+        "index": 2,
+        "className": "full-bleed-section variant-light why-choose-section",
+        "left": 0,
+        "right": 768,
+        "width": 768
+      },
+      {
+        "index": 3,
+        "className": "full-bleed-section variant-light stats-section",
+        "left": 0,
+        "right": 768,
+        "width": 768
+      },
+      {
+        "index": 4,
+        "className": "site-footer",
+        "left": 0,
+        "right": 768,
+        "width": 768
+      }
+    ]
+  },
+  "1024": {
+    "viewport": 1024,
+    "scrollWidth": 1014,
+    "clientWidth": 1014,
+    "hasHorizontalScroll": false,
+    "header": {
+      "left": 0,
+      "right": 1014,
+      "width": 1014
+    },
+    "levels": {
+      "left": 24,
+      "right": 990,
+      "width": 966
+    },
+    "darkPanels": [
+      {
+        "index": 0,
+        "left": 24,
+        "right": 990,
+        "width": 966
+      },
+      {
+        "index": 1,
+        "left": 24,
+        "right": 990,
+        "width": 966
+      },
+      {
+        "index": 2,
+        "left": 24,
+        "right": 990,
+        "width": 966
+      }
+    ],
+    "fullBleedSecs": [
+      {
+        "index": 0,
+        "className": "full-bleed-section variant-dark programs-section",
+        "left": 0,
+        "right": 1014,
+        "width": 1014
+      },
+      {
+        "index": 1,
+        "className": "full-bleed-section variant-light image-marquee-section",
+        "left": 0,
+        "right": 1014,
+        "width": 1014
+      },
+      {
+        "index": 2,
+        "className": "full-bleed-section variant-light why-choose-section",
+        "left": 0,
+        "right": 1014,
+        "width": 1014
+      },
+      {
+        "index": 3,
+        "className": "full-bleed-section variant-light stats-section",
+        "left": 0,
+        "right": 1014,
+        "width": 1014
+      },
+      {
+        "index": 4,
+        "className": "site-footer",
+        "left": 0,
+        "right": 1014,
+        "width": 1014
+      }
+    ]
+  },
+  "1280": {
+    "viewport": 1280,
+    "scrollWidth": 1270,
+    "clientWidth": 1270,
+    "hasHorizontalScroll": false,
+    "header": {
+      "left": 15,
+      "right": 1255,
+      "width": 1240
+    },
+    "levels": {
+      "left": 48,
+      "right": 1222,
+      "width": 1174
+    },
+    "darkPanels": [
+      {
+        "index": 0,
+        "left": 48,
+        "right": 1222,
+        "width": 1174
+      },
+      {
+        "index": 1,
+        "left": 48,
+        "right": 1222,
+        "width": 1174
+      },
+      {
+        "index": 2,
+        "left": 48,
+        "right": 1222,
+        "width": 1174
+      }
+    ],
+    "fullBleedSecs": [
+      {
+        "index": 0,
+        "className": "full-bleed-section variant-dark programs-section",
+        "left": 0,
+        "right": 1270,
+        "width": 1270
+      },
+      {
+        "index": 1,
+        "className": "full-bleed-section variant-light image-marquee-section",
+        "left": 0,
+        "right": 1270,
+        "width": 1270
+      },
+      {
+        "index": 2,
+        "className": "full-bleed-section variant-light why-choose-section",
+        "left": 0,
+        "right": 1270,
+        "width": 1270
+      },
+      {
+        "index": 3,
+        "className": "full-bleed-section variant-light stats-section",
+        "left": 0,
+        "right": 1270,
+        "width": 1270
+      },
+      {
+        "index": 4,
+        "className": "site-footer",
+        "left": 0,
+        "right": 1270,
+        "width": 1270
+      }
+    ]
+  },
+  "1440": {
+    "viewport": 1440,
+    "scrollWidth": 1430,
+    "clientWidth": 1430,
+    "hasHorizontalScroll": false,
+    "header": {
+      "left": 95,
+      "right": 1335,
+      "width": 1240
+    },
+    "levels": {
+      "left": 48,
+      "right": 1382,
+      "width": 1334
+    },
+    "darkPanels": [
+      {
+        "index": 0,
+        "left": 48,
+        "right": 1382,
+        "width": 1334
+      },
+      {
+        "index": 1,
+        "left": 48,
+        "right": 1382,
+        "width": 1334
+      },
+      {
+        "index": 2,
+        "left": 48,
+        "right": 1382,
+        "width": 1334
+      }
+    ],
+    "fullBleedSecs": [
+      {
+        "index": 0,
+        "className": "full-bleed-section variant-dark programs-section",
+        "left": 0,
+        "right": 1430,
+        "width": 1430
+      },
+      {
+        "index": 1,
+        "className": "full-bleed-section variant-light image-marquee-section",
+        "left": 0,
+        "right": 1430,
+        "width": 1430
+      },
+      {
+        "index": 2,
+        "className": "full-bleed-section variant-light why-choose-section",
+        "left": 0,
+        "right": 1430,
+        "width": 1430
+      },
+      {
+        "index": 3,
+        "className": "full-bleed-section variant-light stats-section",
+        "left": 0,
+        "right": 1430,
+        "width": 1430
+      },
+      {
+        "index": 4,
+        "className": "site-footer",
+        "left": 0,
+        "right": 1430,
+        "width": 1430
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+.contact-dual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.contact-cards-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info-card {
+  min-height: auto !important;
+  background: var(--color-black) !important;
+}
+
+.contact-card-title {
+  font-size: 1.15rem;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.contact-card-text {
+  margin-bottom: 0;
+  color: var(--color-gray-light);
+  line-height: 1.6;
+}
+
+.contact-card-phone-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.contact-form-panel {
+  background: var(--color-black);
+  border-radius: var(--radius-panel);
+  padding: 44px 38px;
+  border: 1px solid var(--color-dark-border);
+  box-shadow: 0 16px 40px var(--color-black-a25);
+}
+
+/* Map Card */
+.contact-map-panel {
+  background: var(--color-black);
+  border-radius: var(--radius-panel);
+  border: 1px solid var(--color-dark-border);
+  padding: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 16px 40px var(--color-black-a20);
+}
+
+.contact-map-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.contact-map-container {
+  width: 100%;
+  height: 360px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--color-dark-card-hover);
+  border: 1px solid var(--color-dark-border);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.map-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--color-white-a5) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-white-a5) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.map-pin-box {
+  position: relative;
+  z-index: 2;
+  max-width: 480px;
+}
+
+.map-pin-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  box-shadow: 0 0 24px var(--color-accent-glow);
+}
+
+.map-pin-box h4 {
+  font-size: 1.25rem;
+  font-family: var(--font-heading);
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.map-pin-box p {
+  color: var(--color-gray-border-light);
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.parking-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-accent-border-md);
+}
+
+@media (max-width: 868px) {
+  .contact-dual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-panel {
+    padding: 28px 20px;
+  }
+
+  .contact-map-panel {
+    padding: 24px 18px;
+  }
+}
+

@@ -1,0 +1,7 @@
+[
+  { "id": "home", "path": "/", "labelKey": "navHome" },
+  { "id": "about", "path": "/about", "labelKey": "navAbout" },
+  { "id": "academics", "path": "/academics", "labelKey": "navAcademics" },
+  { "id": "contact", "path": "/contact", "labelKey": "navContact" }
+]
+

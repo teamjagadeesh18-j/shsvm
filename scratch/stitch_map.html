@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      width: 800px;
+      height: 600px;
+      overflow: hidden;
+    }
+    #canvas {
+      display: block;
+      width: 800px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    const z = 15;
+    const xMin = 23667, xMax = 23671;
+    const yMin = 15174, yMax = 15178;
+
+    const mapLeft = 400 - 570;
+    const mapTop = 300 - 530;
+
+    let loaded = 0;
+    const total = (xMax - xMin + 1) * (yMax - yMin + 1);
+
+    for (let x = xMin; x <= xMax; x++) {
+      for (let y = yMin; y <= yMax; y++) {
+        const img = new Image();
+        img.src = `tiles/${z}_${x}_${y}.png`;
+        const drawX = (x - xMin) * 256 + mapLeft;
+        const drawY = (y - yMin) * 256 + mapTop;
+
+        img.onload = () => {
+          ctx.drawImage(img, drawX, drawY);
+          loaded++;
+          if (loaded === total) {
+            document.body.setAttribute('data-done', 'true');
+          }
+        };
+        img.onerror = () => {
+          loaded++;
+          if (loaded === total) {
+            document.body.setAttribute('data-done', 'true');
+          }
+        };
+      }
+    }
+  </script>
+</body>
+</html>
+

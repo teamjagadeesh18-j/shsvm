@@ -1,0 +1,487 @@
+{
+  "routes": {
+    "/": {
+      "title": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/about": {
+      "title": "About Us | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Who We Are"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/academics": {
+      "title": "Academics | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Curriculum & Academic Stages"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/admissions": {
+      "title": "Admission Enquiry | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Admission Enquiry for Sree Hari Saradha Vidhyalaya Matriculation School"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/campus": {
+      "title": "Campus & Facilities | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Our School Facilities"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/contact": {
+      "title": "Contact Us | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Contact Our Campus Desk"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    },
+    "/404": {
+      "title": "404 - Page Not Found | S.H.S.V.M School",
+      "desc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogTitle": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School) | Pakkam",
+      "ogDesc": "Sree Hari Saradha Vidhyalaya Matriculation School (S.H.S.V.M School), established in 1999, Pakkam, Thiruvallur District, Tamil Nadu. Motto: Smile • Study • Serve. Co-educational State Board Matriculation school.",
+      "ogImage": "/images/logo.png",
+      "h1s": [
+        "Page Not Found"
+      ],
+      "imgsWithoutAlt": 0,
+      "scrollW": 752,
+      "clientW": 762,
+      "hasOverflow": false,
+      "forbidden": []
+    }
+  },
+  "links": [
+    {
+      "text": "Skip to main content",
+      "href": "#main-content",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "SHSVM\nSMILE • STUDY • SERVE",
+      "href": "/",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Home",
+      "href": "/",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "About",
+      "href": "/about",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Contact",
+      "href": "/contact",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Apply for Admission",
+      "href": "/admissions",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Home",
+      "href": "/",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "About",
+      "href": "/about",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Contact",
+      "href": "/contact",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Apply for Admission",
+      "href": "/admissions",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Explore Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Learn more →\n→",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Learn more →\n→",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Learn more →\n→",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Begin an Enquiry\n\nMeet the sch",
+      "href": "/admissions",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Primary\n\nFoundational educatio",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Upper Primary\n\nProgressive mid",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Secondary\n\nSecondary education",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Begin an Enquiry",
+      "href": "/admissions",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "View Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "01Begin an Enquiry",
+      "href": "/admissions",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "02Primary",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "03Upper Primary",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "04Secondary",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Explore Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Campus Highlights",
+      "href": "/campus",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "+91 89394 21231",
+      "href": "tel:+918939421231",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Get Directions",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=13.1536061,80.0378861",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "Open in Google Maps",
+      "href": "https://www.google.com/maps/search/?api=1&query=13.1536061,80.0378861",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "Call School",
+      "href": "tel:+918939421231",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "S.H.S.V.M School, Pakkam\nOpen ",
+      "href": "https://www.google.com/maps/search/?api=1&query=13.1536061,80.0378861",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/shsvms_pakkam/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/shreehari.saradha/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/watch?v=-NHgGxGt3wg",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "About",
+      "href": "/about",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Academics",
+      "href": "/academics",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Campus",
+      "href": "/campus",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Contact",
+      "href": "/contact",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "+91 89394 21231",
+      "href": "tel:+918939421231",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Find us on Google Maps ↗",
+      "href": "https://www.google.com/maps/search/?api=1&query=13.1536061,80.0378861",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "/contact",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Terms of Service",
+      "href": "/contact",
+      "target": null,
+      "rel": null,
+      "isExternal": false,
+      "hasRel": false
+    },
+    {
+      "text": "Chat with Admissions",
+      "href": "https://wa.me/918939421231",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "isExternal": true,
+      "hasRel": true
+    }
+  ],
+  "forms": {
+    "contact": {
+      "hasForm": true,
+      "phoneType": "tel",
+      "inputMode": "tel",
+      "pattern": "[0-9]*",
+      "hasSubmit": true
+    }
+  },
+  "seo": {},
+  "a11y": {},
+  "animations": {
+    "heroTypewriterRunning": true,
+    "marqueeRowPresent": true,
+    "photoMarqueePresent": false,
+    "journeyTimelinePresent": true,
+    "diagramCardsCount": 3
+  }
+}

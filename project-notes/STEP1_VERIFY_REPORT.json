@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-11-03T11:05:42.478Z",
+  "overflows": [],
+  "smallTapTargets": [
+    {
+      "viewport": "900",
+      "route": "/admissions",
+      "count": 2,
+      "examples": [
+        {
+          "tag": "SELECT",
+          "class": "",
+          "text": "-- Select Schooling Level --\nP",
+          "w": 376,
+          "h": 44
+        },
+        {
+          "tag": "INPUT",
+          "class": "",
+          "text": "",
+          "w": 376,
+          "h": 44
+        }
+      ]
+    }
+  ],
+  "scrollPerformanceAfter": {
+    "desktop_1440": {
+      "avgFps": 80,
+      "totalFrames": 85,
+      "droppedFrames": 0,
+      "longTasksCount": 0,
+      "maxFrameDurationMs": 13
+    },
+    "mobile_390_4x": {
+      "avgFps": 49,
+      "totalFrames": 93,
+      "droppedFrames": 57,
+      "longTasksCount": 0,
+      "maxFrameDurationMs": 37
+    }
+  },
+  "screenshotsAfter": {
+    "home_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_home_320.png",
+    "about_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_about_320.png",
+    "academics_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_academics_320.png",
+    "admissions_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_admissions_320.png",
+    "campus_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_campus_320.png",
+    "contact_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_contact_320.png",
+    "faq_320": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_faq_320.png",
+    "home_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_home_390.png",
+    "about_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_about_390.png",
+    "academics_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_academics_390.png",
+    "admissions_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_admissions_390.png",
+    "campus_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_campus_390.png",
+    "contact_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_contact_390.png",
+    "faq_390": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_faq_390.png",
+    "home_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_home_768.png",
+    "about_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_about_768.png",
+    "academics_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_academics_768.png",
+    "admissions_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_admissions_768.png",
+    "campus_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_campus_768.png",
+    "contact_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_contact_768.png",
+    "faq_768": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_faq_768.png",
+    "home_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_home_1440.png",
+    "about_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_about_1440.png",
+    "academics_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_academics_1440.png",
+    "admissions_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_admissions_1440.png",
+    "campus_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_campus_1440.png",
+    "contact_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_contact_1440.png",
+    "faq_1440": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_faq_1440.png",
+    "home_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_home_landscape_phone.png",
+    "about_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_about_landscape_phone.png",
+    "academics_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_academics_landscape_phone.png",
+    "admissions_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_admissions_landscape_phone.png",
+    "campus_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_campus_landscape_phone.png",
+    "contact_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_contact_landscape_phone.png",
+    "faq_landscape_phone": "C:\\Users\\jagad\\.gemini\\antigravity\\brain\\b3832e7b-9e62-4a3b-993b-481cf86cf330\\proof_after_faq_landscape_phone.png"
+  }
+}

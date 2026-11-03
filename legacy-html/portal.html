@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent & Student Portal | Sree Hari Saradha Vidhyalaya Matriculation School</title>
+  <meta name="description" content="Access student attendance, quarterly examination grades, live GPS bus tracking, and homework updates on the SHSVM School Parent Portal.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    .portal-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 32px;
+    }
+    .portal-sidebar {
+      background: var(--color-black);
+      border: 1px solid var(--color-dark-border);
+      border-radius: var(--radius-panel);
+      padding: 32px 24px;
+      color: var(--color-white);
+    }
+    .student-badge-wrap {
+      text-align: center;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 24px;
+    }
+    .student-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: var(--color-amber);
+      color: #000;
+      font-weight: 800;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+    .portal-nav-btn {
+      width: 100%;
+      text-align: left;
+      padding: 12px 16px;
+      border-radius: 10px;
+      background: transparent;
+      color: rgba(255,255,255,0.75);
+      border: none;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: var(--transition);
+      margin-bottom: 6px;
+    }
+    .portal-nav-btn:hover,
+    .portal-nav-btn.active {
+      background: rgba(255,255,255,0.1);
+      color: var(--color-amber);
+    }
+    .portal-dashboard-main {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .bus-map-panel {
+      background: var(--color-dark-surface);
+      border: 1px solid var(--color-dark-border);
+      border-radius: 18px;
+      padding: 28px;
+      color: var(--color-white);
+    }
+    @media (max-width: 960px) {
+      .portal-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="bg-grid">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" aria-label="SHSVM Home">
+        <div class="logo-badge">
+          <img src="assets/images/logo.png" alt="Sree Hari Saradha Vidhyalaya Matriculation School Logo" class="school-logo-img">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title"><span class="accent">SHSVM</span></div>
+          <span class="logo-subtitle" data-i18n="schoolTagline">SREE HARI SARADHA</span>
+        </div>
+      </a>
+
+      <nav class="header-pill-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-divider"></div>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-divider"></div>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <div class="nav-divider"></div>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <div class="nav-divider"></div>
+        <a href="fees.html" class="nav-link">Fee Guide</a>
+        <div class="nav-divider"></div>
+        <a href="portal.html" class="nav-link active">Parent Portal</a>
+        <div class="nav-divider"></div>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="js-lang-toggle-text">தமிழ்</span>
+        </button>
+        <a href="admissions.html" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnApply">Apply for Admission</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Subpage Hero -->
+  <section class="subpage-hero" style="padding-bottom: 30px;">
+    <div class="hero-glow-circle"></div>
+    <div class="container hero-content">
+      <div class="subpage-breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>SHSVM Parent & Student Portal</span>
+      </div>
+      <h1 class="subpage-title reveal-fade-up">
+        Parent & Student <span class="hero-highlight">Live Portal</span>
+      </h1>
+      <p class="subpage-desc reveal-fade-up">
+        Empowering parents with real-time academic transparency: Attendance, grades, teacher messages, and live bus GPS updates.
+      </p>
+    </div>
+  </section>
+
+  <!-- PORTAL DASHBOARD DEMO -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      
+      <div class="portal-grid">
+        
+        <!-- Sidebar -->
+        <aside class="portal-sidebar reveal-fade-up">
+          <div class="student-badge-wrap">
+            <div class="student-avatar">DS</div>
+            <h3 style="font-family:var(--font-heading); font-size:1.15rem; color:#FFF; margin-bottom:4px;">Dharshini S.</h3>
+            <p style="font-size:0.8125rem; color:var(--color-amber);">Grade 10 - Section A</p>
+            <p style="font-size:0.75rem; color:#888;">Roll No: 2026-1048 · House: Yamuna</p>
+          </div>
+
+          <div style="font-size:0.6875rem; color:#888; text-transform:uppercase; letter-spacing:0.1em; font-weight:700; margin-bottom:12px;">PORTAL NAVIGATION</div>
+          <button type="button" class="portal-nav-btn active">📊 Academic Overview</button>
+          <button type="button" class="portal-nav-btn">📅 Attendance & Leave</button>
+          <button type="button" class="portal-nav-btn">📝 Exam Grades & Ranks</button>
+          <button type="button" class="portal-nav-btn">🚌 Live Bus GPS (Route 3)</button>
+          <button type="button" class="portal-nav-btn">💳 Fee Payment & Receipts</button>
+          <button type="button" class="portal-nav-btn">💬 Teacher Messages</button>
+          
+          <div style="margin-top:40px; padding:16px; background:rgba(255,255,255,0.04); border-radius:12px; font-size:0.75rem; color:#888;">
+            Parent Registered: Dr. K. Senthil Nathan<br>
+            Emergency Mobile: +91 98422 19991
+          </div>
+        </aside>
+
+        <!-- Main Dashboard View -->
+        <div class="portal-dashboard-main">
+          
+          <!-- Top 3 Metric Cards -->
+          <div class="dashboard-cards-grid reveal-fade-up">
+            
+            <div class="dashboard-card">
+              <div class="dashboard-card-header">
+                <span class="dashboard-card-title">Overall Attendance</span>
+                <span class="live-tag">Active</span>
+              </div>
+              <div style="font-size:2.25rem; font-family:var(--font-heading); font-weight:800; color:var(--color-amber);">98.4%</div>
+              <p style="font-size:0.8125rem; color:#888; margin-top:4px;">124 days present out of 126 working days.</p>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="dashboard-card-header">
+                <span class="dashboard-card-title">Mid-Term Grade</span>
+                <span class="live-tag">Rank 2</span>
+              </div>
+              <div style="font-size:2.25rem; font-family:var(--font-heading); font-weight:800; color:#FFF;">489 / 500</div>
+              <p style="font-size:0.8125rem; color:#888; margin-top:4px;">Centum in Mathematics (100/100).</p>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="dashboard-card-header">
+                <span class="dashboard-card-title">Pending Fees</span>
+                <span style="color:#25D366; font-size:0.75rem; font-weight:700;">● Nil Due</span>
+              </div>
+              <div style="font-size:2.25rem; font-family:var(--font-heading); font-weight:800; color:#25D366;">₹ 0</div>
+              <p style="font-size:0.8125rem; color:#888; margin-top:4px;">Term-2 Fee paid on Oct 10, 2026.</p>
+            </div>
+
+          </div>
+
+          <!-- Live GPS Bus Tracker Widget -->
+          <div class="bus-map-panel reveal-fade-up">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; flex-wrap:wrap; gap:12px;">
+              <div>
+                <span class="live-tag" style="margin-bottom:8px;">
+                  <span class="pulse-dot"></span> LIVE VEHICLE GPS
+                </span>
+                <h3 style="font-family:var(--font-heading); font-size:1.35rem; color:#FFF;">School Bus #07 (Route 3: Dharapuram Main Rd)</h3>
+              </div>
+              <div style="text-align:right;">
+                <span style="font-size:0.75rem; color:#888;">ETA to Kovilvazhi Stop:</span>
+                <div style="font-size:1.25rem; font-weight:800; color:var(--color-amber);">11 Minutes (3.2 km away)</div>
+              </div>
+            </div>
+
+            <!-- Visual Bus Route Progress Bar -->
+            <div style="background:rgba(255,255,255,0.06); padding:20px; border-radius:12px; margin-bottom:16px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; font-size:0.8125rem; color:#BBB; margin-bottom:8px;">
+                <span>SHSVM Campus (Departed 4:00 PM)</span>
+                <span style="color:var(--color-amber); font-weight:700;">🚌 Bus Current Location (Chettipalayam)</span>
+                <span>Your Stop: Kovilvazhi (4:22 PM)</span>
+              </div>
+              <div style="width:100%; height:8px; background:rgba(255,255,255,0.15); border-radius:4px; overflow:hidden;">
+                <div style="width:68%; height:100%; background:var(--color-amber); border-radius:4px;"></div>
+              </div>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.8125rem; color:#888;">
+              <span>Driver: Mr. K. Velusamy (+91 94421 88820)</span>
+              <span>Speed: 34 km/h · Speed Governor Compliant</span>
+            </div>
+          </div>
+
+          <!-- Recent Homework & Subject Grades Table -->
+          <div class="table-card reveal-fade-up">
+            <div style="padding:20px 24px; border-bottom:1px solid var(--color-light-border); display:flex; justify-content:space-between; align-items:center;">
+              <h3 style="font-family:var(--font-heading); font-size:1.15rem; color:#000;">Recent Subject Assessments (Term 1)</h3>
+              <a href="#" style="font-size:0.8125rem; font-weight:700; color:var(--color-amber-dark);">Download Progress Card PDF ↗</a>
+            </div>
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <th>Subject</th>
+                  <th>Maximum</th>
+                  <th>Marks Scored</th>
+                  <th>Grade</th>
+                  <th>Teacher Remarks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tamil (தமிழ்)</td>
+                  <td>100</td>
+                  <td><strong>97</strong></td>
+                  <td><span style="color:#25D366; font-weight:700;">A1</span></td>
+                  <td>Exceptional essay writing and grammar mastery.</td>
+                </tr>
+                <tr>
+                  <td>English</td>
+                  <td>100</td>
+                  <td><strong>95</strong></td>
+                  <td><span style="color:#25D366; font-weight:700;">A1</span></td>
+                  <td>Articulate in class debate and creative composition.</td>
+                </tr>
+                <tr>
+                  <td>Mathematics</td>
+                  <td>100</td>
+                  <td><strong>100</strong></td>
+                  <td><span style="color:var(--color-amber-dark); font-weight:800;">A1 (Centum)</span></td>
+                  <td>Perfect score; outstanding analytical accuracy.</td>
+                </tr>
+                <tr>
+                  <td>Science (Physics/Chem/Bio)</td>
+                  <td>100</td>
+                  <td><strong>98</strong></td>
+                  <td><span style="color:#25D366; font-weight:700;">A1</span></td>
+                  <td>Precise practical diagramming and concept recall.</td>
+                </tr>
+                <tr>
+                  <td>Social Science</td>
+                  <td>100</td>
+                  <td><strong>99</strong></td>
+                  <td><span style="color:#25D366; font-weight:700;">A1</span></td>
+                  <td>High historical analysis and map marking perfection.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom-bar">
+        <div>© 2026 Sree Hari Saradha Vidhyalaya Matriculation School. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#">Portal Help Desk</a>
+          <a href="#">Password Reset</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

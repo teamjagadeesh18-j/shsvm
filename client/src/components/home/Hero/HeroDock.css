@@ -1,0 +1,133 @@
+.hero-dock {
+  display: inline-flex;
+  position: relative;
+  margin-top: 32px;
+  max-width: 100%;
+}
+
+.hero-dock-track {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 10px;
+  background: var(--color-light-surface);
+  border: 1px solid var(--color-light-border);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-dock-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-pill);
+  background: var(--color-white);
+  border: 1px solid var(--color-light-border);
+  color: var(--color-black);
+  text-decoration: none;
+  transform: scale(var(--dock-scale, 1));
+  transform-origin: center bottom;
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.2s ease,
+              border-color 0.2s ease,
+              color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.hero-dock-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.hero-dock-item:hover {
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+}
+
+.hero-dock-item:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Tooltip */
+.hero-dock-tooltip {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  padding: 4px 10px;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  border-radius: var(--radius-sm);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  box-shadow: var(--shadow-md);
+  z-index: 20;
+}
+
+.hero-dock-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 4px 4px 0 4px;
+  border-style: solid;
+  border-color: var(--color-black) transparent transparent transparent;
+}
+
+.hero-dock-item:hover .hero-dock-tooltip,
+.hero-dock-item:focus-visible .hero-dock-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Mobile & Touch */
+@media (hover: none) or (max-width: 1023px) {
+  .hero-dock {
+    margin-inline: auto;
+  }
+
+  .hero-dock-item {
+    transform: none !important;
+  }
+
+  .hero-dock-tooltip {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-dock-track {
+    gap: 8px;
+    padding: 6px 8px;
+  }
+
+  .hero-dock-item {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-dock-item {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .hero-dock-tooltip {
+    transition: none !important;
+  }
+}
+

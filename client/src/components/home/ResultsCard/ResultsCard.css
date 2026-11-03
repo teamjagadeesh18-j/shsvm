@@ -1,0 +1,199 @@
+.results-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-val-established {
+  color: var(--color-accent-on-dark) !important;
+}
+
+.stat-val-coed {
+  color: var(--color-white) !important;
+}
+
+.stat-mini-tile {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.results-card.is-animated .stat-tile-1 {
+  animation: statTileFadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) 0ms forwards;
+}
+
+.results-card.is-animated .stat-tile-2 {
+  animation: statTileFadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) 120ms forwards;
+}
+
+.levels-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 14px;
+}
+
+.levels-title-row {
+  margin-bottom: 12px;
+}
+
+.levels-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-white-a85);
+  letter-spacing: -0.01em;
+}
+
+.levels-staircase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  flex: 1;
+  min-height: 180px;
+  margin-bottom: 12px;
+}
+
+.level-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.level-bar-slot {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.level-bar {
+  width: 100%;
+  border-radius: 6px;
+  transform-origin: bottom;
+  transform: scaleY(0);
+  box-sizing: border-box;
+  transition: filter 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.level-bar:hover,
+.level-bar:focus-visible {
+  filter: brightness(1.28);
+  outline: none;
+  box-shadow: 0 0 12px var(--color-accent-glow);
+}
+
+.level-bar-primary {
+  background-color: var(--color-white-a18);
+  border: 1px solid var(--color-white-a30);
+}
+
+.results-card.is-animated .level-bar-primary {
+  animation: barGrow 900ms cubic-bezier(0.16, 1, 0.3, 1) 0ms forwards;
+}
+
+.level-bar-middle {
+  background-color: var(--color-white-a25);
+  border: 1px solid var(--color-white-a40);
+}
+
+.results-card.is-animated .level-bar-middle {
+  animation: barGrow 900ms cubic-bezier(0.16, 1, 0.3, 1) 220ms forwards;
+}
+
+.level-bar-secondary {
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent-on-dark);
+}
+
+.results-card.is-animated .level-bar-secondary {
+  animation: barGrowOvershoot 900ms cubic-bezier(0.34, 1.25, 0.64, 1) 440ms forwards;
+}
+
+.level-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-white-a75);
+  margin-top: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.results-card.is-animated .level-col:nth-child(1) .level-label {
+  animation: labelFadeIn 450ms ease 500ms forwards;
+}
+
+.results-card.is-animated .level-col:nth-child(2) .level-label {
+  animation: labelFadeIn 450ms ease 720ms forwards;
+}
+
+.results-card.is-animated .level-col:nth-child(3) .level-label {
+  animation: labelFadeIn 450ms ease 940ms forwards;
+}
+
+.levels-desc {
+  font-size: 0.75rem;
+  color: var(--color-gray-muted);
+  line-height: 1.4;
+  margin: 0;
+  padding-top: 2px;
+}
+
+@keyframes statTileFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes barGrow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes barGrowOvershoot {
+  0% {
+    transform: scaleY(0);
+  }
+  75% {
+    transform: scaleY(1.05);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes labelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .levels-staircase {
+    min-height: 140px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stat-mini-tile,
+  .level-bar,
+  .level-label {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

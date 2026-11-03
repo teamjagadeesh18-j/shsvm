@@ -1,0 +1,26 @@
+[
+  {
+    "id": "stat-established",
+    "number": "1999",
+    "titleKey": "stat1Title",
+    "descKey": "stat1Desc"
+  },
+  {
+    "id": "stat-type",
+    "number": "Co-Ed",
+    "titleKey": "stat2Title",
+    "descKey": "stat2Desc"
+  },
+  {
+    "id": "stat-board",
+    "number": "TN Board",
+    "titleKey": "stat3Title",
+    "descKey": "stat3Desc"
+  },
+  {
+    "id": "stat-location",
+    "number": "Pakkam",
+    "titleKey": "stat4Title",
+    "descKey": "stat4Desc"
+  }
+]

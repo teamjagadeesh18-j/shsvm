@@ -1,0 +1,190 @@
+/* ==========================================================================
+   RESPONSIVE STYLES (Desktop, Tablet, Mobile Breakpoints)
+   ========================================================================== */
+
+/* Tablet & Smaller Desktops */
+@media (max-width: 1024px) {
+  .programs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .principal-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .principal-photo-slot {
+    height: 380px;
+    min-height: unset;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+}
+
+/* Mobile & Small Tablets */
+@media (max-width: 868px) {
+  :root {
+    --container-padding: 18px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  /* Header adjustments */
+  .header-pill-nav {
+    display: none; /* Collapses into mobile drawer */
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .header-actions .btn-pill {
+    display: none; /* Main CTA moves to mobile drawer */
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 64px 0 48px;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-glow-circle {
+    width: 260px;
+    height: 260px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 28px;
+  }
+
+  .hero-badges-row {
+    gap: 12px;
+  }
+
+  .badge-item {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+
+  /* Programs Grid */
+  .section-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .programs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-card {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+
+  /* Life Panel */
+  .life-panel {
+    padding: 32px 20px;
+    border-radius: 18px;
+  }
+
+  .life-panel-title {
+    font-size: 1.625rem;
+  }
+
+  /* Alternating Rows */
+  .alt-row-item {
+    padding: 16px 18px;
+    gap: 12px;
+  }
+
+  .alt-row-title {
+    font-size: 1rem;
+  }
+
+  .alt-row-desc {
+    font-size: 0.8125rem;
+  }
+
+  .alt-arrow-square {
+    display: none; /* Simplify on small mobile */
+  }
+
+  /* Stats Section: Becomes 2x2 Grid per Prompt */
+  .stats-row-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 20px;
+  }
+
+  .stat-huge-number {
+    font-size: 2.5rem;
+  }
+
+  /* Testimonials */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    padding: 30px 24px;
+  }
+
+  /* Principal Card */
+  .principal-content-slot {
+    padding: 32px 24px;
+  }
+
+  .principal-quote {
+    font-size: 1.15rem;
+  }
+
+  /* Footer */
+  .footer-top-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+/* Extra Small Phones */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.95rem;
+  }
+
+  .btn-pill {
+    padding: 11px 22px;
+    font-size: 0.875rem;
+  }
+
+  .stats-row-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 14px;
+  }
+
+  .stat-huge-number {
+    font-size: 2.15rem;
+  }
+
+  .modal-content {
+    padding: 28px 20px;
+  }
+}

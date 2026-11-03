@@ -1,0 +1,149 @@
+{
+  "mottoPillars": [
+    {
+      "id": "smile",
+      "num": "1",
+      "name": "SMILE",
+      "desc": "Joy is the true soil of learning. We cultivate a caring, emotionally safe, and encouraging campus where children feel respected, confident, and motivated every day."
+    },
+    {
+      "id": "study",
+      "num": "2",
+      "name": "STUDY",
+      "desc": "Disciplined focus on foundational learning across academic subjects, creative arts, and physical education under the Tamil Nadu State Board Matriculation curriculum."
+    },
+    {
+      "id": "serve",
+      "num": "3",
+      "name": "SERVE",
+      "desc": "True education instills compassion and empathy. Our students learn to respect others, practice moral discipline, and contribute meaningfully to community life."
+    }
+  ],
+  "milestones": [
+    {
+      "step": "01",
+      "year": "1999",
+      "title": "Foundation at Pakkam",
+      "desc": "Established in Pakkam, Thiruvallur District with the motto Smile • Study • Serve, bringing value-based schooling to the community."
+    },
+    {
+      "step": "02",
+      "year": "Matric",
+      "title": "State Board Matriculation",
+      "desc": "Co-educational schooling following the Tamil Nadu State Board curriculum across academics, arts, and physical fitness."
+    },
+    {
+      "step": "03",
+      "year": "Stage",
+      "title": "Primary School Stage",
+      "desc": "Foundational curriculum designed to build strong language skills, core mathematics, environmental curiosity, and creative arts."
+    },
+    {
+      "step": "04",
+      "year": "Stage",
+      "title": "Upper Primary Stage",
+      "desc": "Progressive middle-years education developing analytical thinking, scientific inquiry, and active physical wellness."
+    },
+    {
+      "step": "05",
+      "year": "Stage",
+      "title": "Secondary Schooling",
+      "desc": "Secondary classes following the Tamil Nadu State Board Matriculation syllabus."
+    },
+    {
+      "step": "06",
+      "year": "Campus",
+      "title": "Core Facilities Established",
+      "desc": "Equipped with an Academic Book Bank, dedicated Recreation Playground, and on-campus Medical Support."
+    },
+    {
+      "step": "07",
+      "year": "Present",
+      "title": "Educational Legacy",
+      "desc": "Continuous educational service in Pakkam, Thiruvallur District, welcoming students of all backgrounds with care and discipline."
+    }
+  ],
+  "learningProcess": [
+    {
+      "step": "01",
+      "title": "Smile: Emotional Safety",
+      "desc": "A caring, fear-free campus where curiosity is encouraged and every student feels respected and celebrated."
+    },
+    {
+      "step": "02",
+      "title": "Study: State Board Syllabus",
+      "desc": "Structured academic instruction covering languages, mathematics, sciences, and social studies under the State Board."
+    },
+    {
+      "step": "03",
+      "title": "Serve: Moral Character",
+      "desc": "Instilling discipline, mutual respect, civic responsibility, and compassion from foundational years."
+    },
+    {
+      "step": "04",
+      "title": "Primary & Upper Primary",
+      "desc": "Progressive learning stages supporting child development from foundational concepts to middle-years inquiry."
+    },
+    {
+      "step": "05",
+      "title": "Secondary Schooling",
+      "desc": "Focused secondary curriculum with thorough teacher guidance for Tamil Nadu Matriculation examinations."
+    },
+    {
+      "step": "06",
+      "title": "Arts & Physical Education",
+      "desc": "Balanced growth incorporating creative artistic expression and active recreation playground sports."
+    }
+  ],
+  "visionMission": [
+    {
+      "title": "Our Vision",
+      "desc": "To provide accessible schooling rooted in discipline, character, and academic learning for children in Pakkam, Thiruvallur District.",
+      "points": [
+        "State Board Matriculation curriculum for all students",
+        "Fostering discipline, curiosity, and mutual respect",
+        "Co-educational schooling welcoming all backgrounds"
+      ],
+      "variant": "black"
+    },
+    {
+      "title": "Our Mission",
+      "desc": "To educate children with care and steady academic learning, combining core subjects with creative arts and physical fitness.",
+      "points": [
+        "Primary, Upper Primary, and Secondary schooling",
+        "Academic Book Bank, Playground, and Medical Support",
+        "Dedicated educators guiding student character"
+      ],
+      "variant": "white"
+    },
+    {
+      "title": "Our Motto",
+      "desc": "Smile • Study • Serve: The enduring guiding philosophy of Sree Hari Saradha Vidhyalaya since 1999.",
+      "points": [
+        "Smile: Cultivating joy, emotional safety, and confidence",
+        "Study: Disciplined focus on academic mastery and curiosity",
+        "Serve: Developing empathy, civic responsibility, and care"
+      ],
+      "variant": "black"
+    }
+  ],
+  "leadershipQuote": {
+    "badge": "LEADERSHIP DESK",
+    "quote": "At Sree Hari Saradha Vidhyalaya Matriculation School, our goal is to provide a caring and disciplined environment where every child feels valued and inspired to learn.",
+    "body": "Our educational focus combines academic subjects, creative arts, and physical education under the Tamil Nadu State Board Matriculation curriculum. We welcome students from all backgrounds into our school community.",
+    "name": "Office of the Principal",
+    "role": "S.H.S.V.M School, Pakkam"
+  },
+  "managementQuote": {
+    "badge": "MANAGEMENT VISION",
+    "quote": "Founded in 1999 in Pakkam, Thiruvallur District, our school remains committed to providing honest, value-rooted schooling for every family.",
+    "body": "The school management maintains a campus with dedicated facilities including our Academic Book Bank, playground and medical support.",
+    "name": "School Management & Trust",
+    "role": "Sree Hari Saradha Vidhyalaya Matriculation School",
+    "points": [
+      "Established in 1999 in Pakkam, Thiruvallur District",
+      "Co-educational Tamil Nadu State Board Matriculation",
+      "Affordable education welcoming all backgrounds"
+    ]
+  }
+}

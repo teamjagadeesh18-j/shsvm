@@ -1,0 +1,179 @@
+
+
+.marquee-band {
+  background-color: var(--color-accent);
+  color: var(--color-text-on-accent);
+  padding: 18px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  user-select: none;
+}
+
+/* Dark Theme Marquee  */
+.marquee-band.marquee-dark {
+  background-color: var(--color-near-black);
+  color: var(--color-white);
+  border-top: 1px solid var(--color-dark-border-subtle);
+  border-bottom: 1px solid var(--color-dark-border-subtle);
+}
+
+/* Dual-Line Marquee Container */
+.marquee-band.marquee-dual {
+  padding: 26px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.marquee-row {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.marquee-inner {
+  display: inline-flex;
+  gap: 0;
+  white-space: nowrap;
+}
+
+/* Row 1: Leftward scroll */
+.marquee-inner-left {
+  animation: marqueeScrollLeft 34s linear infinite;
+}
+
+/* Row 2: Rightward scroll (Opposite direction for dynamic parallax feel) */
+.marquee-inner-right {
+  animation: marqueeScrollRight 38s linear infinite;
+}
+
+.marquee-band:hover .marquee-inner {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScrollLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marqueeScrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.marquee-content-block {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Marquee Text Items  */
+.marquee-text-item {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: var(--radius-xs);
+  transition: color 0.22s ease, text-shadow 0.22s ease, transform 0.22s ease;
+}
+
+/* UPPER LINE (ROW 1):
+   Default: Pure crisp white text */
+.marquee-row-1 .marquee-text-item {
+  color: var(--color-white);
+}
+
+/* Row 1 Highlighted item (if configured): Official logo blue colour */
+.marquee-row-1 .marquee-text-item.item-highlighted {
+  color: var(--color-marquee-highlight);
+  text-shadow: 0 0 18px var(--color-marquee-glow);
+}
+
+/* Row 1 Hover Behavior:
+   When cursor touches it, turns into the official logo blue colour! */
+.marquee-row-1 .marquee-text-item:hover {
+  color: var(--color-marquee-highlight-hover) !important;
+  text-shadow: 0 0 24px var(--color-marquee-glow-strong);
+  transform: translateY(-2px);
+}
+
+/* LOWER LINE (ROW 2) BASE & HIGHLIGHT BEHAVIOR:
+   Base items are dimmed gray like 'Brand Authority' and 'SEO Optimization' in reference */
+.marquee-row-2 .marquee-text-item {
+  color: var(--color-white-a40);
+}
+
+.marquee-row-2 .marquee-text-item.item-dimmed {
+  color: var(--color-white-a40);
+}
+
+/* Row 2 Highlighted items (like '100% Board Pass Track Record'):
+   */
+.marquee-row-2 .marquee-text-item.item-highlighted {
+  color: var(--color-marquee-highlight);
+  text-shadow: 0 0 18px var(--color-marquee-glow);
+  font-weight: 700;
+}
+
+/* Row 2 Hover Behavior:
+   When cursor touches ANY item in row 2, it also turns into the official logo blue colour! */
+.marquee-row-2 .marquee-text-item:hover {
+  color: var(--color-marquee-highlight-hover) !important;
+  text-shadow: 0 0 24px var(--color-marquee-glow-strong);
+  transform: translateY(-2px);
+}
+
+/* Geometric 8-Petal Rosette Flower Glyph  */
+.marquee-rosette {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white-a20);
+  margin: 0 24px;
+  flex-shrink: 0;
+  vertical-align: middle;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.marquee-band:hover .marquee-rosette {
+  color: var(--color-white-a35);
+}
+
+@media (max-width: 768px) {
+  .marquee-band.marquee-dual {
+    padding: 20px 0;
+    gap: 10px;
+  }
+
+  .marquee-text-item {
+    font-size: 1.125rem;
+  }
+
+  .marquee-rosette {
+    margin: 0 14px;
+  }
+
+  .marquee-rosette svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-inner {
+    animation: none !important;
+    overflow-x: auto;
+  }
+}

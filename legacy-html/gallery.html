@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery & Moments | Sree Hari Saradha Vidhyalaya Matriculation School</title>
+  <meta name="description" content="View photos and memories of SHSVM School: Annual Day celebrations, sports meets, science exhibitions, and campus life.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    /* Filter Pills */
+    .filter-pills-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 48px;
+    }
+    .filter-pill {
+      padding: 10px 22px;
+      border-radius: var(--radius-pill);
+      background: var(--color-white);
+      border: 1px solid var(--color-light-border);
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-gray-dark);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-pill:hover,
+    .filter-pill.active {
+      background: var(--color-black);
+      color: var(--color-white);
+      border-color: var(--color-black);
+    }
+
+    /* Gallery Grid */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .gallery-item {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      aspect-ratio: 4 / 3;
+      background: #111;
+      cursor: pointer;
+    }
+    .gallery-item.span-2 {
+      grid-column: span 2;
+      aspect-ratio: 16 / 9;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.06);
+    }
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.1) 60%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 24px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+    .gallery-category {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-amber);
+      margin-bottom: 4px;
+    }
+    .gallery-caption {
+      color: var(--color-white);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    /* Lightbox Modal */
+    dialog#lightboxDialog {
+      max-width: 900px;
+      width: 92vw;
+      background: #000;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0;
+    }
+    .lightbox-inner {
+      position: relative;
+    }
+    .lightbox-img-wrap {
+      width: 100%;
+      max-height: 70vh;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox-img-wrap img {
+      max-height: 70vh;
+      max-width: 100%;
+      object-fit: contain;
+    }
+    .lightbox-meta {
+      padding: 20px 28px;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    @media (max-width: 868px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gallery-item.span-2 { grid-column: span 1; aspect-ratio: 4 / 3; }
+    }
+  </style>
+</head>
+<body class="bg-grid">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" aria-label="SHSVM Home">
+        <div class="logo-badge">
+          <img src="assets/images/logo.png" alt="Sree Hari Saradha Vidhyalaya Matriculation School Logo" class="school-logo-img">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title"><span class="accent">SHSVM</span></div>
+          <span class="logo-subtitle" data-i18n="schoolTagline">SREE HARI SARADHA</span>
+        </div>
+      </a>
+
+      <nav class="header-pill-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <div class="nav-divider"></div>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">About</a>
+        <div class="nav-divider"></div>
+        <a href="academics.html" class="nav-link" data-i18n="navAcademics">Academics</a>
+        <div class="nav-divider"></div>
+        <a href="admissions.html" class="nav-link" data-i18n="navAdmissions">Admissions</a>
+        <div class="nav-divider"></div>
+        <a href="campus.html" class="nav-link" data-i18n="navCampus">Campus</a>
+        <div class="nav-divider"></div>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="js-lang-toggle-text">தமிழ்</span>
+        </button>
+        <a href="admissions.html" class="btn-pill btn-pill-black js-open-enquiry" data-i18n="btnApply">Apply for Admission</a>
+        <button type="button" class="hamburger-btn js-hamburger-btn" aria-label="Open mobile menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer">
+    <div>
+      <div class="drawer-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="logo-badge" style="width:38px; height:38px; background:#FFF; border:none;">
+            <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+          </div>
+          <div class="logo-title" style="color:#FFF;"><span class="accent">SHSVM</span> SCHOOL</div>
+        </div>
+        <button type="button" class="drawer-close-btn js-drawer-close" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="drawer-links">
+        <a href="index.html" class="drawer-link" data-i18n="navHome">Home</a>
+        <a href="about.html" class="drawer-link" data-i18n="navAbout">About Us</a>
+        <a href="academics.html" class="drawer-link" data-i18n="navAcademics">Academics</a>
+        <a href="admissions.html" class="drawer-link" data-i18n="navAdmissions">Admissions</a>
+        <a href="faculty.html" class="drawer-link" data-i18n="navFaculty">Faculty</a>
+        <a href="campus.html" class="drawer-link" data-i18n="navCampus">Campus & Facilities</a>
+        <a href="student-life.html" class="drawer-link" data-i18n="navStudentLife">Student Life</a>
+        <a href="gallery.html" class="drawer-link active" data-i18n="navGallery">Gallery</a>
+        <a href="news.html" class="drawer-link" data-i18n="navNews">News & Events</a>
+        <a href="contact.html" class="drawer-link" data-i18n="navContact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <a href="admissions.html" class="btn-pill btn-pill-amber js-open-enquiry" style="width: 100%;" data-i18n="btnApply">Apply for Admission</a>
+    </div>
+  </aside>
+
+  <!-- Subpage Hero -->
+  <section class="subpage-hero">
+    <div class="hero-glow-circle"></div>
+    <div class="container hero-content">
+      <div class="subpage-breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Photo Gallery</span>
+      </div>
+      <h1 class="subpage-title reveal-fade-up">
+        Moments & Memories of <span class="hero-highlight">SHSVM Life</span>
+      </h1>
+      <p class="subpage-desc reveal-fade-up">
+        A glimpse into the celebrations, scientific discoveries, athletic triumphs, and joyful smiles that define our vibrant campus.
+      </p>
+    </div>
+  </section>
+
+  <!-- FILTER PILLS -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="container">
+      
+      <div class="filter-pills-row reveal-fade-up">
+        <button type="button" class="filter-pill active" data-filter="all">All Photos</button>
+        <button type="button" class="filter-pill" data-filter="events">Events & Celebrations</button>
+        <button type="button" class="filter-pill" data-filter="sports">Sports & Athletics</button>
+        <button type="button" class="filter-pill" data-filter="classroom">Labs & Classrooms</button>
+        <button type="button" class="filter-pill" data-filter="campus">Campus & Grounds</button>
+      </div>
+
+      <!-- MASONRY GALLERY GRID -->
+      <div class="gallery-grid">
+        
+        <!-- Photo 1: Arts (Events) Span 2 -->
+        <div class="gallery-item span-2 js-gallery-card" data-category="events" data-img="assets/images/arts.jpg" data-title="Classical Bharatanatyam Performance" data-desc="Annual Day celebrations in the school auditorium.">
+          <img src="assets/images/arts.jpg" alt="Annual Day Bharatanatyam Dance">
+          <div class="gallery-overlay">
+            <span class="gallery-category">Events & Culture</span>
+            <div class="gallery-caption">Classical Bharatanatyam Performance (Annual Day)</div>
+          </div>
+        </div>
+
+        <!-- Photo 2: Sports -->
+        <div class="gallery-item js-gallery-card" data-category="sports" data-img="assets/images/sports.jpg" data-title="Inter-House Basketball Championship" data-desc="High energy match on the outdoor athletic court.">
+          <img src="assets/images/sports.jpg" alt="School Basketball Tournament">
+          <div class="gallery-overlay">
+            <span class="gallery-category">Sports</span>
+            <div class="gallery-caption">Inter-House Basketball Championship</div>
+          </div>
+        </div>
+
+        <!-- Photo 3: STEM Lab -->
+        <div class="gallery-item js-gallery-card" data-category="classroom" data-img="assets/images/stem-lab.jpg" data-title="Hands-on Physics & Computer Science Lab" data-desc="Students conducting experiments with digital measurement kits.">
+          <img src="assets/images/stem-lab.jpg" alt="Physics and Computer Science Lab">
+          <div class="gallery-overlay">
+            <span class="gallery-category">Classroom</span>
+            <div class="gallery-caption">Physics & Computer Science Lab</div>
+          </div>
+        </div>
+
+        <!-- Photo 4: Library -->
+        <div class="gallery-item js-gallery-card" data-category="classroom" data-img="assets/images/library.jpg" data-title="Central Library Reading Sessions" data-desc="Dedicated research time with over 15,000 academic titles.">
+          <img src="assets/images/library.jpg" alt="Students Reading in Central Library">
+          <div class="gallery-overlay">
+            <span class="gallery-category">Classroom</span>
+            <div class="gallery-caption">Central Library Reading Sessions</div>
+          </div>
+        </div>
+
+        <!-- Photo 5: Campus Front (Span 2) -->
+        <div class="gallery-item span-2 js-gallery-card" data-category="campus" data-img="assets/images/campus.jpg" data-title="SHSVM School Campus in Morning Light" data-desc="Green landscaped campus on Dharapuram Main Road, Tiruppur.">
+          <img src="assets/images/campus.jpg" alt="SHSVM School Campus Building">
+          <div class="gallery-overlay">
+            <span class="gallery-category">Campus</span>
+            <div class="gallery-caption">SHSVM Campus in Morning Light</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX DIALOG -->
+  <dialog id="lightboxDialog" class="custom-modal">
+    <div class="lightbox-inner">
+      <button type="button" class="modal-close-btn js-close-lightbox" style="position:absolute; top:16px; right:16px; z-index:10;" aria-label="Close lightbox">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="lightbox-img-wrap">
+        <img id="lightboxImg" src="" alt="">
+      </div>
+      <div class="lightbox-meta">
+        <div>
+          <div id="lightboxCategory" style="font-size:0.75rem; color:var(--color-amber); font-weight:700; text-transform:uppercase;"></div>
+          <div id="lightboxTitle" style="color:#FFF; font-weight:700; font-size:1.125rem;"></div>
+        </div>
+        <span style="font-size:0.8125rem; color:#888;">S.H.S.V.M Moments</span>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+            <div class="logo-badge" style="width:52px; height:52px; background:#FFF;">
+              <img src="assets/images/logo.png" alt="SHSVM Logo" class="school-logo-img">
+            </div>
+            <div>
+              <h3 style="margin-bottom:0;">SHSVM <span class="accent">SCHOOL</span></h3>
+              <span style="font-size:0.75rem; color:#888; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">ESTABLISHED 1999</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Sree Hari Saradha Vidhyalaya Matriculation School, established in 1999 in Tiruppur, Tamil Nadu. Committed to holistic education, moral discipline, and academic brilliance.
+          </p>
+          <div style="margin-bottom: 20px; font-weight: 700; color: var(--color-amber);">Smile • Study • Serve</div>
+        </div>
+        <div>
+          <div class="footer-column-title">Quick Links</div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-column-title">Get In Touch</div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Saradha Nagar, Dharapuram Main Road, Tiruppur - 641 606, Tamil Nadu</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 421 247 1999 / +91 94433 19990</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Sree Hari Saradha Vidhyalaya Matriculation School. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <button type="button" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-tooltip">Chat with Admissions</div>
+    <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.002 2C8.28 2 2 8.28 2 16c0 2.51.66 4.96 1.91 7.12L2 30l7.08-1.86A13.92 13.92 0 0 0 16 30c7.72 0 14-6.28 14-14S23.72 2 16.002 2zm8.17 19.82c-.34.96-1.7 1.83-2.77 1.94-.74.07-1.7.12-5.46-1.44-4.81-2-7.9-6.91-8.14-7.23-.24-.32-1.95-2.6-1.95-4.96s1.23-3.52 1.67-4c.44-.48.96-.6 1.28-.6.32 0 .64 0 .92.02.3.02.7-.12 1.09.82.41.98 1.4 3.42 1.52 3.66.12.24.2.52.04.84-.16.32-.24.52-.48.8-.24.28-.5.62-.71.84-.24.24-.49.5-.21.98.28.48 1.25 2.06 2.68 3.34 1.85 1.65 3.41 2.16 3.89 2.4.48.24.76.2 1.04-.12.28-.32 1.2-1.4 1.52-1.88.32-.48.64-.4 1.08-.24.44.16 2.77 1.31 3.25 1.55.48.24.8.36.92.56.12.2.12 1.16-.22 2.12z"/></svg>
+  </button>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Gallery Filtering
+    const filterBtns = document.querySelectorAll('.filter-pill');
+    const galleryItems = document.querySelectorAll('.js-gallery-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox modal logic
+    const lightboxDialog = document.querySelector('#lightboxDialog');
+    const closeLightboxBtn = document.querySelector('.js-close-lightbox');
+    const lightboxImg = document.querySelector('#lightboxImg');
+    const lightboxTitle = document.querySelector('#lightboxTitle');
+    const lightboxCategory = document.querySelector('#lightboxCategory');
+
+    galleryItems.forEach(card => {
+      card.addEventListener('click', () => {
+        const src = card.getAttribute('data-img');
+        const title = card.getAttribute('data-title');
+        const cat = card.getAttribute('data-category');
+        lightboxImg.src = src;
+        lightboxImg.alt = title;
+        lightboxTitle.textContent = title;
+        lightboxCategory.textContent = cat;
+        lightboxDialog.showModal();
+      });
+    });
+
+    closeLightboxBtn.addEventListener('click', () => lightboxDialog.close());
+    lightboxDialog.addEventListener('click', (e) => {
+      const rect = lightboxDialog.getBoundingClientRect();
+      if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) {
+        lightboxDialog.close();
+      }
+    });
+  </script>
+</body>
+</html>

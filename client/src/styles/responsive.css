@@ -1,0 +1,66 @@
+
+
+/* Tablet & Medium Screens */
+@media (max-width: 1024px) {
+  :root {
+    --section-padding-y: 80px;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 36px !important;
+  }
+}
+
+/* Mobile & Small Tablets */
+@media (max-width: 868px) {
+  :root {
+    --container-padding: 18px;
+    --section-padding-y: 64px;
+    --section-padding-y-sm: 48px;
+  }
+
+  .header-nav-desktop {
+    display: none !important;
+  }
+
+  .header-cta-desktop {
+    display: none !important;
+  }
+
+  .hamburger-btn {
+    display: flex !important;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+}
+
+/* Extra Small Phones (Down to 360px) */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 14px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .btn-pill {
+    min-height: 44px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+}

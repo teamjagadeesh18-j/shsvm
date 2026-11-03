@@ -1,0 +1,26 @@
+[
+  {
+    "id": "primary",
+    "titleKey": "prog1Title",
+    "descKey": "prog1Desc",
+    "grades": "Primary Level",
+    "icon": "book-open",
+    "link": "/academics"
+  },
+  {
+    "id": "upper-primary",
+    "titleKey": "prog2Title",
+    "descKey": "prog2Desc",
+    "grades": "Upper Primary Level",
+    "icon": "compass",
+    "link": "/academics"
+  },
+  {
+    "id": "secondary",
+    "titleKey": "prog3Title",
+    "descKey": "prog3Desc",
+    "grades": "Secondary Level",
+    "icon": "award",
+    "link": "/academics"
+  }
+]

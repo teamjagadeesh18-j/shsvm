@@ -1,0 +1,186 @@
+
+
+.ib-flow {
+  stroke: var(--ib-line-strong);
+  fill: none;
+  stroke-width: 1.2;
+  transition: stroke 0.3s;
+}
+
+.ib-flow-on {
+  stroke: var(--color-accent-on-dark, #8fa8ff);
+}
+
+.ib-dash {
+  stroke-dasharray: 3 4;
+  animation: ib-dash 1.2s linear infinite;
+}
+
+.ib-pkt {
+  fill: var(--color-accent, #0000d8);
+}
+
+.ib-node {
+  fill: var(--ib-raise);
+  stroke: var(--ib-line-strong);
+  transition: stroke 0.3s, transform 0.3s;
+}
+
+.ib-av {
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.ib-av:hover,
+.ib-av:focus-visible {
+  transform: scale(1.18);
+}
+
+.ib-av-tip {
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.ib-av:hover .ib-av-tip,
+.ib-av:focus .ib-av-tip {
+  opacity: 1;
+}
+
+.ib-presence {
+  animation: ib-pulse 2.2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.ib-sheet {
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.7s;
+}
+
+.ib-sheet-new {
+  animation: ib-sheet-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.ib-tool {
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.ib-tool:hover,
+.ib-tool-on {
+  transform: translateY(-2px);
+}
+
+.ib-tool rect {
+  transition: stroke 0.3s;
+}
+
+.ib-tool-on rect.ib-node {
+  stroke: var(--color-accent-on-dark, #8fa8ff);
+}
+
+.ib-chart {
+  cursor: crosshair;
+}
+
+.ib-glow {
+  animation: ib-pulse 2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.ib-flow-mobile .ib-glow {
+  animation: ib-pulse-subtle 2s ease-in-out infinite;
+}
+
+@keyframes ib-dash {
+  to {
+    stroke-dashoffset: -14;
+  }
+}
+
+@keyframes ib-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1.35);
+  }
+}
+
+@keyframes ib-pulse-subtle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes ib-sheet-in {
+  from {
+    opacity: 0;
+    transform: translate(14px, -10px) rotate(4deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.ib-bento > .ib-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.ib-bento > .ib-frame > .ib-card {
+  flex: 1;
+}
+
+.ib-flow-card {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.ib-diagram-container,
+.ib-diagram-viewport {
+  width: 100%;
+}
+
+.ib-diagram {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.ib-wide-copy {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 0 22px 20px;
+}
+
+.ib-flow-divider {
+  display: none;
+}
+
+@container (min-width: 560px) {
+  .ib-wide-copy {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ib-wide-copy > div:last-child {
+    justify-self: end;
+    text-align: left;
+  }
+}

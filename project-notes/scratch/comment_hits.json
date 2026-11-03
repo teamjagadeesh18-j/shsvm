@@ -1,0 +1,492 @@
+[
+  {
+    "file": "client/src/components/common/Footer/Footer.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Footer/Footer.css",
+    "line": 3,
+    "text": "Exact parity with Heedhive reference dark footer",
+    "reason": "Heedhive reference citation",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Footer/Footer.jsx",
+    "line": 9,
+    "text": "* Styled in exact visual parity with the Heedhive reference dark footer",
+    "reason": "Heedhive reference citation",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/FormInputs/FormInputs.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/FullBleedSection/FullBleedSection.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.css",
+    "line": 4,
+    "text": "Matches https://heedhive.in computed specs",
+    "reason": "Heedhive reference citation",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.css",
+    "line": 97,
+    "text": "/* Center: Black Rounded Rectangle Nav Container (Matches Reference: 14px radius, 42px height, flat NO shadow) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.css",
+    "line": 149,
+    "text": "/* Right: Separate Black PILL Button (Fully Rounded, 14px font, matches Reference) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.css",
+    "line": 173,
+    "text": "/* Hamburger (Matches Reference: Clean two-line menu button visible on desktop & mobile) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.jsx",
+    "line": 52,
+    "text": "{/* Center: Black Rounded Rectangle Nav Container (Matches Reference) */}",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/Header.jsx",
+    "line": 78,
+    "text": "{/* Hamburger Menu Button (Matches Reference) */}",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/MobileDrawer.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/Header/MobileDrawer.css",
+    "line": 3,
+    "text": "Accessible slide-out drawer matching reference mobile navigation",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/LocationCard/LocationCard.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/OutlineButton/OutlineButton.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/PanelSection/PanelSection.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/ProgramCard/ProgramCard.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/ScrollTimeline/ScrollTimeline.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/SectionHeader/SectionHeader.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/common/SectionPill/SectionPill.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/CalendarWidget/CalendarWidget.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/ImageMarquee/ImageMarquee.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/JourneySection/JourneySection.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 4,
+    "text": "Matches Reference Images (media_1793461320197_41bb1b27.png & 7769bd5d.png)",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 17,
+    "text": "/* Dark Theme Marquee (Matches Reference Solid Black Background) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 82,
+    "text": "/* Marquee Text Items (Matches Reference Bold Sans Typography) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 127,
+    "text": "Uses the official logo blue colour instead of yellow, matching reference structure! */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.css",
+    "line": 142,
+    "text": "/* Geometric 8-Petal Rosette Flower Glyph (Matches Reference Glyph) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Marquee/Marquee.jsx",
+    "line": 57,
+    "text": "// If dual is requested or variant is dark, render the dual-line marquee matching reference",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/PrincipalMessage/PrincipalMessage.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/Programs/Programs.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+    "line": 72,
+    "text": "/* Circular checkmark icon badge (matches Reference Image 4) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/WhyChooseUs/WhyChooseUs.css",
+    "line": 128,
+    "text": "/* Circular arrow on right side (matches Reference Image 4) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/home/WhyRow/WhyRow.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/community-testimonial.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-animations.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-features.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-responsive.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-responsive.css",
+    "line": 6,
+    "text": "/* --------------------------------------------------------------------------",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-responsive.css",
+    "line": 21,
+    "text": "/* --------------------------------------------------------------------------",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/ink-orbit-responsive.css",
+    "line": 38,
+    "text": "/* --------------------------------------------------------------------------",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/components/ui/order-tracking.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/About.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/About.css",
+    "line": 3,
+    "text": "Orchestrates subcomponents matching https://heedhive.in/services layout",
+    "reason": "Heedhive reference citation",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutClosingCTA.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutClosingCTA.css",
+    "line": 2,
+    "text": "ABOUT CLOSING CTA (Section 08 - Matches Reference 'Let's Build')",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutCommitment.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutCommitment.css",
+    "line": 2,
+    "text": "ABOUT COMMITMENT SECTION (Section 03 - Matches Reference 'Websites 24/7')",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutExploreCards.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutExploreCards.css",
+    "line": 2,
+    "text": "ABOUT EXPLORE CARDS (Matches Reference 'Explore Our Services')",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+    "line": 2,
+    "text": "ABOUT LEADERSHIP PAIR (Matches Reference Image 3 'Instagram Packages')",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutLeadershipPair.css",
+    "line": 10,
+    "text": "/* Outer Rounded Container Box (Matches Reference Image 3) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutMottoDark.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutMottoDark.css",
+    "line": 2,
+    "text": "ABOUT MOTTO DARK SECTION (Section 02 - Matches Reference Images 4 & 5)",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+    "line": 2,
+    "text": "ABOUT STORY MILESTONES (Section 01 - Matches Reference Images 2 & 3)",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+    "line": 44,
+    "text": "/* Subheading with Vertical Accent Bar (Matches Reference Image 2: | Our Process) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+    "line": 105,
+    "text": "/* Giant Faded Number in Top Right Corner (Matches Reference 01-07) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/About/components/AboutStoryMilestones.css",
+    "line": 165,
+    "text": "/* Card 08: Solid Black Card (Matches Reference 'Results Delivered') */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/Academics/Academics.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/Admissions/Admissions.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/pages/Admissions/Admissions.css",
+    "line": 3,
+    "text": "Structured to match reference theme (dark panel hero, white form card, facts)",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/styles/global.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/styles/global.css",
+    "line": 116,
+    "text": "/* Faint Grid Backgrounds (Matching Reference) */",
+    "reason": "Narrative \"matches reference\" comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/styles/responsive.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/styles/tokens.css",
+    "line": 1,
+    "text": "/* ==========================================================================",
+    "reason": "Decorative banner / separator comment",
+    "action": "Remove"
+  },
+  {
+    "file": "client/src/styles/tokens.css",
+    "line": 150,
+    "text": "/* Section Layout System (Reference from heedhive.in) */",
+    "reason": "Heedhive reference citation",
+    "action": "Remove"
+  }
+]
