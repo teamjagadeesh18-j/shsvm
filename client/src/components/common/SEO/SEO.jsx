@@ -103,7 +103,9 @@ export default function SEO({
       '/admissions': 'Admissions',
       '/campus': 'Campus & Facilities',
       '/contact': 'Contact Us',
-      '/faq': 'Frequently Asked Questions'
+      '/faq': 'Frequently Asked Questions',
+      '/privacy': 'Privacy Policy',
+      '/terms': 'Terms & Conditions'
     };
     const currentName = routeTitles[path] || (title ? title.split('|')[0].trim() : 'Page');
     breadcrumbSchema = {

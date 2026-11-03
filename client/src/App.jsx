@@ -14,6 +14,8 @@ const Admissions = lazy(() => import('./pages/Admissions/Admissions'));
 const Campus = lazy(() => import('./pages/Campus/Campus'));
 const Contact = lazy(() => import('./pages/Contact/Contact'));
 const FAQ = lazy(() => import('./pages/FAQ/FAQ'));
+const Privacy = lazy(() => import('./pages/Privacy/Privacy'));
+const Terms = lazy(() => import('./pages/Terms/Terms'));
 const NotFound = lazy(() => import('./pages/NotFound/NotFound'));
 
 // Scroll to top helper
@@ -81,6 +83,8 @@ export default function App() {
             <Route path="/campus" element={<Campus />} />
             <Route path="/contact" element={<Contact onOpenEnquiry={handleOpenEnquiry} />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

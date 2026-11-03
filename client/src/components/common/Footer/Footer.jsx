@@ -109,9 +109,9 @@ export default function Footer() {
             {t('copyright')}
           </div>
           <div className="footer-legal-links">
-            <Link to="/contact">{t('privacy')}</Link>
+            <Link to="/privacy">{t('privacy')}</Link>
             <span className="footer-dot" aria-hidden="true">·</span>
-            <Link to="/contact">{t('terms')}</Link>
+            <Link to="/terms">{t('terms')}</Link>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const os = require('os');
 const PORT = 4173;
 const CDP_PORT = 9228;
 const DIST_DIR = path.resolve(__dirname, '../dist');
-const ROUTES = ['/', '/about', '/academics', '/admissions', '/campus', '/contact', '/faq', '/404'];
+const ROUTES = ['/', '/about', '/academics', '/admissions', '/campus', '/contact', '/faq', '/privacy', '/terms', '/404'];
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8', '.js': 'application/javascript; charset=utf-8',
