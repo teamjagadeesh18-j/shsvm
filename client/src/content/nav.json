@@ -2,6 +2,7 @@
   { "id": "home", "path": "/", "labelKey": "navHome" },
   { "id": "about", "path": "/about", "labelKey": "navAbout" },
   { "id": "academics", "path": "/academics", "labelKey": "navAcademics" },
+  { "id": "admissions", "path": "/admissions", "labelKey": "navAdmissions" },
   { "id": "contact", "path": "/contact", "labelKey": "navContact" }
 ]
 

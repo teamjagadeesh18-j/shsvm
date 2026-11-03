@@ -41,6 +41,15 @@
   "navAdmissions": "Admissions",
   "navCampus": "Campus",
   "navContact": "Contact",
+  "drawer": {
+    "ourCampus": "Our campus",
+    "campusCity": "Pakkam",
+    "campusState": "Thiruvallur District, Tamil Nadu",
+    "contactHeading": "School Hours & Contact",
+    "timings": "Mon to Sat, 8:00 AM – 5:30 PM",
+    "followUs": "Follow us",
+    "closeAria": "Close navigation menu"
+  },
   "btnApply": "Apply for Admission",
   "btnEnquiry": "BEGIN AN ENQUIRY >",
   "btnExploreAcademics": "Explore Academics",

@@ -1,27 +1,22 @@
-
-
+/* Mobile Navigation Drawer - Matching Heedhive full-screen editorial style in SHSVM theme */
 .mobile-nav-drawer {
   position: fixed;
-  top: 0;
-  right: 0;
-  width: 320px;
-  max-width: 85vw;
+  inset: 0;
+  width: 100%;
+  max-width: 100vw;
   height: 100vh;
   height: 100dvh;
   background-color: var(--color-black);
   color: var(--color-white);
-  z-index: var(--z-drawer);
-  padding: max(32px, env(safe-area-inset-top, 0px)) 24px max(32px, env(safe-area-inset-bottom, 0px));
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: -10px 0 30px var(--color-black-a40);
+  z-index: var(--z-drawer, 45);
+  padding: max(24px, env(safe-area-inset-top, 0px)) 24px max(32px, env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   transform: translateX(100%);
   visibility: hidden;
   pointer-events: none;
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s;
-  overflow-y: auto;
-  box-sizing: border-box;
 }
 
 .mobile-nav-drawer.open {
@@ -30,19 +25,12 @@
   pointer-events: auto;
 }
 
-@media (min-width: 1024px) {
-  .mobile-nav-drawer,
-  .drawer-backdrop {
-    display: none !important;
-  }
-}
-
 .drawer-backdrop {
   position: fixed;
   inset: 0;
   background-color: var(--color-black-a65);
   backdrop-filter: blur(4px);
-  z-index: calc(var(--z-drawer) - 1);
+  z-index: calc(var(--z-drawer, 45) - 1);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -53,13 +41,65 @@
   pointer-events: auto;
 }
 
+.drawer-inner {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .drawer-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid var(--color-dark-border);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.drawer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.drawer-logo-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawer-logo-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.drawer-brand-name {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: 0.03em;
+}
+
+.drawer-brand-accent {
+  color: var(--color-primary-blue, #2242ff);
+}
+
+.drawer-brand-sub {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .drawer-close-btn {
@@ -73,47 +113,158 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: opacity 0.2s, transform 0.2s;
 }
 
-.drawer-links {
+.drawer-close-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.drawer-nav {
+  margin-top: 8px;
+}
+
+.drawer-links-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-bottom: 24px;
 }
 
-.drawer-link {
-  font-family: var(--font-nav);
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--color-white-a85);
+.drawer-nav-item {
+  font-family: var(--font-heading);
+  font-size: 1.95rem;
+  font-weight: 700;
+  color: var(--color-white);
   text-decoration: none;
-  padding: 10px 0;
-  min-height: 44px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   display: flex;
   align-items: center;
-  transition: var(--transition);
-  border-bottom: 1px solid var(--color-white-a5);
+  letter-spacing: -0.02em;
+  transition: color 0.2s, padding-left 0.2s;
 }
 
-.drawer-link:hover,
-.drawer-link.active {
-  color: var(--color-accent-on-dark);
-  padding-left: 6px;
+.drawer-nav-item:hover,
+.drawer-nav-item.active {
+  color: var(--color-accent-on-dark, #3b82f6);
+  padding-left: 8px;
 }
 
-/* Landscape Phone Support */
-@media (max-height: 500px) {
+.drawer-bottom-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 6px;
+}
+
+.drawer-info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.drawer-info-heading {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.drawer-info-title {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.drawer-info-subtitle {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.drawer-phone-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.drawer-info-timings {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.drawer-social-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drawer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.drawer-social-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.drawer-social-box:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+.drawer-actions {
+  margin-top: 6px;
+}
+
+.drawer-cta-btn {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media (max-width: 380px) {
+  .drawer-nav-item {
+    font-size: 1.85rem;
+    padding: 14px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .mobile-nav-drawer {
-    padding-top: max(16px, env(safe-area-inset-top, 0px));
-    padding-bottom: max(16px, env(safe-area-inset-bottom, 0px));
-  }
-  .drawer-links {
-    gap: 4px;
-  }
-  .drawer-link {
-    min-height: 40px;
-    padding: 6px 0;
+    width: 420px;
+    left: auto;
+    right: 0;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
   }
 }
 
+@media (min-width: 1024px) {
+  .mobile-nav-drawer,
+  .drawer-backdrop {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav-drawer,
+  .drawer-backdrop {
+    transition: none !important;
+  }
+}
