@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../../components/common/SEO/SEO';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
 import PageHero from '../../components/common/PageHero/PageHero';
 import ImageSlot from '../../components/common/ImageSlot/ImageSlot';
 import Button from '../../components/common/Button/Button';
@@ -25,8 +24,6 @@ export default function Academics({ onOpenEnquiry }) {
         description="Academics at SHSVM School, Pakkam: Primary, Upper Primary, and Secondary schooling following the Tamil Nadu State Board curriculum."
         path="/academics"
       />
-
-      <Breadcrumbs items={[{ label: 'Academics', path: '/academics' }]} />
 
       {/* 1. Page Hero */}
       <PageHero

@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { getFaqs, getSettings } from '../../services/content';
 import SEO from '../../components/common/SEO/SEO';
 import PageHero from '../../components/common/PageHero/PageHero';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
 import Accordion from '../../components/common/Accordion/Accordion';
 import PanelSection from '../../components/common/PanelSection/PanelSection';
 import SectionPill from '../../components/common/SectionPill/SectionPill';
@@ -41,8 +40,6 @@ export default function FAQ() {
         pageType="FAQPage"
         extraSchemas={[faqPageSchema]}
       />
-
-      <Breadcrumbs items={[{ label: 'Frequently Asked Questions', path: '/faq' }]} />
 
       <PageHero
         badge={t('faq.heroBadge', 'QUESTIONS & ANSWERS')}

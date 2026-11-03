@@ -1,8 +1,6 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import SEO from '../../components/common/SEO/SEO';
-import PageHero from '../../components/common/PageHero/PageHero';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
+import AboutHero from './components/AboutHero';
 import Marquee from '../../components/home/Marquee/Marquee';
 import AboutStoryMilestones from './components/AboutStoryMilestones';
 import AboutLeadershipPair from './components/AboutLeadershipPair';
@@ -17,7 +15,6 @@ import { getAboutData } from '../../services/content';
 import './About.css';
 
 export default function About({ onOpenEnquiry }) {
-  const { t } = useTranslation();
   const aboutData = getAboutData();
 
   return (
@@ -29,23 +26,8 @@ export default function About({ onOpenEnquiry }) {
         pageType="AboutPage"
       />
 
-      <Breadcrumbs items={[{ label: 'About Us', path: '/about' }]} />
-
-      {/* 1. Page Hero: Light with Grid Background */}
-      <PageHero
-        badge={t('about.heroBadge')}
-        title={t('about.heroTitle')}
-        highlight={t('about.heroHighlight')}
-        highlightClass="text-muted"
-        subtitle={t('about.heroSubtitle')}
-      />
-
-      {/* Answer-first summary for AI answer engines and search engines */}
-      <div className="container" style={{ marginTop: '16px', marginBottom: '8px' }}>
-        <p className="about-lead-answer">
-          Sree Hari Saradha Vidhyalaya Matriculation School is a co-educational State Board school in Pakkam, Thiruvallur District, Tamil Nadu, established in 1999. Located on Korattur Thinnanur Periyapalayam Road (SH-50A) near Avadi, the school provides Primary, Upper Primary, and Secondary education grounded in the motto Smile, Study, Serve.
-        </p>
-      </div>
+      {/* 1. Page Hero: Split Hero with Photo Card and Summary */}
+      <AboutHero />
 
       {/* 2. Marquee Ribbon: Solid Black Dual-Line Band */}
       <Marquee variant="dark" dual={true} />

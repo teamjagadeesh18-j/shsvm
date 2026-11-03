@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getSchoolStatus } from './schoolStatus';
 
-export default function BentoLiveStatus({ mockTime = null }) {
+export default function BentoLiveStatus({ mockTime = null, className = '' }) {
   const { t } = useTranslation();
   const [liveStatus, setLiveStatus] = useState(() => getSchoolStatus(new Date()));
 
@@ -24,7 +24,7 @@ export default function BentoLiveStatus({ mockTime = null }) {
 
   return (
     <div
-      className={`bento-tile bento-status-tile ${status.isOpen ? 'status-open' : 'status-closed'}`}
+      className={`bento-tile bento-status-tile ${status.isOpen ? 'status-open' : 'status-closed'} ${className}`.trim()}
       role="status"
       aria-live="polite"
     >

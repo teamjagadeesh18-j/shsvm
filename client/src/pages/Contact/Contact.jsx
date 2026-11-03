@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import SEO from '../../components/common/SEO/SEO';
 import PageHero from '../../components/common/PageHero/PageHero';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
 import ContactInfoCards from './components/ContactInfoCards';
 import ContactForm from './components/ContactForm';
 import Reveal from '../../components/common/Reveal/Reveal';
@@ -25,8 +24,6 @@ export default function Contact() {
         path="/contact"
         pageType="ContactPage"
       />
-
-      <Breadcrumbs items={[{ label: 'Contact Us', path: '/contact' }]} />
 
       {/* 1. Page Hero */}
       <PageHero

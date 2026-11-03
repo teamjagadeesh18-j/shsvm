@@ -1,0 +1,162 @@
+.about-hero-section { position: relative; overflow: hidden; padding: 130px 0 40px; }
+.about-hero-glow {
+  position: absolute; top: 35%; left: 20%; transform: translate(-50%, -50%);
+  width: 440px; height: 440px; border-radius: 50%;
+  background: radial-gradient(circle, var(--color-accent-glow) 0%, var(--color-accent-subtle) 45%, transparent 70%);
+  filter: blur(60px); pointer-events: none; z-index: 0;
+}
+.about-hero-container { position: relative; z-index: 1; }
+.about-hero-split { display: grid; grid-template-columns: 1.08fr 1fr; gap: 40px; align-items: center; }
+.about-hero-left { text-align: left; }
+.about-hero-badge-pill {
+  display: inline-flex; align-items: center; padding: 6px 14px;
+  border-radius: var(--radius-pill); font-size: 0.75rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-accent);
+  background: var(--color-accent-light); border: 1px solid var(--color-accent-border);
+  margin-bottom: 16px;
+}
+.about-hero-title {
+  font-family: var(--font-heading); font-size: clamp(2.25rem, 4.2vw, 3.5rem);
+  font-weight: 800; letter-spacing: -0.035em; color: var(--color-black);
+  margin-bottom: 16px; line-height: 1.15; animation: aboutFadeUp 400ms ease-out both;
+}
+.about-hero-subtitle {
+  font-size: 1.125rem; color: var(--color-gray-body); max-width: 520px;
+  margin: 0 0 24px; line-height: 1.6; animation: aboutFadeUp 400ms ease-out 90ms both;
+}
+.about-hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.about-hero-actions .btn-pill { min-height: 44px; }
+.about-hero-right { position: relative; }
+.about-photo-card {
+  --spotlight-x: -9999px; --spotlight-y: -9999px;
+  position: relative; border-radius: var(--radius-card);
+  border: 1px solid var(--color-black-a8); background: var(--color-white);
+  animation: aboutCardRise 500ms ease-out both;
+}
+.about-hero-img-slot { display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: var(--radius-card); overflow: hidden; }
+.about-hero-img-slot img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-normal); }
+@media (hover: hover) and (pointer: fine) {
+  .about-photo-card:hover .about-hero-img-slot img { transform: scale(1.02); }
+}
+.about-photo-spotlight {
+  position: absolute; inset: 0; border-radius: var(--radius-card); pointer-events: none;
+  background: radial-gradient(300px circle at var(--spotlight-x) var(--spotlight-y), var(--color-accent-subtle), transparent 80%);
+  z-index: 2;
+}
+.about-floating-chip {
+  position: absolute; z-index: 4; display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 16px; background: var(--color-white); border: 1px solid var(--color-black-a8);
+  border-radius: var(--radius-pill); font-size: 0.8125rem; font-weight: 600;
+  color: var(--color-black); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  pointer-events: none; user-select: none; white-space: nowrap;
+}
+.chip-icon { color: var(--color-accent); flex-shrink: 0; }
+.chip-est {
+  top: -14px; left: -14px;
+  animation: aboutPopIn 400ms ease-out 120ms both, floatChipA 6.5s ease-in-out 520ms infinite;
+}
+.chip-board {
+  bottom: -14px; right: -14px;
+  animation: aboutPopIn 400ms ease-out 480ms both, floatChipB 6.5s ease-in-out 880ms infinite;
+}
+.about-status-chip-wrapper {
+  position: absolute; bottom: -14px; left: -14px; z-index: 4;
+  animation: aboutPopIn 400ms ease-out 360ms both;
+}
+.about-status-badge-chip.bento-status-tile {
+  background: var(--color-white) !important; border: 1px solid var(--color-black-a8) !important;
+  border-radius: var(--radius-pill) !important; padding: 8px 16px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important; min-height: unset !important;
+  height: auto !important; width: auto !important; grid-column: unset !important; grid-row: unset !important;
+}
+.about-motto-badge {
+  position: absolute; top: -16px; right: 0px; z-index: 4; width: 112px; height: 112px;
+  border-radius: 50%; background: var(--color-white); border: 1px solid var(--color-black-a8);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); display: flex; align-items: center; justify-content: center;
+  animation: aboutPopIn 400ms ease-out 240ms both;
+}
+.about-badge-svg {
+  width: 100%; height: 100%; animation: spinBadge 24s linear infinite; transform-origin: center center;
+}
+.about-badge-text {
+  font-family: var(--font-heading); font-size: 9.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.18em; fill: var(--color-black);
+}
+.about-badge-crest {
+  position: absolute; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; pointer-events: none;
+}
+.about-crest-img { width: 44px; height: 44px; object-fit: contain; }
+.about-hero-summary-card {
+  margin-top: 48px; padding: 24px 28px; background: var(--color-white);
+  border: 1px solid var(--color-black-a8); border-radius: var(--radius-card); width: 100%; box-sizing: border-box;
+  display: flex; flex-direction: column; gap: 20px;
+}
+.about-summary-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+}
+.about-summary-col {
+  display: flex; flex-direction: column; gap: 6px;
+}
+.about-summary-term {
+  font-family: var(--font-heading); font-size: 1.125rem; font-weight: 700; color: var(--color-black);
+  letter-spacing: -0.01em;
+}
+.about-summary-desc {
+  margin: 0; font-size: 0.9375rem; line-height: 1.55; color: var(--color-gray-body);
+}
+.about-summary-footer {
+  border-top: 1px solid var(--color-black-a8); padding-top: 16px;
+}
+.about-summary-closing {
+  margin: 0; font-size: 0.875rem; line-height: 1.5; color: var(--color-gray-dark); font-weight: 500;
+}
+
+@keyframes aboutFadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes aboutCardRise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes aboutPopIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+@keyframes floatChipA { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes floatChipB { 0%, 100% { transform: translateY(-8px); } 50% { transform: translateY(0); } }
+@keyframes spinBadge { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+@media (max-width: 1023px) {
+  .about-hero-split { grid-template-columns: 1fr; gap: 36px; text-align: center; }
+  .about-hero-left { text-align: center; }
+  .about-hero-subtitle { margin-left: auto; margin-right: auto; }
+  .about-hero-actions { justify-content: center; }
+  .about-hero-right { max-width: 600px; margin: 0 auto; width: 100%; }
+  .about-floating-chip { font-size: 0.75rem; padding: 6px 12px; }
+  .about-motto-badge { width: 96px; height: 96px; top: -18px; right: -18px; }
+  .about-crest-img { width: 38px; height: 38px; }
+}
+
+@media (max-width: 767px) {
+  .about-hero-section { padding: 105px 0 28px; }
+  .about-hero-split { gap: 28px; }
+  .about-hero-title { font-size: 2.15rem; }
+  .about-hero-actions { flex-direction: column; width: 100%; }
+  .about-hero-actions .btn-pill,
+  .about-hero-actions .btn-outline { width: 100%; min-height: 48px; justify-content: center; }
+  .about-hero-right { width: 100%; max-width: 100%; }
+  .about-photo-card { border-radius: var(--radius-tile); }
+  .about-floating-chip { font-size: 0.75rem; padding: 5px 10px; }
+  .chip-est { top: -10px; left: 4px; }
+  .about-motto-badge { width: 88px; height: 88px; top: -16px; right: 4px; }
+  .about-crest-img { width: 34px; height: 34px; }
+  .about-status-chip-wrapper { bottom: -10px; left: 4px; }
+  .chip-board { bottom: -10px; right: 4px; }
+  .about-hero-summary-card { margin-top: 28px; padding: 18px 20px; gap: 16px; }
+  .about-summary-grid { grid-template-columns: 1fr; gap: 14px; text-align: left; }
+  .about-summary-col { gap: 4px; }
+  .about-summary-term { font-size: 1rem; }
+  .about-summary-desc { font-size: 0.875rem; }
+  .about-summary-footer { padding-top: 14px; text-align: left; }
+  .about-summary-closing { font-size: 0.8125rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-hero-title, .about-hero-subtitle, .about-photo-card,
+  .about-floating-chip, .about-motto-badge, .about-badge-svg,
+  .about-status-chip-wrapper {
+    animation: none !important; transform: none !important; opacity: 1 !important;
+  }
+}

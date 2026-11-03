@@ -95,52 +95,91 @@ export default function SEO({
     'dateModified': '2026-11-02'
   };
 
-  const allSchemas = [schoolSchema, webPageSchema, ...extraSchemas];
+  let breadcrumbSchema = null;
+  if (path && path !== '/') {
+    const routeTitles = {
+      '/about': 'About Us',
+      '/academics': 'Academics',
+      '/admissions': 'Admissions',
+      '/campus': 'Campus & Facilities',
+      '/contact': 'Contact Us',
+      '/faq': 'Frequently Asked Questions'
+    };
+    const currentName = routeTitles[path] || (title ? title.split('|')[0].trim() : 'Page');
+    breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      'itemListElement': [
+        {
+          '@type': 'ListItem',
+          'position': 1,
+          'name': 'Home',
+          'item': siteUrl
+        },
+        {
+          '@type': 'ListItem',
+          'position': 2,
+          'name': currentName,
+          'item': canonicalUrl
+        }
+      ]
+    };
+  }
+
+  const allSchemas = [schoolSchema, webPageSchema, breadcrumbSchema, ...extraSchemas].filter(Boolean);
 
   return (
-    <Helmet>
-      {/* Primary HTML Meta Tags */}
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <link rel="canonical" href={canonicalUrl} />
-      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <>
+      <Helmet>
+        {/* Primary HTML Meta Tags */}
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-      {/* Verification Placeholders */}
-      {Boolean(settings?.verification?.google) && (
-        <meta name="google-site-verification" content={settings.verification.google} />
-      )}
-      {Boolean(settings?.verification?.bing) && (
-        <meta name="msvalidate.01" content={settings.verification.bing} />
-      )}
+        {/* Verification Placeholders */}
+        {Boolean(settings?.verification?.google) && (
+          <meta name="google-site-verification" content={settings.verification.google} />
+        )}
+        {Boolean(settings?.verification?.bing) && (
+          <meta name="msvalidate.01" content={settings.verification.bing} />
+        )}
 
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content={type} />
-      <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={ogImageUrl} />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Sree Hari Saradha Vidhyalaya Matriculation School Campus Building" />
-      <meta property="og:site_name" content={settings.name} />
-      <meta property="og:locale" content="en_IN" />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content={type} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Sree Hari Saradha Vidhyalaya Matriculation School Campus Building" />
+        <meta property="og:site_name" content={settings.name} />
+        <meta property="og:locale" content="en_IN" />
 
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:url" content={canonicalUrl} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImageUrl} />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={canonicalUrl} />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={ogImageUrl} />
 
-      {/* Structured Data JSON-LD */}
-      {allSchemas.map((schemaObj, sIdx) => (
+        {/* Structured Data JSON-LD in head */}
+        {allSchemas.map((schemaObj, sIdx) => (
+          <script key={sIdx} type="application/ld+json">
+            {JSON.stringify(schemaObj)}
+          </script>
+        ))}
+      </Helmet>
+
+      {/* Structured Data JSON-LD (guaranteed presence) */}
+      {breadcrumbSchema && (
         <script
-          key={sIdx}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
-      ))}
-    </Helmet>
+      )}
+    </>
   );
 }
 

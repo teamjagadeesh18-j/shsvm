@@ -181,7 +181,13 @@
     "heroTitle": "Who We",
     "heroHighlight": "Are",
     "heroSubtitle": "A co-educational Matriculation school in Pakkam, Thiruvallur District, Tamil Nadu, following the State Board curriculum since 1999 with the motto Smile • Study • Serve.",
-    "breadcrumb": "About Us",
+    "summarySmileTerm": "Smile.",
+    "summarySmileDesc": "Because a child who feels safe learns better.",
+    "summaryStudyTerm": "Study.",
+    "summaryStudyDesc": "Because steady effort beats shortcuts.",
+    "summaryServeTerm": "Serve.",
+    "summaryServeDesc": "Because school is where we learn to look beyond ourselves.",
+    "summaryClosing": "Since 1999, this has been the way of Sree Hari Saradha Vidhyalaya in Pakkam.",
     "marqueeItems": [
       "SMILE",
       "STUDY",
@@ -300,7 +306,6 @@
     "heroTitle": "Curriculum &",
     "heroHighlight": "Academic Stages",
     "heroSubtitle": "Providing balanced education covering academic subjects, arts, and physical education under the Tamil Nadu State Board.",
-    "breadcrumb": "Academics",
     "continuumTag": "CURRICULUM STAGES",
     "continuumTitle": "Three Schooling Stages",
     "continuumSubtitle": "Structured progression through Primary, Upper Primary, and Secondary levels.",
@@ -355,8 +360,7 @@
     "heroBadge": "CAMPUS & FACILITIES",
     "heroTitle": "Our School",
     "heroHighlight": "Facilities",
-    "heroSubtitle": "Essential facilities supporting academic studies, sports, and student health in Pakkam, Thiruvallur District.",
-    "breadcrumb": "Campus & Infrastructure"
+    "heroSubtitle": "Essential facilities supporting academic studies, sports, and student health in Pakkam, Thiruvallur District."
   },
   "contact": {
     "pageTitle": "Contact Us | Sree Hari Saradha Vidhyalaya Matriculation School, Pakkam",
@@ -364,8 +368,7 @@
     "heroBadge": "GET IN TOUCH",
     "heroTitle": "Contact Our",
     "heroHighlight": "Campus Desk",
-    "heroSubtitle": "We are located at Pakkam in Thiruvallur District. Reach out by phone, WhatsApp, or visit during office hours.",
-    "breadcrumb": "Contact Us"
+    "heroSubtitle": "We are located at Pakkam in Thiruvallur District. Reach out by phone, WhatsApp, or visit during office hours."
   },
   "notfound": {
     "pageTitle": "404 - Page Not Found | S.H.S.V.M School",

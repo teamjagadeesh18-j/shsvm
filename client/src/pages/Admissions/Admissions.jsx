@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../../components/common/SEO/SEO';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
 import Marquee from '../../components/home/Marquee/Marquee';
 import OutlineButton from '../../components/common/OutlineButton/OutlineButton';
 import AdmissionsHero from './components/AdmissionsHero';
@@ -49,8 +48,6 @@ export default function Admissions() {
         path="/admissions"
         extraSchemas={[faqPageSchema]}
       />
-
-      <Breadcrumbs items={[{ label: 'Admissions', path: '/admissions' }]} />
 
       {/* 1. Highlights Strip: Single row ticker with provable items */}
       <Marquee items={ADMISSIONS_HIGHLIGHTS} />

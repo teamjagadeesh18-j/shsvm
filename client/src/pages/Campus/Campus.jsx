@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../../components/common/SEO/SEO';
-import Breadcrumbs from '../../components/common/Breadcrumbs/Breadcrumbs';
 import PageHero from '../../components/common/PageHero/PageHero';
 import ImageSlot from '../../components/common/ImageSlot/ImageSlot';
 import Button from '../../components/common/Button/Button';
@@ -46,8 +45,6 @@ export default function Campus() {
         description="Explore the campus facilities of SHSVM School, Pakkam: Academic Book Bank, Recreation Playground, and on-campus Medical Support."
         path="/campus"
       />
-
-      <Breadcrumbs items={[{ label: 'Campus & Facilities', path: '/campus' }]} />
 
       {/* 1. Page Hero */}
       <PageHero
